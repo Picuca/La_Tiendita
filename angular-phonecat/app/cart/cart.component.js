@@ -1,3 +1,10 @@
-/**
- * Created by robbie on 10-01-16.
- */
+'use strict';
+
+angular.
+  module('cart').
+  component('cart', {
+    templateUrl: 'cart/cart.template.html',
+    controller: [function cartController() {
+
+    }]
+});

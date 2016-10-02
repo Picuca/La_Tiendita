@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16473d63-e51b-49a8-b77e-dd2f1d7fe1c3" name="Default" comment="Adding more files to related directories">
+    <list default="true" id="16473d63-e51b-49a8-b77e-dd2f1d7fe1c3" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/sign-in/bla bla bla" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/account/account.component.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/account/account.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/account/account.module.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/account/account.module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/articles/articles.component.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/articles/articles.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/articles/articles.module.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/articles/articles.module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/books/books.component.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/books/books.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/books/books.module.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/books/books.module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/cart/cart.component.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/cart/cart.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/cart/cart.module.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/cart/cart.module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/contact/contact.component.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/contact/contact.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/contact/contact.module.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/contact/contact.module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/home-page/home-page.component.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/home-page/home-page.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/home-page/home-page.module.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/home-page/home-page.module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/ropa/ropa.component.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/ropa/ropa.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/ropa/ropa.module.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/ropa/ropa.module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/sign-in/sign-in.component.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/sign-in/sign-in.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/sign-in/sign-in.module.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/sign-in/sign-in.module.js" />
     </list>
     <ignored path="La_Tiendita.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,118 +39,7 @@
     <favorites_list name="La_Tiendita" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sign-in.module.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular-phonecat/app/sign-in/sign-in.module.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sign-in.component.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular-phonecat/app/sign-in/sign-in.component.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="account.component.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular-phonecat/app/account/account.component.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="books.module.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular-phonecat/app/books/books.module.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="account.module.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular-phonecat/app/account/account.module.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="articles.component.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular-phonecat/app/articles/articles.component.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="articles.module.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular-phonecat/app/articles/articles.module.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular-phonecat/app/app.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular-phonecat/app/CSS/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bla bla bla" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/angular-phonecat/app/sign-in/bla bla bla">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -165,26 +71,26 @@
         <option value="$PROJECT_DIR$/angular-phonecat/app/contact/contact.template.html" />
         <option value="$PROJECT_DIR$/angular-phonecat/app/ropa/ropa.template.html" />
         <option value="$PROJECT_DIR$/angular-phonecat/app/sign-in/sign-in.template.html" />
-        <option value="$PROJECT_DIR$/angular-phonecat/app/account/account.module.js" />
-        <option value="$PROJECT_DIR$/angular-phonecat/app/account/account.component.js" />
         <option value="$PROJECT_DIR$/angular-phonecat/app/articles/account..js" />
-        <option value="$PROJECT_DIR$/angular-phonecat/app/articles/articles.component.js" />
-        <option value="$PROJECT_DIR$/angular-phonecat/app/books/books.module.js" />
         <option value="$PROJECT_DIR$/angular-phonecat/app/phone-list/phone-list.template.html" />
-        <option value="$PROJECT_DIR$/angular-phonecat/app/books/books.component.js" />
         <option value="$PROJECT_DIR$/angular-phonecat/app/cart/cart.template.js" />
+        <option value="$PROJECT_DIR$/angular-phonecat/app/CSS/styles.css" />
+        <option value="$PROJECT_DIR$/angular-phonecat/app/sign-in/sign-in.module.js" />
+        <option value="$PROJECT_DIR$/angular-phonecat/app/ropa/ropa.module.js" />
+        <option value="$PROJECT_DIR$/angular-phonecat/app/home-page/home-page.module.js" />
+        <option value="$PROJECT_DIR$/angular-phonecat/app/contact/contact.module.js" />
         <option value="$PROJECT_DIR$/angular-phonecat/app/cart/cart.module.js" />
         <option value="$PROJECT_DIR$/angular-phonecat/app/cart/cart.component.js" />
-        <option value="$PROJECT_DIR$/angular-phonecat/app/contact/contact.module.js" />
         <option value="$PROJECT_DIR$/angular-phonecat/app/contact/contact.component.js" />
-        <option value="$PROJECT_DIR$/angular-phonecat/app/home-page/home-page.module.js" />
         <option value="$PROJECT_DIR$/angular-phonecat/app/home-page/home-page.component.js" />
-        <option value="$PROJECT_DIR$/angular-phonecat/app/ropa/ropa.module.js" />
         <option value="$PROJECT_DIR$/angular-phonecat/app/ropa/ropa.component.js" />
-        <option value="$PROJECT_DIR$/angular-phonecat/app/sign-in/sign-in.module.js" />
         <option value="$PROJECT_DIR$/angular-phonecat/app/sign-in/sign-in.component.js" />
+        <option value="$PROJECT_DIR$/angular-phonecat/app/books/books.component.js" />
+        <option value="$PROJECT_DIR$/angular-phonecat/app/books/books.module.js" />
         <option value="$PROJECT_DIR$/angular-phonecat/app/articles/articles.module.js" />
-        <option value="$PROJECT_DIR$/angular-phonecat/app/CSS/styles.css" />
+        <option value="$PROJECT_DIR$/angular-phonecat/app/articles/articles.component.js" />
+        <option value="$PROJECT_DIR$/angular-phonecat/app/account/account.module.js" />
+        <option value="$PROJECT_DIR$/angular-phonecat/app/account/account.component.js" />
       </list>
     </option>
   </component>
@@ -313,6 +219,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="settings.editor.splitter.proportion" value="0.27152318" />
+    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -813,7 +722,7 @@
       <updated>1475112300429</updated>
       <workItem from="1475112305550" duration="19000" />
       <workItem from="1475365756415" duration="3184000" />
-      <workItem from="1475369187956" duration="63000" />
+      <workItem from="1475369187956" duration="2492000" />
     </task>
     <task id="LOCAL-00001" summary="Adding online pages's directories">
       <created>1475366200964</created>
@@ -857,15 +766,22 @@
       <option name="project" value="LOCAL" />
       <updated>1475368703644</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="BLa bla bla">
+      <created>1475369266598</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1475369266598</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3266000" />
+    <option name="totallyTimeSpent" value="5695000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1775" height="976" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -878,7 +794,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24957746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24957746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -937,7 +853,8 @@
     <MESSAGE value="Adding directories templates" />
     <MESSAGE value="Added all files to related directories" />
     <MESSAGE value="Adding more files to related directories" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding more files to related directories" />
+    <MESSAGE value="BLa bla bla" />
+    <option name="LAST_COMMIT_MESSAGE" value="BLa bla bla" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -972,9 +889,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -982,9 +897,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -992,9 +905,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1002,9 +913,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1012,9 +921,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1099,13 +1006,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/phone-list/phone-list.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angular-phonecat/app/phone-list/phone-list.template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -1121,64 +1021,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/books/books.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angular-phonecat/app/cart/cart.template.js" />
-    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/cart/cart.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/cart/cart.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/contact/contact.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/contact/contact.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/home-page/home-page.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/home-page/home-page.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/ropa/ropa.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/ropa/ropa.component.js">
+    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/sign-in/bla bla bla">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1186,69 +1030,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/sign-in/sign-in.module.js">
+    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/CSS/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1028">
+          <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/sign-in/sign-in.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/account/account.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/books/books.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/account/account.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/articles/articles.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/articles/articles.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1260,18 +1046,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/CSS/styles.css">
+    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/sign-in/sign-in.module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+        <state relative-caret-position="0">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/sign-in/bla bla bla">
+    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/app.module.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/ropa/ropa.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/home-page/home-page.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/phone-list/phone-list.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/contact/contact.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/cart/cart.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/cart/cart.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/home-page/home-page.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/contact/contact.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/ropa/ropa.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/sign-in/sign-in.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/books/books.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/books/books.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/articles/articles.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/articles/articles.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/account/account.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-phonecat/app/account/account.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding />
         </state>
       </provider>

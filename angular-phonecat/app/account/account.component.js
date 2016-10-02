@@ -1,3 +1,10 @@
-/**
- * Created by robbie on 10-01-16.
- */
+'use strict';
+
+angular
+  .module('account')
+  .component('account', {
+    templateUrl: 'account/account.template.html',
+    controller: [function accountController() {
+
+    }]
+  });

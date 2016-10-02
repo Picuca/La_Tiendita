@@ -1,3 +1,10 @@
-/**
- * Created by robbie on 10-01-16.
- */
+'use strict';
+
+angular
+  .module('articles')
+  .component('articles',{
+    templateUrl: 'articles/articles.template.html',
+    controller: [function articlesController() {
+
+    }]
+  });

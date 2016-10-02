@@ -1,3 +1,10 @@
-/**
- * Created by robbie on 10-01-16.
- */
+'use strict';
+
+angular
+  .module('contact')
+  .component('contact', {
+    templateUrl: 'contact/contact.template.html',
+    controller: [function contactController() {
+
+    }]
+});

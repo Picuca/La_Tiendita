@@ -1,3 +1,10 @@
-/**
- * Created by robbie on 10-01-16.
- */
+'use strict';
+
+angular
+  .module('ropa')
+  .component('ropa', {
+    templateUrl: 'ropa/ropa.template.html',
+    controller: [function ropaController() {
+
+    }]
+});
