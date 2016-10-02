@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16473d63-e51b-49a8-b77e-dd2f1d7fe1c3" name="Default" comment="Added all files to related directories">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-phonecat/app/account/account.component.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-phonecat/app/account/account.module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-phonecat/app/articles/articles.component.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-phonecat/app/articles/articles.module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-phonecat/app/books/books.module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-phonecat/app/contact/contact.template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-phonecat/app/ropa/ropa.template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-phonecat/app/sign-in/sign-in.template.html" />
+    <list default="true" id="16473d63-e51b-49a8-b77e-dd2f1d7fe1c3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="$PROJECT_DIR$/npm-debug.log" />
     </list>
     <ignored path="La_Tiendita.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -177,7 +168,6 @@
         <option value="$PROJECT_DIR$/angular-phonecat/app/account/account.module.js" />
         <option value="$PROJECT_DIR$/angular-phonecat/app/account/account.component.js" />
         <option value="$PROJECT_DIR$/angular-phonecat/app/articles/account..js" />
-        <option value="$PROJECT_DIR$/angular-phonecat/app/articles/articles.module.js" />
         <option value="$PROJECT_DIR$/angular-phonecat/app/articles/articles.component.js" />
         <option value="$PROJECT_DIR$/angular-phonecat/app/books/books.module.js" />
         <option value="$PROJECT_DIR$/angular-phonecat/app/phone-list/phone-list.template.html" />
@@ -193,6 +183,7 @@
         <option value="$PROJECT_DIR$/angular-phonecat/app/ropa/ropa.component.js" />
         <option value="$PROJECT_DIR$/angular-phonecat/app/sign-in/sign-in.module.js" />
         <option value="$PROJECT_DIR$/angular-phonecat/app/sign-in/sign-in.component.js" />
+        <option value="$PROJECT_DIR$/angular-phonecat/app/articles/articles.module.js" />
       </list>
     </option>
   </component>
@@ -905,7 +896,7 @@
       <option name="presentableId" value="Default" />
       <updated>1475112300429</updated>
       <workItem from="1475112305550" duration="19000" />
-      <workItem from="1475365756415" duration="2748000" />
+      <workItem from="1475365756415" duration="2931000" />
     </task>
     <task id="LOCAL-00001" summary="Adding online pages's directories">
       <created>1475366200964</created>
@@ -935,15 +926,22 @@
       <option name="project" value="LOCAL" />
       <updated>1475367128079</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added all files to related directories">
+      <created>1475368531679</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1475368531679</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2767000" />
+    <option name="totallyTimeSpent" value="2950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1775" height="976" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -957,7 +955,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24957746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24957746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
