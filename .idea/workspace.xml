@@ -2,177 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16473d63-e51b-49a8-b77e-dd2f1d7fe1c3" name="Default" comment="Created MOdules and components of directories">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/header/header.component.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/header/header.module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/header/header.template.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/phone-detail/phone-detail.component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/phone-detail/phone-detail.component.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/phone-detail/phone-detail.module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/phone-detail/phone-detail.template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/phone-list/phone-list.component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/phone-list/phone-list.component.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/phone-list/phone-list.module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/phone-list/phone-list.template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/phones/dell-streak-7.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/phones/dell-venue.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/phones/droid-2-global-by-motorola.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/phones/droid-pro-by-motorola.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/phones/lg-axis.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/phones/motorola-atrix-4g.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/phones/motorola-bravo-with-motoblur.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/phones/motorola-charm-with-motoblur.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/phones/motorola-defy-with-motoblur.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/phones/motorola-xoom-with-wi-fi.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/phones/motorola-xoom.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/phones/nexus-s.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/phones/phones.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/phones/samsung-galaxy-tab.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/phones/samsung-gem.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/phones/samsung-mesmerize-a-galaxy-s-phone.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/phones/samsung-showcase-a-galaxy-s-phone.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/phones/samsung-transform.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/phones/sanyo-zio.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/phones/t-mobile-g2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/phones/t-mobile-mytouch-4g.json" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/.bowerrc" afterPath="$PROJECT_DIR$/tienditaColegial/.bowerrc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/.gitignore" afterPath="$PROJECT_DIR$/tienditaColegial/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/.jshintrc" afterPath="$PROJECT_DIR$/tienditaColegial/.jshintrc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/.travis.yml" afterPath="$PROJECT_DIR$/tienditaColegial/.travis.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/LICENSE" afterPath="$PROJECT_DIR$/tienditaColegial/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/PropuestaDB_LaTiendita.pdf" afterPath="$PROJECT_DIR$/tienditaColegial/PropuestaDB_LaTiendita.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/angular-phonecat.iml" afterPath="$PROJECT_DIR$/tienditaColegial/angular-phonecat.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/CSS/styles.css" afterPath="$PROJECT_DIR$/tienditaColegial/app/CSS/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/account/account.component.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/account/account.component.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/account/account.module.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/account/account.module.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/account/account.template.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/account/account.template.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/app.config.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/app.config.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/app.css" afterPath="$PROJECT_DIR$/tienditaColegial/app/app.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/app.module.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/app.module.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/articles/articles.component.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/articles/articles.component.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/articles/articles.module.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/articles/articles.module.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/articles/articles.template.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/articles/articles.template.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/books/books.component.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/books/books.component.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/books/books.module.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/books/books.module.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/books/books.template.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/books/books.template.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/cart/cart.component.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/cart/cart.component.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/cart/cart.module.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/cart/cart.module.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/cart/cart.template.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/cart/cart.template.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/contact/contact.component.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/contact/contact.component.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/contact/contact.module.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/contact/contact.module.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/contact/contact.template.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/contact/contact.template.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/home-page.template.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/home-page.template.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/home-page/home-page.component.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/home-page/home-page.component.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/home-page/home-page.module.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/home-page/home-page.module.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/home-page/home-page.template.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/home-page/home-page.template.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/images/search_button_bg.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/images/search_button_bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/images/search_input_bg.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/images/search_input_bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/.gitkeep" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/.gitkeep" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/dell-streak-7.0.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/dell-streak-7.0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/dell-streak-7.1.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/dell-streak-7.1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/dell-streak-7.2.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/dell-streak-7.2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/dell-streak-7.3.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/dell-streak-7.3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/dell-streak-7.4.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/dell-streak-7.4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/dell-venue.0.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/dell-venue.0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/dell-venue.1.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/dell-venue.1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/dell-venue.2.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/dell-venue.2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/dell-venue.3.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/dell-venue.3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/dell-venue.4.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/dell-venue.4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/dell-venue.5.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/dell-venue.5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/droid-2-global-by-motorola.0.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/droid-2-global-by-motorola.0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/droid-2-global-by-motorola.1.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/droid-2-global-by-motorola.1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/droid-2-global-by-motorola.2.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/droid-2-global-by-motorola.2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/droid-pro-by-motorola.0.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/droid-pro-by-motorola.0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/droid-pro-by-motorola.1.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/droid-pro-by-motorola.1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/lg-axis.0.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/lg-axis.0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/lg-axis.1.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/lg-axis.1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/lg-axis.2.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/lg-axis.2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/motorola-atrix-4g.0.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/motorola-atrix-4g.0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/motorola-atrix-4g.1.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/motorola-atrix-4g.1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/motorola-atrix-4g.2.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/motorola-atrix-4g.2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/motorola-atrix-4g.3.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/motorola-atrix-4g.3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/motorola-bravo-with-motoblur.0.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/motorola-bravo-with-motoblur.0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/motorola-bravo-with-motoblur.1.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/motorola-bravo-with-motoblur.1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/motorola-bravo-with-motoblur.2.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/motorola-bravo-with-motoblur.2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/motorola-charm-with-motoblur.0.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/motorola-charm-with-motoblur.0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/motorola-charm-with-motoblur.1.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/motorola-charm-with-motoblur.1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/motorola-charm-with-motoblur.2.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/motorola-charm-with-motoblur.2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/motorola-defy-with-motoblur.0.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/motorola-defy-with-motoblur.0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/motorola-defy-with-motoblur.1.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/motorola-defy-with-motoblur.1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/motorola-defy-with-motoblur.2.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/motorola-defy-with-motoblur.2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/motorola-xoom-with-wi-fi.0.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/motorola-xoom-with-wi-fi.0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/motorola-xoom-with-wi-fi.1.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/motorola-xoom-with-wi-fi.1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/motorola-xoom-with-wi-fi.2.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/motorola-xoom-with-wi-fi.2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/motorola-xoom-with-wi-fi.3.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/motorola-xoom-with-wi-fi.3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/motorola-xoom-with-wi-fi.4.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/motorola-xoom-with-wi-fi.4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/motorola-xoom-with-wi-fi.5.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/motorola-xoom-with-wi-fi.5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/motorola-xoom.0.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/motorola-xoom.0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/motorola-xoom.1.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/motorola-xoom.1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/motorola-xoom.2.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/motorola-xoom.2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/nexus-s.0.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/nexus-s.0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/nexus-s.1.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/nexus-s.1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/nexus-s.2.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/nexus-s.2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/nexus-s.3.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/nexus-s.3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/samsung-galaxy-tab.0.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/samsung-galaxy-tab.0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/samsung-galaxy-tab.1.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/samsung-galaxy-tab.1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/samsung-galaxy-tab.2.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/samsung-galaxy-tab.2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/samsung-galaxy-tab.3.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/samsung-galaxy-tab.3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/samsung-galaxy-tab.4.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/samsung-galaxy-tab.4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/samsung-galaxy-tab.5.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/samsung-galaxy-tab.5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/samsung-galaxy-tab.6.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/samsung-galaxy-tab.6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/samsung-gem.0.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/samsung-gem.0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/samsung-gem.1.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/samsung-gem.1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/samsung-gem.2.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/samsung-gem.2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/samsung-mesmerize-a-galaxy-s-phone.0.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/samsung-mesmerize-a-galaxy-s-phone.0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/samsung-mesmerize-a-galaxy-s-phone.1.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/samsung-mesmerize-a-galaxy-s-phone.1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/samsung-mesmerize-a-galaxy-s-phone.2.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/samsung-mesmerize-a-galaxy-s-phone.2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/samsung-mesmerize-a-galaxy-s-phone.3.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/samsung-mesmerize-a-galaxy-s-phone.3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/samsung-showcase-a-galaxy-s-phone.0.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/samsung-showcase-a-galaxy-s-phone.0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/samsung-showcase-a-galaxy-s-phone.1.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/samsung-showcase-a-galaxy-s-phone.1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/samsung-showcase-a-galaxy-s-phone.2.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/samsung-showcase-a-galaxy-s-phone.2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/samsung-transform.0.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/samsung-transform.0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/samsung-transform.1.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/samsung-transform.1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/samsung-transform.2.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/samsung-transform.2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/samsung-transform.3.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/samsung-transform.3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/samsung-transform.4.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/samsung-transform.4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/sanyo-zio.0.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/sanyo-zio.0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/sanyo-zio.1.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/sanyo-zio.1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/sanyo-zio.2.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/sanyo-zio.2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/t-mobile-g2.0.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/t-mobile-g2.0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/t-mobile-g2.1.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/t-mobile-g2.1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/t-mobile-g2.2.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/t-mobile-g2.2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/t-mobile-mytouch-4g.0.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/t-mobile-mytouch-4g.0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/t-mobile-mytouch-4g.1.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/t-mobile-mytouch-4g.1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/t-mobile-mytouch-4g.2.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/t-mobile-mytouch-4g.2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/t-mobile-mytouch-4g.3.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/t-mobile-mytouch-4g.3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/t-mobile-mytouch-4g.4.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/t-mobile-mytouch-4g.4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/img/phones/t-mobile-mytouch-4g.5.jpg" afterPath="$PROJECT_DIR$/tienditaColegial/app/img/phones/t-mobile-mytouch-4g.5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/index.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/ropa/ropa.component.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/ropa/ropa.component.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/ropa/ropa.module.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/ropa/ropa.module.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/ropa/ropa.template.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/ropa/ropa.template.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/sign-in/sign-in.component.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/sign-in/sign-in.component.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/sign-in/sign-in.module.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/sign-in/sign-in.module.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/app/sign-in/sign-in.template.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/sign-in/sign-in.template.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/bower.json" afterPath="$PROJECT_DIR$/tienditaColegial/bower.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/e2e-tests/README.md" afterPath="$PROJECT_DIR$/tienditaColegial/e2e-tests/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/e2e-tests/protractor.conf.js" afterPath="$PROJECT_DIR$/tienditaColegial/e2e-tests/protractor.conf.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/e2e-tests/scenarios.js" afterPath="$PROJECT_DIR$/tienditaColegial/e2e-tests/scenarios.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/karma.conf.js" afterPath="$PROJECT_DIR$/tienditaColegial/karma.conf.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/package.json" afterPath="$PROJECT_DIR$/tienditaColegial/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/scripts/private/README.md" afterPath="$PROJECT_DIR$/tienditaColegial/scripts/private/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/scripts/private/jenkins.sh" afterPath="$PROJECT_DIR$/tienditaColegial/scripts/private/jenkins.sh" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/scripts/private/old/README.md" afterPath="$PROJECT_DIR$/tienditaColegial/scripts/private/old/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/scripts/private/old/ScrapeData.js" afterPath="$PROJECT_DIR$/tienditaColegial/scripts/private/old/ScrapeData.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/scripts/private/old/format-json.sh" afterPath="$PROJECT_DIR$/tienditaColegial/scripts/private/old/format-json.sh" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/scripts/private/old/goto_step.bat" afterPath="$PROJECT_DIR$/tienditaColegial/scripts/private/old/goto_step.bat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/scripts/private/old/goto_step.sh" afterPath="$PROJECT_DIR$/tienditaColegial/scripts/private/old/goto_step.sh" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/scripts/private/old/snapshot.sh" afterPath="$PROJECT_DIR$/tienditaColegial/scripts/private/old/snapshot.sh" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/scripts/private/push-to-github.sh" afterPath="$PROJECT_DIR$/tienditaColegial/scripts/private/push-to-github.sh" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/scripts/private/retag.sh" afterPath="$PROJECT_DIR$/tienditaColegial/scripts/private/retag.sh" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/scripts/private/test-all.sh" afterPath="$PROJECT_DIR$/tienditaColegial/scripts/private/test-all.sh" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/scripts/private/update-gh-pages.sh" afterPath="$PROJECT_DIR$/tienditaColegial/scripts/private/update-gh-pages.sh" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular-phonecat/scripts/update-repo.sh" afterPath="$PROJECT_DIR$/tienditaColegial/scripts/update-repo.sh" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tienditaColegial/angular-phonecat.iml" afterPath="$PROJECT_DIR$/tienditaColegial/tienditaColegial.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/bower.json" afterPath="$PROJECT_DIR$/tienditaColegial/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/package.json" afterPath="$PROJECT_DIR$/tienditaColegial/package.json" />
     </list>
     <ignored path="La_Tiendita.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -192,17 +26,7 @@
     <favorites_list name="La_Tiendita" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="sign-in.module.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tienditaColegial/app/sign-in/sign-in.module.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="app.module.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tienditaColegial/app/app.module.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -213,11 +37,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tienditaColegial/bower.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tienditaColegial/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tienditaColegial/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tienditaColegial.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tienditaColegial/tienditaColegial.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".bowerrc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tienditaColegial/.bowerrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -253,7 +117,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.config.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.config.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tienditaColegial/app/app.config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -322,6 +186,8 @@
         <option value="$PROJECT_DIR$/tienditaColegial/app/header/header.component.js" />
         <option value="$PROJECT_DIR$/tienditaColegial/app/home-page.template.html" />
         <option value="$PROJECT_DIR$/tienditaColegial/app/index.html" />
+        <option value="$PROJECT_DIR$/tienditaColegial/bower.json" />
+        <option value="$PROJECT_DIR$/tienditaColegial/package.json" />
       </list>
     </option>
   </component>
@@ -333,12 +199,13 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/angular-phonecat/node_modules" />
+    <handled-path value="$PROJECT_DIR$/tienditaColegial/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
     <option name="y" value="24" />
-    <option name="width" value="1215" />
-    <option name="height" value="776" />
+    <option name="width" value="1775" />
+    <option name="height" value="976" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -365,7 +232,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -416,32 +282,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="La_Tiendita" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="La_Tiendita" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tienditaColegial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="header" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -531,6 +376,136 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -545,6 +520,14 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -610,6 +593,9 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -633,6 +619,9 @@
       <option name="workingDirectory" />
       <option name="isAlternativeJrePathEnabled" value="false" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -670,6 +659,12 @@
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
       <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
       <envs />
       <method />
     </configuration>
@@ -729,6 +724,35 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
     <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -768,6 +792,7 @@
       <workItem from="1475112305550" duration="19000" />
       <workItem from="1475365756415" duration="3184000" />
       <workItem from="1475369187956" duration="2596000" />
+      <workItem from="1475440630991" duration="240000" />
     </task>
     <task id="LOCAL-00001" summary="Adding online pages's directories">
       <created>1475366200964</created>
@@ -829,15 +854,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5799000" />
+    <option name="totallyTimeSpent" value="6039000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1215" height="776" extended-state="6" />
+    <frame x="65" y="24" width="1775" height="976" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -847,7 +871,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24938272" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24901408" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -857,7 +882,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -914,27 +939,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/ropa/ropa.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/sign-in/sign-in.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tienditaColegial/app/sign-in/sign-in.component.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -942,7 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -950,7 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -958,7 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -966,7 +971,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -974,7 +978,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -990,7 +993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1019,7 +1021,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="14" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1052,27 +1053,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angular-phonecat/app/articles/account..js" />
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/phone-list/phone-list.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/phone-list/phone-list.template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/phone-list/phone-list.module.js" />
+    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/phone-list/phone-list.template.html" />
     <entry file="file://$PROJECT_DIR$/angular-phonecat/app/cart/cart.template.js" />
     <entry file="file://$PROJECT_DIR$/angular-phonecat/app/sign-in/bla bla bla" />
     <entry file="file://$PROJECT_DIR$/tienditaColegial/app/CSS/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1028">
           <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1080,7 +1068,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1088,22 +1075,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/phone-list/phone-list.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/phone-list/phone-list.component.js" />
     <entry file="file://$PROJECT_DIR$/tienditaColegial/app/contact/contact.module.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1111,7 +1090,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1119,7 +1097,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1127,7 +1104,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1135,7 +1111,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1143,7 +1118,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1151,7 +1125,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1159,7 +1132,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1167,7 +1139,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1175,7 +1146,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1183,7 +1153,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1191,7 +1160,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1199,7 +1167,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1207,38 +1174,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/phone-detail/phone-detail.template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/phone-detail/phone-detail.template.html" />
     <entry file="file://$PROJECT_DIR$/tienditaColegial/app/sign-in/sign-in.module.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/app.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/app.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -1270,7 +1213,55 @@
     <entry file="file://$PROJECT_DIR$/tienditaColegial/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditaColegial/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditaColegial/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditaColegial/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditaColegial/tienditaColegial.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/app.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/app.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding />
         </state>
       </provider>
