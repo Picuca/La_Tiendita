@@ -4,22 +4,6 @@
     <list default="true" id="16473d63-e51b-49a8-b77e-dd2f1d7fe1c3" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/angular-phonecat/app/sign-in/bla bla bla" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/account/account.component.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/account/account.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/account/account.module.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/account/account.module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/articles/articles.component.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/articles/articles.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/articles/articles.module.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/articles/articles.module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/books/books.component.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/books/books.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/books/books.module.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/books/books.module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/cart/cart.component.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/cart/cart.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/cart/cart.module.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/cart/cart.module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/contact/contact.component.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/contact/contact.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/contact/contact.module.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/contact/contact.module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/home-page/home-page.component.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/home-page/home-page.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/home-page/home-page.module.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/home-page/home-page.module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/ropa/ropa.component.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/ropa/ropa.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/ropa/ropa.module.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/ropa/ropa.module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/sign-in/sign-in.component.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/sign-in/sign-in.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-phonecat/app/sign-in/sign-in.module.js" afterPath="$PROJECT_DIR$/angular-phonecat/app/sign-in/sign-in.module.js" />
     </list>
     <ignored path="La_Tiendita.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -722,7 +706,7 @@
       <updated>1475112300429</updated>
       <workItem from="1475112305550" duration="19000" />
       <workItem from="1475365756415" duration="3184000" />
-      <workItem from="1475369187956" duration="2492000" />
+      <workItem from="1475369187956" duration="2596000" />
     </task>
     <task id="LOCAL-00001" summary="Adding online pages's directories">
       <created>1475366200964</created>
@@ -773,11 +757,18 @@
       <option name="project" value="LOCAL" />
       <updated>1475369266598</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Created MOdules and components of directories">
+      <created>1475371771933</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1475371771934</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5695000" />
+    <option name="totallyTimeSpent" value="5799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1775" height="976" extended-state="6" />
@@ -854,7 +845,8 @@
     <MESSAGE value="Added all files to related directories" />
     <MESSAGE value="Adding more files to related directories" />
     <MESSAGE value="BLa bla bla" />
-    <option name="LAST_COMMIT_MESSAGE" value="BLa bla bla" />
+    <MESSAGE value="Created MOdules and components of directories" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created MOdules and components of directories" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
