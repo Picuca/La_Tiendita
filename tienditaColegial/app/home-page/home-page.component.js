@@ -2,9 +2,10 @@
 
 angular
   .module('home-page')
-  .component('home-age', {
+  .component('home-page', {
     templateUrl: 'home-page/home-page.template.html',
-    controller: [function homePageController() {
-
+    controller: ['$http',function homePageController($http) {
+        var self = this;
+        self.homeMessage = 'HI THERE';
     }]
 });

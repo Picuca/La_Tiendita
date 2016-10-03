@@ -16,7 +16,7 @@ module.exports = function(config) {
 
     autoWatch: true,
 
-    frameworks: ['jasmine'],
+    frameworks: ['jasmine','play'],
 
     browsers: ['Chrome', 'Firefox'],
 
