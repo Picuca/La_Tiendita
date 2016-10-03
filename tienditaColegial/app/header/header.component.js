@@ -4,10 +4,11 @@
 
 angular
   .module('header')
-  .component('header-nav', {
+  .component('header', {
     templateUrl: 'header/header.template.html',
-    controller: [ function signInController() {
-        var self = this;
+    controller: [ '$scope', function headerController($scope) {
+       this.controllerMessage = "HI I AM CONTROLLER 1";
 
     }]
+
 });
