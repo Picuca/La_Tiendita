@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16473d63-e51b-49a8-b77e-dd2f1d7fe1c3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tienditaColegial/app/app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tienditaColegial/app/home-page.template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tienditaColegial/scripts/private/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tienditaColegial/scripts/private/jenkins.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tienditaColegial/scripts/private/old/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tienditaColegial/scripts/private/old/ScrapeData.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tienditaColegial/scripts/private/old/format-json.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tienditaColegial/scripts/private/old/goto_step.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tienditaColegial/scripts/private/old/goto_step.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tienditaColegial/scripts/private/old/snapshot.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tienditaColegial/scripts/private/push-to-github.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tienditaColegial/scripts/private/retag.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tienditaColegial/scripts/private/test-all.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tienditaColegial/scripts/private/update-gh-pages.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tienditaColegial/scripts/update-repo.sh" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/app.config.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/app.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/app.module.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/app.module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/header/header.component.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/header/header.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/home-page/home-page.component.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/home-page/home-page.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/home-page/home-page.template.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/home-page/home-page.template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/index.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/karma.conf.js" afterPath="$PROJECT_DIR$/tienditaColegial/karma.conf.js" />
     </list>
     <ignored path="La_Tiendita.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,8 +67,8 @@
       <file leaf-file-name="protractor.conf.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tienditaColegial/e2e-tests/protractor.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -219,6 +197,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/angular-seed/node_modules" />
     <handled-path value="$PROJECT_DIR$/tienditaColegial/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
@@ -252,6 +231,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -272,9 +252,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -802,7 +781,8 @@
       <workItem from="1475444024561" duration="68000" />
       <workItem from="1475448656633" duration="1491000" />
       <workItem from="1475461251485" duration="250000" />
-      <workItem from="1475469399411" duration="17000" />
+      <workItem from="1475469399411" duration="443000" />
+      <workItem from="1475502503520" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="Adding online pages's directories">
       <created>1475366200964</created>
@@ -867,15 +847,22 @@
       <option name="project" value="LOCAL" />
       <updated>1475440937902</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Upload de Angular Seed">
+      <created>1475469475753</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1475469475753</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10438000" />
+    <option name="totallyTimeSpent" value="10890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1775" height="976" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -888,7 +875,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24788733" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24788733" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -950,7 +937,8 @@
     <MESSAGE value="BLa bla bla" />
     <MESSAGE value="Created MOdules and components of directories" />
     <MESSAGE value="Resuelto el problema de los JSON files para correr el server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Resuelto el problema de los JSON files para correr el server" />
+    <MESSAGE value="Upload de Angular Seed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upload de Angular Seed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1260,8 +1248,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tienditaColegial/e2e-tests/protractor.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding />
         </state>
       </provider>
