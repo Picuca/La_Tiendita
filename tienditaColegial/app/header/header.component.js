@@ -6,9 +6,16 @@ angular
   .module('header')
   .component('header', {
     templateUrl: 'header/header.template.html',
-    controller: [ '$scope', function headerController($scope) {
-       this.controllerMessage = "HI I AM CONTROLLER 1";
-
+    controller: [ '$scope', function ($scope) {
+      this.component1Message = 'Hello';
     }]
 
-});
+}).controller('myController', ['$scope', function ($scope) {
+
+  $scope.blablabla = "BLABLABLA";
+
+}]).controller('myController2', ['$scope', function ($scope) {
+
+    $scope.blablabla2 = 'BLABLABLA2'
+
+}]);
