@@ -3,6 +3,7 @@
 // Define the `tienditaCOlegial` module
 angular.module('tienditaColegial', [
   'ngRoute',
+  'home-page',
   'sign-in',
   'header',
   'ropa',

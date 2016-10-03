@@ -3,16 +3,12 @@
 angular.
   module('tienditaColegial').
   config(['$locationProvider' ,'$routeProvider',
-    function config($locationProvider, $routeProvider) {
-      $locationProvider.hashPrefix('!');
+    function config($routeProvider) {
 
       $routeProvider.
-        when('/phones', {
-          template: '<phone-list></phone-list>'
+        when('/', {
+          template: '<home-page></home-page>'
         }).
-        when('/phones/:phoneId', {
-          template: '<phone-detail></phone-detail>'
-        }).
-        otherwise('/phones');
+        otherwise('/home-page');
     }
   ]);
