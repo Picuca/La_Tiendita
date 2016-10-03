@@ -5,7 +5,7 @@
 angular
   .module('sign-in')
   .component('sign-in', {
-    templateUrl: 'ign-in/sign-in.template.html',
+    templateUrl: 'sign-in/sign-in.template.html',
     controller: [ function signInController() {
         var self = this;
 
