@@ -7,10 +7,7 @@ angular.
       $locationProvider.hashPrefix('!');
 
       $routeProvider.
-        when('/header', {
-          template: '<header></header>'
-
-        }).when('/books', {
+        when('/books', {
           template: '<books></books>'
 
         }).when('/home-page', {
@@ -37,6 +34,6 @@ angular.
         }).when('/account', {
         template: '<account></account>'
       }).
-          otherwise('/header');
+          otherwise('/home-page');
     }
   ]);
