@@ -17,7 +17,7 @@
 
 .logo{
 
-font-size: 70px;
+	font-size: 70px;
 	font-weight: bold;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -41,14 +41,14 @@ h1{
 }
 /*navigation*/
 
- nav{
-    color:green;
- 	position: absolute;
+nav{
+	color:green;
+	position: absolute;
 	left: 0;
 	width: 100%;
-    background: green;
+	background: green;
 	height: 49px;
- }
+}
 
 nav ul{
 	width: 1000px;
@@ -61,17 +61,17 @@ nav ul li{
 	float: left;
 }
 
-	nav ul li {
-		display: inline - block;
-		font: 18px Arial, Helvetica, sans-serif;
-		color: white;
-		text-align: left;
-		text-transform: uppercase;
-		text-decoration: none;
-		line-height: 49px;
-		padding: 0px 10px 0px 10px;
+nav ul li {
+	display: inline - block;
+	font: 18px Arial, Helvetica, sans-serif;
+	color: white;
+	text-align: left;
+	text-transform: uppercase;
+	text-decoration: none;
+	line-height: 49px;
+	padding: 0px 10px 0px 10px;
 
-	}
+}
 
 /*search*/
 
@@ -99,5 +99,3 @@ nav ul li{
 	float: right;
 	cursor: pointer;
 }
-
-Contact GitHub API Training Shop Blog About

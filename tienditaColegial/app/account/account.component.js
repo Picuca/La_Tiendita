@@ -4,7 +4,8 @@ angular
   .module('account')
   .component('account', {
     templateUrl: 'account/account.template.html',
-    controller: [function accountController() {
 
-    }]
-  });
+  }).controller('accountController', function ($scope) {
+      $scope.accountMessage = 'ACCOUNT PAGE';
+
+});

@@ -3,11 +3,13 @@
 // Define the `tienditaCOlegial` module
 angular.module('tienditaColegial', [
   'ngRoute',
-  // 'home-page',
-  // 'sign-in',
-  'header'
-  // 'ropa',
-  // 'contact',
-  // 'books',
-  // 'articles'
+  'account',
+  'articles',
+  'books',
+  'cart',
+  'contact',
+  'header',
+  'home-page',
+  'ropa',
+  'sign-in'
 ]);

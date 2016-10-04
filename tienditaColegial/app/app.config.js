@@ -9,8 +9,34 @@ angular.
       $routeProvider.
         when('/header', {
           template: '<header></header>'
-        }).
 
-        otherwise('/');
+        }).when('/books', {
+          template: '<books></books>'
+
+        }).when('/home-page', {
+        template: '<home-page></home-page>'
+
+        }).when('/sign-in', {
+          template: '<sign-in></sign-in>'
+
+        }).when('/ropa', {
+          template: '<ropa></ropa>'
+
+        }).when('/contact', {
+          template: '<contact></contact>'
+
+        }).when('/articles', {
+          template: '<articles></articles>'
+
+        }).when('/books', {
+          template: '<books></books>'
+
+        }).when('/cart', {
+          template: '<cart></cart>'
+
+        }).when('/account', {
+        template: '<account></account>'
+      }).
+          otherwise('/header');
     }
   ]);

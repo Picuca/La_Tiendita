@@ -4,7 +4,7 @@ angular
   .module('contact')
   .component('contact', {
     templateUrl: 'contact/contact.template.html',
-    controller: [function contactController() {
 
-    }]
+}).controller('contactController', function ($scope) {
+    $scope.contactMessage = 'Contact PAGE'
 });

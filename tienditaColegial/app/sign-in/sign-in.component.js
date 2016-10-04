@@ -6,8 +6,9 @@ angular
   .module('sign-in')
   .component('sign-in', {
     templateUrl: 'sign-in/sign-in.template.html',
-    controller: [ function signInController() {
-        var self = this;
 
-    }]
+
+  }).controller('mainController', function ($scope) {
+      $scope.signInMessage= "SIGN IN PAGE";
+
 });

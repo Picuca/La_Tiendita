@@ -6,9 +6,7 @@ angular
   .module('header')
   .component('header', {
     templateUrl: 'header/header.template.html',
-    controller: [ '$scope', function ($scope) {
-      this.component1Message = 'Hello';
-    }]
+
 
 }).controller('myController', ['$scope', function ($scope) {
 

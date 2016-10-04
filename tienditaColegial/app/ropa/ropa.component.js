@@ -4,7 +4,8 @@ angular
   .module('ropa')
   .component('ropa', {
     templateUrl: 'ropa/ropa.template.html',
-    controller: [function ropaController() {
 
-    }]
+}).controller('ropaController', function ($scope) {
+    $scope.ropaMessage = "ROPA PAGE";
+
 });
