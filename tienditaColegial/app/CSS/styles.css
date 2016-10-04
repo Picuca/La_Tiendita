@@ -7,6 +7,10 @@
 .head, nav{
     display: block;
 }
+a {
+color: red;
+}
+
 
 .main-body{
     margin: 0 auto;
@@ -32,7 +36,7 @@ h1{
 
 .head{
     height: 70px;
-    padding: 45px 0px 0px 5px;
+    padding: 15px 0px 0px 5px;
 }
 
 
