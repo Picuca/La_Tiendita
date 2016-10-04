@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="16473d63-e51b-49a8-b77e-dd2f1d7fe1c3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/app.config.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/app.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/books/books.template.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/books/books.template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/header/header.template.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/header/header.template.html" />
     </list>
     <ignored path="La_Tiendita.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -807,7 +804,14 @@
       <option name="project" value="LOCAL" />
       <updated>1475540835158</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Se arreglo EL NAv Bar y el Css part 2">
+      <created>1475542538269</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1475542538269</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -868,7 +872,8 @@
     <MESSAGE value="Lo ARREGLEEEEEEE" />
     <MESSAGE value="Se importaron todos los modulos" />
     <MESSAGE value="Se arreglo EL NAv Bar y el Css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se arreglo EL NAv Bar y el Css" />
+    <MESSAGE value="Se arreglo EL NAv Bar y el Css part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se arreglo EL NAv Bar y el Css part 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
