@@ -11,5 +11,6 @@ angular.module('tienditaColegial', [
   'header',
   'home-page',
   'ropa',
-  'sign-in'
+  'sign-in',
+  'footer-nav'
 ]);
