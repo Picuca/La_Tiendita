@@ -9,7 +9,10 @@
 }
 
 a {
-color: red;
+color: white;
+}
+.green-link {
+ color : green; text-decoration : none;
 }
 
 

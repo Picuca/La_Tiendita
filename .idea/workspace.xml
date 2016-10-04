@@ -4,17 +4,7 @@
     <list default="true" id="16473d63-e51b-49a8-b77e-dd2f1d7fe1c3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/CSS/styles.css" afterPath="$PROJECT_DIR$/tienditaColegial/app/CSS/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/account/account.template.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/account/account.template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/app.css" afterPath="$PROJECT_DIR$/tienditaColegial/app/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/app.module.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/app.module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/articles/articles.template.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/articles/articles.template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/books/books.template.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/books/books.template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/cart/cart.template.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/cart/cart.template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/contact/contact.template.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/contact/contact.template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/home-page/home-page.component.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/home-page/home-page.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/index.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/ropa/ropa.template.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/ropa/ropa.template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/sign-in/sign-in.template.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/sign-in/sign-in.template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/header/header.template.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/header/header.template.html" />
     </list>
     <ignored path="La_Tiendita.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,16 +35,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.component.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tienditaColegial/app/header/header.component.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tienditaColegial/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,41 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tienditaColegial/app/app.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.module.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tienditaColegial/app/app.module.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tienditaColegial/app/app.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tienditaColegial/app/CSS/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+            <state relative-caret-position="225">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -118,8 +68,8 @@
       <file leaf-file-name="header.template.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tienditaColegial/app/header/header.template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            <state relative-caret-position="135">
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -180,7 +130,6 @@
         <option value="$PROJECT_DIR$/angular-seed/app/books/books.html" />
         <option value="$PROJECT_DIR$/angular-seed/app/books/books.js" />
         <option value="$PROJECT_DIR$/angular-seed/app/home-page/home-page.js" />
-        <option value="$PROJECT_DIR$/tienditaColegial/app/header/header.template.html" />
         <option value="$PROJECT_DIR$/tienditaColegial/app/app.config.js" />
         <option value="$PROJECT_DIR$/tienditaColegial/app/header/header.component.js" />
         <option value="$PROJECT_DIR$/tienditaColegial/app/header/header.module.js" />
@@ -202,6 +151,7 @@
         <option value="$PROJECT_DIR$/tienditaColegial/app/footer-nav/footer-nav.component.js" />
         <option value="$PROJECT_DIR$/tienditaColegial/app/footer-nav/footer-nav.template.html" />
         <option value="$PROJECT_DIR$/tienditaColegial/app/app.css" />
+        <option value="$PROJECT_DIR$/tienditaColegial/app/header/header.template.html" />
         <option value="$PROJECT_DIR$/tienditaColegial/app/CSS/styles.css" />
       </list>
     </option>
@@ -835,7 +785,14 @@
       <option name="project" value="LOCAL" />
       <updated>1475547895088</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Se le anadio el footer">
+      <created>1475559581009</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1475559581009</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -899,7 +856,8 @@
     <MESSAGE value="Se arreglo EL NAv Bar y el Css part 2" />
     <MESSAGE value="Fixing header issue" />
     <MESSAGE value="Se termino EL Routing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se termino EL Routing" />
+    <MESSAGE value="Se le anadio el footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se le anadio el footer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -988,6 +946,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -995,6 +954,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1002,6 +962,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1009,6 +970,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1016,6 +978,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1023,6 +986,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1030,6 +994,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1051,6 +1016,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1065,14 +1031,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/app.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1101,26 +1059,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/footer-nav/footer-nav.template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tienditaColegial/app/app.module.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/header/header.template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -1133,10 +1075,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/app.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/footer-nav/footer-nav.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/header/header.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tienditaColegial/app/CSS/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+        <state relative-caret-position="225">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding />
         </state>
       </provider>
