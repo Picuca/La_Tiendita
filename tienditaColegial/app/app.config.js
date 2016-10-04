@@ -10,6 +10,7 @@ angular.
         when('/header', {
           template: '<header></header>'
         }).
-        otherwise('/');
+
+        otherwise('/header');
     }
   ]);
