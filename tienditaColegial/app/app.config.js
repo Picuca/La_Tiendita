@@ -11,6 +11,6 @@ angular.
           template: '<header></header>'
         }).
 
-        otherwise('/header');
+        otherwise('/');
     }
   ]);
