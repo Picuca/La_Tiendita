@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('sign-in',[]);
+angular.module('sign-in',['ngMaterial']);

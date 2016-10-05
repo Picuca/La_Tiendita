@@ -4,11 +4,16 @@
 
 angular
   .module('sign-in')
-  .component('sign-in', {
+  .component('signIn', {
     templateUrl: 'sign-in/sign-in.template.html',
 
 
-  }).controller('mainController', function ($scope) {
+  }).controller('signInController', function ($scope) {
       $scope.signInMessage= "SIGN IN PAGE";
 
+}).controller('signInGridController', function ($scope) {
+
+
 });
+
+angular.module('materialModule',['ngMaterial']);
