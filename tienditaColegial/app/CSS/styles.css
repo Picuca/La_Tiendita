@@ -73,6 +73,10 @@ nav ul li{
 
 }
 
+.home-image {
+margin: 0px auto;}
+}
+
 nav ul li {
     display: inline - block;
     font: 18px Arial, Helvetica, sans-serif;

@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Tiendita Colegial </title>
+    <title>Tiendita Colegial</title>
 
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="bower_components/angular-material/angular-material.css"/>
@@ -13,12 +13,12 @@
 
 
   </head>
-  <body ng-app="someApp">
-
+  <body ng-app="tienditaColegial">
 
 
   <header></header>
   <div ng-view></div>
+  <footer-nav> </footer-nav>
 
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-aria/angular-aria.js"></script>
@@ -63,7 +63,7 @@
 
   <script>
 
-    angular.module('someApp',['ngMaterial', 'ngMessages',
+    angular.module('tienditaColegial',['ngMaterial', 'ngMessages',
       'ngRoute',
       'account',
       'articles',
@@ -108,16 +108,12 @@
     }]).config(function ($mdThemingProvider) {
         $mdThemingProvider.theme('default')
           .primaryPalette('green')
-          .accentPalette('grey');
+          .accentPalette('green');
 
 
     });
 
   </script>
-
-
-
-
 
   </body>
 </html>
