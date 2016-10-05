@@ -10,6 +10,6 @@ angular
 
 }).controller('navBarController', ['$scope', function navBarController($scope) {
 
-    $scope.currentNavItem = "PLACE ITEMS HERE";
+    $scope.currentNavItem = "";
 
 }]);
