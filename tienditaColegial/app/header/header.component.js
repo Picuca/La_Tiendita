@@ -8,12 +8,8 @@ angular
     templateUrl: 'header/header.template.html',
 
 
-}).controller('myController', ['$scope', function ($scope) {
+}).controller('navBarController', ['$scope', function navBarController($scope) {
 
-  $scope.blablabla = "BLABLABLA";
-
-}]).controller('myController2', ['$scope', function ($scope) {
-
-    $scope.blablabla2 = 'BLABLABLA2'
+    $scope.currentNavItem = "PLACE ITEMS HERE";
 
 }]);

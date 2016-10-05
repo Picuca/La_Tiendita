@@ -1,6 +1,21 @@
+<h1>SIGN IN</h1>
 
 
+  <md-content md-theme="docs-dark" layout-gt-sm="row" layout-padding="">
+    <div>
+      <md-input-container ng-controller="signInController" >
+        <label>{{signInMessage}}</label>
+        <input ng-model="user.title">
+      </md-input-container>
 
-<h1> Sign in </h1>
+      <md-input-container>
+        <label>Password</label>
+        <input ng-model="user.email" type="email">
+      </md-input-container>
+
+      <md-button> Sign In</md-button>
+      <md-button>Register</md-button>
 
 
+    </div>
+  </md-content>

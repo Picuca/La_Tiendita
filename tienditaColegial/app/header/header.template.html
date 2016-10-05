@@ -1,28 +1,38 @@
-<div class = "main-body">
 
-  <div class = "head">
-    <div class = "logo"> Libreria Colegial </div>
+<div layout="column" ng-cloak="" class="headerInfo">
+  <md-toolbar class="headerToolbar">
+    <div class="md-toolbar-tools">
+      <h2>
+        <span>LIBRERIA COLEGIAL</span>
+      </h2>
+      <span flex=""></span>
 
-    <div class = "link_box">
-
-      <a href = "#!/account" class="green-link"> Cuenta </a>
-      <br/>
-      <a href = "#!/cart" class="green-link"> Carrito </a>
-
+      <md-button aria-label="Iniciar_Sesion">
+        <!--<md-icon md-svg-icon="img/icons/favorite.svg" style="color: greenyellow;"></md-icon>-->
+        CUENTA
+      </md-button>
+      <md-button aria-label="Register">
+        <!--<md-icon md-svg-icon="img/icons/more_vert.svg"></md-icon>-->
+        CARRITO
+      </md-button>
     </div>
-  </div>
-  <nav>
-    <ul>
-
-      <li>  <a href = "#!/home-page" > Home </a> </li>
-      <li>  <a href = "#!/books" > Libros</a> </li>
-      <li>  <a href = "#!/ropa" > Ropa   </a> </li>
-      <li>  <a href = "#!/articles" >Articulos escolares </a></li>
-      <li>  <a href = "#!/contact" > Contactanos </a> </li>
-      <li class="search">
-        <input type="text" id="search_input" name="search_input" value="Search" required />
-        <input type="button" name="search_button" id="search_button" value="" required />
-      </li>
-    </ul>
-  </nav>
+  </md-toolbar>
+    </div>
 </div>
+
+
+
+
+<div ng-cloak="" class="navBar" ng>
+  <md-content class="navPadding">
+    <md-nav-bar md-selected-nav-item="currentNavItem" nav-bar-aria-label="navigation links">
+      <md-nav-item md-nav-click="goto('page1')" name="page1">Libros</md-nav-item>
+      <md-nav-item md-nav-click="goto('page2')" name="page2">Ropa</md-nav-item>
+      <md-nav-item md-nav-click="goto('page3')" name="page3">Articulos Escolares</md-nav-item>
+      <md-nav-item md-nav-click="goto('page4')" name="page4">Contactos</md-nav-item>
+
+      <!-- these require actual routing with ui-router or ng-route, so they won't work in the demo
+      <md-nav-item md-nav-sref="app.page4" name="page4">Page Four</md-nav-item>
+      <md-nav-item md-nav-href="#page5" name="page5">Page Five</md-nav-item>
+      -->
+    </md-nav-bar>

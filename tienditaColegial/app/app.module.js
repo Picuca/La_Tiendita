@@ -2,6 +2,7 @@
 
 // Define the `tienditaCOlegial` module
 angular.module('tienditaColegial', [
+
   'ngRoute',
   'account',
   'articles',
@@ -11,6 +12,7 @@ angular.module('tienditaColegial', [
   'header',
   'home-page',
   'ropa',
-  'sign-in',
-  'footer-nav'
+  'sign-in'
+
+  // 'footer-nav'
 ]);

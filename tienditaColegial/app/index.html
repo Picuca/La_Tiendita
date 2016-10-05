@@ -1,55 +1,122 @@
 <!doctype html>
-<html lang="en" ng-app="tienditaColegial">
+<html lang="en">
   <head>
-    <meta charset="utf-8">
     <title>Tiendita Colegial </title>
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="app.css" />
-    <link rel="stylesheet" type="text/css" href="CSS/styles.css" />
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/angular-route/angular-route.js"></script>
-    <script src="app.module.js"></script>
-    <script src="app.config.js"></script>
 
-    <script src="account/account.module.js"></script>
-    <script src="account/account.component.js"></script>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.css"/>
+    <link rel="stylesheet" href="app.css"/>
 
-    <script src="articles/articles.module.js"></script>
-    <script src="articles/articles.component.js"></script>
 
-    <script src="books/books.module.js"></script>
-    <script src="books/books.component.js"></script>
 
-    <script src="cart/cart.module.js"></script>
-    <script src="cart/cart.component.js"></script>
-
-    <script src="contact/contact.module.js"></script>
-    <script src="contact/contact.component.js"></script>
-
-    <script src="header/header.module.js"></script>
-    <script src="header/header.component.js"></script>
-
-    <script src="home-page/home-page.module.js"></script>
-    <script src="home-page/home-page.component.js"></script>
-
-    <script src="ropa/ropa.module.js"></script>
-    <script src="ropa/ropa.component.js"></script>
-
-    <script src="sign-in/sign-in.module.js"></script>
-    <script src="sign-in/sign-in.component.js"></script>
-
-    <script src="footer-nav/footer-nav.module.js"></script>
-    <script src="footer-nav/footer-nav.component.js"></script>
 
 
 
   </head>
-  <body>
+  <body ng-app="someApp">
 
-    <header></header><!--THIS IS A CUSTOM COMPONENT NOT AN HTML ATTRIBUTE!!!!!!!! DO NOT DELETE!!!!!-->
-    <div ng-view></div>
 
-    <footer-nav></footer-nav>
+
+  <header></header>
+  <div ng-view></div>
+
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-aria/angular-aria.js"></script>
+  <script src="bower_components/angular-animate/angular-animate.js"></script>
+  <script src="bower_components/angular-material/angular-material.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-messages/angular-messages.js"></script>
+
+  <script src="account/account.module.js"></script>
+  <script src="account/account.component.js"></script>
+
+  <script src="articles/articles.module.js"></script>
+  <script src="articles/articles.component.js"></script>
+
+  <script src="books/books.module.js"></script>
+  <script src="books/books.component.js"></script>
+
+  <script src="cart/cart.module.js"></script>
+  <script src="cart/cart.component.js"></script>
+
+  <script src="contact/contact.module.js"></script>
+  <script src="contact/contact.component.js"></script>
+
+  <script src="header/header.module.js"></script>
+  <script src="header/header.component.js"></script>
+
+  <script src="home-page/home-page.module.js"></script>
+  <script src="home-page/home-page.component.js"></script>
+
+  <script src="ropa/ropa.module.js"></script>
+  <script src="ropa/ropa.component.js"></script>
+
+  <script src="sign-in/sign-in.module.js"></script>
+  <script src="sign-in/sign-in.component.js"></script>
+
+  <script src="app.module.js"></script>
+  <script src="app.config.js"></script>
+
+
+
+
+  <script>
+
+    angular.module('someApp',['ngMaterial', 'ngMessages',
+      'ngRoute',
+      'account',
+      'articles',
+      'books',
+      'cart',
+      'contact',
+      'header',
+      'home-page',
+      'ropa',
+      'sign-in'
+    ]).config(['$locationProvider','$routeProvider',function ($locationProvider,$routeProvider) {
+      $locationProvider.hashPrefix("!");
+
+      $routeProvider
+        .when("/account",{
+          template: '<account></account>'
+
+        }).when("/articles",{
+          template: '<articles></articles>'
+
+        }).when("/books",{
+          template: "<books></books>"
+
+        }).when("/cart",{
+          template: "<cart></cart>"
+
+        }).when("/contact", {
+          template: "<contact></contact>"
+
+        }).when("/home-page",{
+          template:"<home-page></home-page>"
+
+        }).when("/ropa", {
+          template: "<ropa></ropa>"
+
+        }).when("/sign-in", {
+          template:"<sign-in></sign-in>"
+
+        }).otherwise("/home-page");
+
+
+    }]).config(function ($mdThemingProvider) {
+        $mdThemingProvider.theme('default')
+          .primaryPalette('green')
+          .accentPalette('grey');
+
+
+    });
+
+  </script>
+
+
+
 
 
   </body>
