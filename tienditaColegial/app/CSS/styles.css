@@ -24,7 +24,7 @@ color: white;
 }
 
 .logo{
-
+    width: 95%;
     font-size: 70px;
     font-weight: bold;
     text-transform: uppercase;
@@ -33,10 +33,11 @@ color: white;
     text-shadow: 1px 1px, 2px 2px #ccc, 3px 3px 1px #777;}
 
 h1{
-
+    width: 95%;
     font: 48px/38px Arial, Helvetica, sans-serif;
     color: green;
     text-transform: uppercase;
+    padding: 20px, 10px,0px,0px ;
 }
 
 .head{
@@ -61,7 +62,7 @@ nav{
 }
 
 nav ul{
-    width: 1000px;
+    width: 95%;
     margin: 0 auto;
     list-style: none;
     padding: 0px;
@@ -84,9 +85,27 @@ nav ul li {
 
 }
 
-.footer-nav{
-background: green;
 
+.footer-nav {
+background: green;
+bottom: 0;
+width: 100%;
+color: white;
+float: left;
+}
+
+.footer-first-menu, .informacion, .footer-account, .footer-logo {
+color: white;
+width: 275px;
+float: left;
+margin: 10px;}
+
+
+
+
+
+.home-image{
+align: center;
 }
 
 /*search*/
@@ -116,11 +135,6 @@ background: green;
     cursor: pointer;
 }
 
-.page-content{
-
-heigth: 50;
-padding: 65;
-}
 
 
 
