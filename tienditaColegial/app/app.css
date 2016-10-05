@@ -90,6 +90,8 @@ a {
 color: white;
 }
 
+.headerInfomd-toolbar md-icon.md-default-theme {
+  background-color: green; }
 
 
   img.home-image {
