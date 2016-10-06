@@ -8,12 +8,8 @@ angular
     templateUrl: 'footer-nav/footer-nav.template.html',
 
 
-}).controller('myController', ['$scope', function ($scope) {
+}).controller('footerCtrl', ['$scope', function ($scope) {
 
   $scope.blablabla = "BLABLABLA";
-
-}]).controller('myController2', ['$scope', function ($scope) {
-
-    $scope.blablabla2 = 'BLABLABLA2'
 
 }]);

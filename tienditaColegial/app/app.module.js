@@ -12,10 +12,7 @@ angular.module('tienditaColegial', [
   'header',
   'home-page',
   'ropa',
-  'sign-in'
-
-  // 'footer-nav'
-]).config(function ($mdThemingProvider) {
-          $mdThemingProvider.theme('default')
-            .primaryPalette('green')
-            .accentPalette('green');
+  'sign-in',
+  'footer-nav'
+])
+;
