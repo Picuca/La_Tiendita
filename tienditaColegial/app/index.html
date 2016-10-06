@@ -6,12 +6,19 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="bower_components/angular-material/angular-material.css"/>
     <link rel="stylesheet" href="app.css"/>
+   
+
+
+
+
+
 
 
   </head>
-  <body ng-app = "tienditaColegial">
+  <body ng-app="tienditaColegial">
 
-   <header></header>
+
+  <header></header>
   <div ng-view></div>
   <footer-nav> </footer-nav>
 
@@ -26,6 +33,9 @@
   <script src="account/account.module.js"></script>
   <script src="account/account.component.js"></script>
 
+  <script src="account-info/account-info.module.js"></script>
+  <script src="account-info/account-info.component.js"></script>
+
   <script src="articles/articles.module.js"></script>
   <script src="articles/articles.component.js"></script>
 
@@ -37,6 +47,9 @@
 
   <script src="contact/contact.module.js"></script>
   <script src="contact/contact.component.js"></script>
+
+  <script src="footer-nav/footer-nav.module.js"></script>
+  <script src="footer-nav/footer-nav.component.js"></script>
 
   <script src="header/header.module.js"></script>
   <script src="header/header.component.js"></script>
@@ -50,8 +63,10 @@
   <script src="sign-in/sign-in.module.js"></script>
   <script src="sign-in/sign-in.component.js"></script>
 
-  <script src="footer-nav/footer-nav.module.js"></script>
-  <script src="footer-nav/footer-nav.component.js"></script>
+
+
+  <script src="app.module.js"></script>
+  <script src="app.config.js"></script>
 
 
 
@@ -61,15 +76,16 @@
     angular.module('tienditaColegial',['ngMaterial', 'ngMessages',
       'ngRoute',
       'account',
+      'account-info',
       'articles',
       'books',
       'cart',
       'contact',
+      'footer-nav',
       'header',
       'home-page',
       'ropa',
-      'sign-in',
-      'footer-nav'
+      'sign-in'
     ]).config(['$locationProvider','$routeProvider',function ($locationProvider,$routeProvider) {
       $locationProvider.hashPrefix("!");
 
@@ -79,6 +95,9 @@
 
         }).when("/articles",{
           template: '<articles></articles>'
+
+        }).when("/account-info",{
+          template: '<account-info></account-info>'
 
         }).when("/books",{
           template: "<books></books>"
