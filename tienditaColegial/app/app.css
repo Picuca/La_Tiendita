@@ -7,28 +7,30 @@ padding: 10px;
 }
 
 /* This is the Custom CSS i Madee */
+/*Footer Css */
 
 footer {
 background: #2E7D32;
+font-size: 26px;
 bottom: 0;
 width: 100%;
 color: white;
 float: left;
+text-shadow: 1px 1px, 1px 1px #ccc, 2px 2px 1px #777;
+
 }
 
-/*Footer Css */
-.footer-first-menu, .informacion, .footer-account, .footer-logo {
+.footer-first-menu,.footer-second-menu, .informacion, .footer-account {
+  padding: 0px;
   color: white;
-  width: 275px;
+  width: 300px;
   float: left;
-  margin: 10px;}
-
-  .footer-logo
-  {
-  border-style: solid;
-  border-radius: 10px;
+  margin: 0px;
   }
-
+  .informacion{
+  text-shadow: 0px;
+  font-size: 22px;
+  }
 
 a {
 color: white;
