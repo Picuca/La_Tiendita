@@ -59,6 +59,12 @@
   <script src="sign-in/sign-in.module.js"></script>
   <script src="sign-in/sign-in.component.js"></script>
 
+  <script src="top-sellers/top-sellers.module.js"></script>
+  <script src="top-sellers/top-sellers.component.js"></script>
+
+  <script src="new-arrivals/new-arrivals.module.js"></script>
+  <script src="new-arrivals/new-arrivals.component.js"></script>
+
 
 
   <script src="app.module.js"></script>
@@ -81,7 +87,9 @@
       'header',
       'home-page',
       'ropa',
-      'sign-in'
+      'sign-in',
+      'new-arrivals',
+      'top-sellers'
     ]).config(['$locationProvider','$routeProvider',function ($locationProvider,$routeProvider) {
       $locationProvider.hashPrefix("!");
 
@@ -112,6 +120,12 @@
 
         }).when("/sign-in", {
           template:"<sign-in></sign-in>"
+
+        }).when("/top-sellers", {
+          template: " <top-sellers></top-sellers>"
+
+        }).when("/new-arrivals",{
+        template: " <new-arrivals></new-arrivals>"
 
         }).otherwise("/home-page");
 

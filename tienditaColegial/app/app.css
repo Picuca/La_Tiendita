@@ -1,3 +1,6 @@
+
+
+/* This is the Custom CSS i Madee */
 main-body {
   padding: 30px;
 }
@@ -6,7 +9,47 @@ h1 {
 padding: 10px;
 }
 
-/* This is the Custom CSS i Madee */
+/* Header */
+.md-toolbar-tools{
+font-size: 32px;
+background: #2E7D32;
+font-weight: bold;
+text-transform: uppercase;
+text-decoration: none;
+color: white;
+text-shadow: 1px 1px, 1px 1px #ccc, 2px 2px 1px #777;
+}
+
+
+/* Home page CSS */
+.home-page{
+width: 1130px;
+margin: 8px auto;}
+
+img.home-image, img.home-page-ropa-banner{
+display: block;
+margin: 12px auto;
+border-width: 4px;
+border-style: solid;
+border-color: #2E7D32;
+border-radius: 15px;
+}
+
+img.imagen-reciente, img.imagen-mas-vendidos, img.imagen-libros, img.imagen-articulos {
+display: block-inline;
+margin:12px;
+border-width: 4px;
+border-style: solid;
+border-color: #2E7D32;
+border-radius: 15px;
+}
+
+
+
+
+
+
+
 /*Footer Css */
 
 footer {
@@ -29,33 +72,15 @@ text-shadow: 1px 1px, 1px 1px #ccc, 2px 2px 1px #777;
 
   }
   .informacion{
-
   font-size: 20px;
+  text-shadow: 0px 0px, 0px 0px #ccc, 0px 0px 0px #777;
   }
 
 a {
 color: white;
 }
 
-img.home-image{
-display: block;
-margin: 0px auto;
-}
 
-.md-toolbar-tools{
-font-size: 32px;
-background: #2E7D32;
-font-weight: bold;
-text-transform: uppercase;
-text-decoration: none;
-color: white;
-text-shadow: 1px 1px, 1px 1px #ccc, 2px 2px 1px #777;}
-}
-
-  img.home-image {
-  display: block;
-  margin: 0px auto;}
-  }
 
 
 /*  This is my custome CSS end */
