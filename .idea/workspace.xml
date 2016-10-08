@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16473d63-e51b-49a8-b77e-dd2f1d7fe1c3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tienditaColegial/app/images/Inicio-Banner.jpg" afterPath="" />
+    <list default="true" id="16473d63-e51b-49a8-b77e-dd2f1d7fe1c3" name="Default" comment="movi el Css de Bower components to App.Css">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/app.css" afterPath="$PROJECT_DIR$/tienditaColegial/app/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/footer-nav/footer-nav.template.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/footer-nav/footer-nav.template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/header/header.template.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/header/header.template.html" />
     </list>
     <ignored path="La_Tiendita.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -850,7 +846,14 @@
       <option name="project" value="LOCAL" />
       <updated>1475804296211</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="movi el Css de Bower components to App.Css">
+      <created>1475885508534</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1475885508534</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
