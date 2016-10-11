@@ -16,4 +16,3 @@ angular
 
 });
 
-angular.module('materialModule',['ngMaterial']);

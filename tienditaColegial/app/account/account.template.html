@@ -1,75 +1,94 @@
 
-
+<div ng-controller="accountCtrl">
 <md-content layout-gt-sm="row" layout-padding="">
-  <div flex="" layout="row">
-
-    <div flex="10"></div>
-
-    <div flex="40" layout="column">
-      <h2>INICIAR SESION</h2>
-
-      <md-input-container >
-        <label>Email</label>
-        <input ng-model=email type="email">
-      </md-input-container>
-
-      <md-input-container>
-        <label>Contrasena</label>
-        <input ng-model="password">
-      </md-input-container>
-
-      <md-button class="md-raised md-primary"> Iniciar sesion</md-button>
-
-    </div>
 
     <div flex="10"></div>
 
     <div flex="40">
-      <!--Enviar texto al telefono para atentificar la cuenta o email para identificar-->
+    <form action="/" id="Login">
+    <div layout="column">
+      <h2>INICIAR SESION</h2>
 
-      <div layout="column" layout-sm="column" layout-margin="300px">
-        <h2>CREA TU CUENTA</h2>
+      <md-input-container>
+        <label>Nombre de Usuario</label>
+        <input type="text" id="username" ng-model="username">
+      </md-input-container>
 
-        <md-input-container >
-          <label>Nombre</label>
-          <input ng-model="newUsername">
-        </md-input-container>
-
-        <md-input-container>
-          <label>Apellidos</label>
-          <input ng-model="newPassword">
-        </md-input-container>
-
-        <md-input-container >
-          <label>Contrasena</label>
-          <input ng-model="newPassword">
-        </md-input-container>
-
-        <md-input-container >
-          <label>Reescribir Contrasena</label>
-          <input ng-model="retypePassword">
-        </md-input-container>
-
-        <md-input-container>
-          <label>Email</label>
-          <input ng-model="newEmail" type="email">
-        </md-input-container>
-
-        <md-input-container>
-          <label>Telefono</label>
-          <input ng-model="telefono">
-        </md-input-container>
-
-
-        <md-button class="md-raised md-primary"> Crear Cuenta</md-button>
-      </div>
+      <md-input-container>
+        <label>Contrasena</label>
+        <input type="password" id="password" ng-model="password">
+      </md-input-container>
+      <!--<md-button class="md-raised md-primary" ng-click="submit()"> Iniciar sesion</md-button>-->
+    <md-button class="md-raised md-primary" ng-click="submit()">Iniciar Sesion</md-button>
     </div>
+    </form>
+    </div>
+
+
 
 
     <div flex="10"></div>
 
-  </div>
 
 
 
-</md-content>
+    <div flex="40">
+      <!--Enviar texto al telefono para atentificar la cuenta o email para identificar-->
+
+      <form action="/" id="Register">
+      <div layout="column" layout-sm="column" layout-margin="300px">
+
+
+        <h2>CREA TU CUENTA</h2>
+
+        <md-input-container >
+          <label>Nombre</label>
+          <input type="text" id="newName" ng-model="newName">
+        </md-input-container>
+
+        <md-input-container>
+          <label>Apellidos</label>
+          <input type="text" id="newLastName" ng-model="newLastname">
+        </md-input-container>
+
+        <md-input-container >
+          <label>Nombre de Usuario</label>
+          <input type="text" id="newUsername" ng-model="newUsername">
+        </md-input-container>
+
+        <md-input-container >
+          <label>Contrasena</label>
+          <input type="text" id="newPassword" ng-model="newPassword">
+        </md-input-container>
+
+        <md-input-container >
+          <label>Reescribir Contrasena</label>
+          <input type="text" id="retypePassword" ng-model="retypePassword">
+        </md-input-container>
+
+        <md-input-container>
+          <label>Email</label>
+          <input type="text" id="newEmail" ng-model="newEmail">
+        </md-input-container>
+
+        <md-input-container>
+          <label>Telefono</label>
+          <input type="text" id="newPhone" ng-model="newPhone">
+        </md-input-container>
+
+
+        <md-button class="md-raised md-primary" ng-click="newAccount()"> Crear Cuenta</md-button>
+      </div>
+      </form>
+      </div>
+
+  <div flex="10"></div>
+  </md-content>
+</div>
+
+
+
+
+
+
+

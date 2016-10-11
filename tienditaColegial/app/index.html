@@ -119,13 +119,20 @@
           template: "<ropa></ropa>"
 
         }).when("/sign-in", {
+          resolve:{
+            "check": function ($location, $rootScope) {
+              if(!$rootScope.loggedIn){
+                $location.path('/');
+              }
+            }
+          },
           template:"<sign-in></sign-in>"
 
         }).when("/top-sellers", {
           template: " <top-sellers></top-sellers>"
 
         }).when("/new-arrivals",{
-        template: " <new-arrivals></new-arrivals>"
+          template: " <new-arrivals></new-arrivals>"
 
         }).otherwise("/home-page");
 
