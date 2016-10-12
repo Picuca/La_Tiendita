@@ -25,6 +25,7 @@
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="bower_components/angular-messages/angular-messages.js"></script>
+  <script src="bower_components/ngCart/dist/ngCart.js"></script>
 
   <script src="account/account.module.js"></script>
   <script src="account/account.component.js"></script>
@@ -75,7 +76,7 @@
 
   <script>
 
-    angular.module('tienditaColegial',['ngMaterial', 'ngMessages',
+    angular.module('tienditaColegial',['ngMaterial', 'ngCart',
       'ngRoute',
       'account',
       'account-info',
@@ -114,6 +115,9 @@
 
         }).when("/home-page",{
           template:"<home-page></home-page>"
+
+        }).when("/checkout",{
+        template:"<checkout></checkout>"
 
         }).when("/ropa", {
           template: "<ropa></ropa>"
