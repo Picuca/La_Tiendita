@@ -8,8 +8,27 @@ angular
     templateUrl: 'header/header.template.html',
 
 
-}).controller('navBarController', ['$scope', function navBarController($scope) {
+})
+    .controller('headerCtrl',  function ($scope, $rootScope, $location) {
+        $scope.message = "Iniciar Sesion";
 
-    $scope.currentNavItem = "";
+        $scope.toAccount = function () {
+            if($rootScope.currentUser != null){
 
-}]);
+
+
+                $scope.message = "Mi Cuenta";
+                $location.path('/account-info');
+            }
+            else{
+
+                $scope.message = "Iniciar Sesion"
+                $location.path('/account');
+
+            }
+
+        };
+
+
+
+});

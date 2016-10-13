@@ -1,20 +1,15 @@
-<div layout="column" ng-cloak="" class="headerInfo">
+<div layout="column" ng-cloak="" class="headerInfo" >
   <md-toolbar class="headerToolbar">
-    <div class="md-toolbar-tools">
+    <div class="md-toolbar-tools" ng-controller="headerCtrl">
       <img src = "images/Bulldog-paw.jpg" height="40" length = "40"/>
       <h1>
         <span>LIBRERIA COLEGIAL</span>
       </h1>
       <span flex=""></span>
 
-      <md-button href = "#!/account" aria-label="Iniciar_Sesion" style = "color" >
-
-        CUENTA
-      </md-button>
-      <md-button href = "#!/cart" aria-label="cart">
-
-        CARRITO
-      </md-button>
+      <md-button ng-hide="!hideMe()"> Cerrar Sesion</md-button>
+      <md-button ng-click="toAccount()" style = "..." >{{message}}</md-button>
+      <md-button href = "#!/cart" aria-label="cart">CARRITO</md-button>
     </div>
   </md-toolbar>
 </div>
@@ -23,7 +18,7 @@
 
 
 
-<div ng-cloak="" class="navBar" ng>
+<div ng-cloak="" class="navBar" >
   <md-content class="navPadding">
     <md-nav-bar md-selected-nav-item="currentNavItem" nav-bar-aria-label="navigation links">
       <md-nav-item md-nav-href= "#!/home-page" name="home-page">Inicio </md-nav-item>

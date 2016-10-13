@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16473d63-e51b-49a8-b77e-dd2f1d7fe1c3" name="Default" comment="Se anadio New-arrivals and  Top-sellers module y se termino el Home page">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tienditaColegial/app/DUMMYDATA/users/users.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/account-info/account-info.component.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/account-info/account-info.component.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/account-info/account-info.template.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/account-info/account-info.template.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/account/account.component.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/account/account.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/app.config.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/app.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/app.module.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/app.module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/account/account.template.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/account/account.template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/contact/contact.template.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/contact/contact.template.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/header/header.component.js" afterPath="$PROJECT_DIR$/tienditaColegial/app/header/header.component.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/header/header.template.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/header/header.template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditaColegial/app/index.html" afterPath="$PROJECT_DIR$/tienditaColegial/app/index.html" />
     </list>
     <ignored path="La_Tiendita.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,42 +30,22 @@
     <favorites_list name="La_Tiendita" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="header.component.js" pinned="false" current-in-tab="false">
+    <leaf>
+      <file leaf-file-name="account-info.template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tienditaColegial/app/account-info/account-info.template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.component.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tienditaColegial/app/header/header.component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="account-info.component.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tienditaColegial/app/account-info/account-info.component.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="account.component.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tienditaColegial/app/account/account.component.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="936">
-              <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.template.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tienditaColegial/app/header/header.template.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="89" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="89" />
+            <state relative-caret-position="288">
+              <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -98,14 +78,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/angular-seed/app/contact/contact.html" />
         <option value="$PROJECT_DIR$/angular-seed/app/cart/cart.js" />
         <option value="$PROJECT_DIR$/angular-seed/app/cart/cart.html" />
         <option value="$PROJECT_DIR$/angular-seed/app/books/books.html" />
         <option value="$PROJECT_DIR$/angular-seed/app/books/books.js" />
         <option value="$PROJECT_DIR$/angular-seed/app/home-page/home-page.js" />
         <option value="$PROJECT_DIR$/tienditaColegial/app/header/header.module.js" />
-        <option value="$PROJECT_DIR$/tienditaColegial/app/contact/contact.template.html" />
         <option value="$PROJECT_DIR$/tienditaColegial/app/home-page/home-page.component.js" />
         <option value="$PROJECT_DIR$/tienditaColegial/footer-nav/footer-nav.module.js" />
         <option value="$PROJECT_DIR$/tienditaColegial/footer-nav/footer-nav.html" />
@@ -131,7 +109,6 @@
         <option value="$PROJECT_DIR$/tienditaColegial/app/sign-in/sign-in.component.js" />
         <option value="$PROJECT_DIR$/tienditaColegial/app/sign-in/sign-in.module.js" />
         <option value="$PROJECT_DIR$/tienditaColegial/app/sign-in/sign-in.template.html" />
-        <option value="$PROJECT_DIR$/tienditaColegial/app/account/account.template.html" />
         <option value="$PROJECT_DIR$/tienditaColegial/app/cart/cart.component.js" />
         <option value="$PROJECT_DIR$/tienditaColegial/app/checkout/checkout.module.js" />
         <option value="$PROJECT_DIR$/tienditaColegial/app/checkout/checkout.template.html" />
@@ -144,11 +121,14 @@
         <option value="$PROJECT_DIR$/tienditaColegial/app/DUMMYDATA/users/users.json" />
         <option value="$PROJECT_DIR$/tienditaColegial/app/app.config.js" />
         <option value="$PROJECT_DIR$/tienditaColegial/app/books/books.template.html" />
-        <option value="$PROJECT_DIR$/tienditaColegial/app/account-info/account-info.template.html" />
-        <option value="$PROJECT_DIR$/tienditaColegial/app/account-info/account-info.component.js" />
+        <option value="$PROJECT_DIR$/tienditaColegial/app/DUMMYDATA/currentUser.json" />
         <option value="$PROJECT_DIR$/tienditaColegial/app/account/account.component.js" />
-        <option value="$PROJECT_DIR$/tienditaColegial/app/header/header.component.js" />
+        <option value="$PROJECT_DIR$/tienditaColegial/app/contact/contact.template.html" />
+        <option value="$PROJECT_DIR$/tienditaColegial/app/account-info/account-info.template.html" />
         <option value="$PROJECT_DIR$/tienditaColegial/app/header/header.template.html" />
+        <option value="$PROJECT_DIR$/tienditaColegial/app/account/account.template.html" />
+        <option value="$PROJECT_DIR$/tienditaColegial/app/account-info/account-info.component.js" />
+        <option value="$PROJECT_DIR$/tienditaColegial/app/header/header.component.js" />
       </list>
     </option>
   </component>
@@ -285,6 +265,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="contact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="La_Tiendita" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="La_Tiendita" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tienditaColegial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="account-info" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="La_Tiendita" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="La_Tiendita" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tienditaColegial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="account" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -313,6 +337,9 @@
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/La_Tiendita/tienditaColegial/app/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="header.template.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/La_Tiendita/tienditaColegial/app/header/header.template.html">
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -790,12 +817,14 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.header.template.html" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.header.template.html" />
       </list>
     </recent_temporary>
   </component>
@@ -845,7 +874,7 @@
       <workItem from="1476364389478" duration="1398000" />
       <workItem from="1476366765666" duration="2236000" />
       <workItem from="1476369832488" duration="2154000" />
-      <workItem from="1476372147487" duration="3567000" />
+      <workItem from="1476372147487" duration="15717000" />
     </task>
     <task id="LOCAL-00001" summary="Adding online pages's directories">
       <created>1475366200964</created>
@@ -1022,11 +1051,18 @@
       <option name="project" value="LOCAL" />
       <updated>1475905567717</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Cambiando direcciones del login y cuenta">
+      <created>1476375877771</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1476375877771</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60681000" />
+    <option name="totallyTimeSpent" value="72831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1775" height="976" extended-state="6" />
@@ -1120,14 +1156,15 @@
     <MESSAGE value="Se le dio Update a los branches (Master)" />
     <MESSAGE value="Se Arreglo Todo y Seguire usando este branch" />
     <MESSAGE value="Se anadio New-arrivals and  Top-sellers module y se termino el Home page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se anadio New-arrivals and  Top-sellers module y se termino el Home page" />
+    <MESSAGE value="R" />
+    <MESSAGE value="Cambiando direcciones del login y cuenta" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambiando direcciones del login y cuenta" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/angular-seed/app/home-page/home-page.js" />
     <entry file="file://$PROJECT_DIR$/tienditaColegial/app/contact/contact.module.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1136,13 +1173,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tienditaColegial/app/books/books.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/contact/contact.template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1347,20 +1377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/DUMMYDATA/users/users.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/account/account.template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tienditaColegial/app/books/books.template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -1379,6 +1395,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1390,34 +1407,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/account-info/account-info.template.html">
+    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/DUMMYDATA/currentUser.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/account-info/account-info.component.js">
+    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/DUMMYDATA/users/users.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="108">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/account/account.component.js">
+    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/contact/contact.template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/header/header.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="414">
+          <caret line="29" column="67" selection-start-line="29" selection-start-column="67" selection-end-line="29" selection-end-column="67" />
           <folding />
         </state>
       </provider>
@@ -1425,7 +1434,47 @@
     <entry file="file://$PROJECT_DIR$/tienditaColegial/app/header/header.template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="9" column="89" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="89" />
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/account/account.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/account/account.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/account-info/account-info.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/account-info/account-info.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/header/header.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="16" />
           <folding />
         </state>
       </provider>

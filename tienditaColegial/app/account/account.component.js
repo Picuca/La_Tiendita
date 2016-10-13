@@ -8,46 +8,26 @@ angular
   })
     .controller('accountCtrl', function ($scope, $http, $location, $rootScope) {
 
-        $http.get('/app/DUMMYDATA/users/users.json').then(function (response) {
-            this.users = response.data;
-        });
+      $scope.users = [
+          {"id":1 , "name": "admin ", "lastname": "admin", "username": "admin" , "password": "admin", "email": "admin@email.com" , "payMethod":"ATH", "phone": "787-XXX-XXX" },
+          {"id":2 , "name": "Manuel", "lastname": "Rodriguez", "username": "manuel" , "password": "password", "email": "manuel@email.com" , "payMethod":"ATH", "phone": "787-XXX-XXX" }];
 
 
-        $scope.submit = function () {
 
-          if($scope.username == 'admin' && $scope.password == 'admin'){
-              $rootScope.loggedIn = true;
-              console.log($rootScope.loggedIn);
+      $scope.submit = function () {
 
-              $rootScope.currentUser = {
-                  "name":"admin",
-                  "lastname": "admin",
-                  "username": "admin",
-                  "password": "admin",
-                  "email": "admin@email.com",
-                  "phone": "787-XXX-XXXX",
-                  "payMethod": "PAYMENT"
-                };
-              $location.path('/account-info')
+            for(var i =0; i < $scope.users.length; i++){
+                if($scope.username == $scope.users[i].username && $scope.password == $scope.users[i].password){
+                    $rootScope.loggedIn = true;
+                    $rootScope.currentUser = $scope.users[i];
+                    console.log($rootScope.currentUser)
+                    $location.path('account-info')
 
-          }else {
-              alert('OOPS algo esta mal!!! \n \n' +
-                  'Nombre de Usuario: admin \n\n' +
-                  'Contrasena: admin');
-          }
+                }else if($scope.username == null || $scope.password == null ){
+                    alert('OOPS!!! \n' + 'Nombre de Usuario o Contrasena erroneos \n' + 'Nombre de Usuario: admin \n' + 'Contrasena: admin')
+
+                }
+
+            }
       };
-
-      $scope.newAccount = function () {
-          if($scope.newName != null || $scope.newLastName != null || $scope.newUsername != null ||
-            $scope.newPassword != null || $scope.retypePassword != null || $scope.newEmail != null || $scope.newPhone != null){
-
-              alert('Se ha creado tu cuenta ' + $scope.newName);
-              $location.path('/account-info');
-          }else{
-             alert('Favor de llenar todos los campos de informacion');
-          }
-
-      };
-
-
   });

@@ -16,7 +16,6 @@ angular
             $scope.phone = $rootScope.currentUser.phone;
             $scope.payMethod = $rootScope.currentUser.payMethod;
 
-            console.log($rootScope.loggedIn);
         }
 
 
