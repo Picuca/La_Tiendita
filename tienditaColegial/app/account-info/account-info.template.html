@@ -2,11 +2,11 @@
     <md-whiteframe class="md-whiteframe-5dp">
       <h1>Bienvenido a tu cuenta</h1>
     </md-whiteframe>
-    <md-list>
+    <md-list ng-controller="accountInfoCtrl">
       <md-list-item>
         <div>
           <p><b>Nombre:</b></p>
-          <p>Fulano</p>
+          <p>{{name}}</p>
         </div>
         <md-button class="md-primary md-secondary md-raised">Editar</md-button>
         <md-divider ng-if="!$last"></md-divider>
@@ -16,7 +16,7 @@
       <md-list-item>
         <div>
           <p><b> Apellido:</b></p>
-          <p>De Tal</p>
+          <p>{{lastname}}</p>
         </div>
         <md-button class="md-primary md-secondary md-raised" layout-align="left">Editar</md-button>
         <md-divider ng-if="!$last"></md-divider>
@@ -25,7 +25,7 @@
       <md-list-item>
         <div>
           <p> <b>Email:</b></p>
-          <p>fulanodetal@gmail.com</p>
+          <p>{{email}}</p>
         </div>
         <md-button class="md-primary md-secondary md-raised"> Editar</md-button>
         <md-divider ng-if="!$last"></md-divider>
@@ -34,7 +34,7 @@
       <md-list-item>
         <div>
           <p><b>Numero de Telefono:</b></p>
-          <p>XXX-XXX-XXXX</p>
+          <p>{{phone}}</p>
         </div>
         <md-button class="md-primary md-secondary md-raised"> Editar</md-button>
         <md-divider ng-if="!$last"></md-divider>
@@ -44,7 +44,7 @@
       <md-list-item>
         <div>
           <p><b>Metodo de Pago:</b></p>
-            <p>ATH</p>
+            <p>{{payMethod}}</p>
         </div>
         <md-button class="md-primary md-secondary md-raised"> Editar</md-button>
         <md-divider ng-if="!$last"></md-divider>
