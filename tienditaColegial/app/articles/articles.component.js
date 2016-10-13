@@ -6,7 +6,10 @@ angular
   .component('articles',{
     templateUrl: 'articles/articles.template.html',
 
-  }).controller('articlesComponent', function ($scope) {
-      $scope.articlesMessage = 'ARTICLES PAGE';
+  }).controller('articlesController', function ($scope,$http) {
+      $http.get('dummyData/articles.json').then(function(response){
+          $scope.articles = response.data;
+    });
+
 
 });
