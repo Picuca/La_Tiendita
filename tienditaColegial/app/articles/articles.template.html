@@ -10,7 +10,7 @@
 
         <div layout="row" layout-align="space-around center" ng-controller="articlesController">
             <div ng-repeat="article in articles">
-            <img src="{{article.imageUrl}}" height="262 " length = 300>
+            <img src="{{article.imageUrl}}" height="262 " length = 200>
             <p>${{article.price}}</p>
             <ngcart-addtocart id="{{article.id}}" name="{{article.name}}" price="{{article.price}}" quantity="1" quantity-max="5">
                 Add to Cart
