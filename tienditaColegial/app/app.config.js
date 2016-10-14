@@ -43,18 +43,25 @@ angular.
     template: "<ropa></ropa>"
 
   }).when("/sign-in", {
-
     template:"<sign-in></sign-in>"
 
   }).when("/top-sellers", {
-    template: " <top-sellers></top-sellers>"
+    template: "<top-sellers></top-sellers>"
 
   }).when("/new-arrivals",{
-    template: " <new-arrivals></new-arrivals>"
+    template: "<new-arrivals></new-arrivals>"
 
   }).when("/payed",{
-    template: " <payed></payed>"
+    template: "<payed></payed>"
 
+  }).when("/camisas", {
+    template: "<camisas></camisas>"
+
+  }).when("/pantalones",{
+    template: "<pantalones></pantalones>"
+
+  }).when("/gorras",{
+    template: "<gorras></gorras>"
 
   }).otherwise("/home-page");
 

@@ -17,6 +17,9 @@ angular.module('tienditaColegial', ['ngMaterial', 'ngCart',
   'sign-in',
   'new-arrivals',
   'top-sellers',
-  'payed'
+  'payed',
+  'camisas',
+  'gorras',
+  'pantalones'
 ])
 ;
