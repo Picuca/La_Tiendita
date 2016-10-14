@@ -1,31 +1,31 @@
 [
   {
-    "id":"A1",
+    "id":"9",
     "name": "Bic Pencils",
     "price": "5.36",
     "imageUrl":"images/Articulos/bicpencils.jpg"
   },
 
   {
-    "id":"A2",
+    "id":"10",
     "name": "Bic Pens",
     "price": "4.58",
     "imageUrl":"images/Articulos/bicpen.jpg"
   },
   {
-    "id":"A3",
+    "id":"11",
     "name": "Ti 36 Calculator",
     "price": "19.99",
     "imageUrl":"images/Articulos/ti36.jpg"
   },
   {
-    "id":"A4",
+    "id":"12",
     "name": "JeanBook Notebook",
     "price": "1.95",
     "imageUrl":"images/Articulos/jeanbook.jpg"
   },
   {
-    "id":"A5",
+    "id":"13",
     "name": "5 Star Notebook",
     "price": "2.99",
     "imageUrl":"images/Articulos/Notebook5star.jpg"

@@ -44,7 +44,7 @@ border-color: #2E7D32;
 border-radius: 15px;
 }
 
-/*     Ropa Cssss */
+/*     Ropa homepage Cssss */
 .ropaPage {
 width: 1130px;
 margin: 8px auto;
@@ -59,6 +59,24 @@ border-style: solid;
 border-color: #2E7D32;
 border-radius: 15px;
 }
+
+/* Item CSS */
+
+img.item{
+display: block-inline;
+margin:6px;
+border-width: 4px;
+border-style: solid;
+border-color: #2E7D32;
+border-radius: 15px;
+
+}
+
+
+
+
+
+
 
 /*Footer Css */
 
