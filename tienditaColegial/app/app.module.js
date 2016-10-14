@@ -8,6 +8,7 @@ angular.module('tienditaColegial', ['ngMaterial', 'ngCart',
   'articles',
   'books',
   'cart',
+  'checkout',
   'contact',
   'footer-nav',
   'header',
@@ -15,6 +16,7 @@ angular.module('tienditaColegial', ['ngMaterial', 'ngCart',
   'ropa',
   'sign-in',
   'new-arrivals',
-  'top-sellers'
+  'top-sellers',
+  'payed'
 ])
 ;

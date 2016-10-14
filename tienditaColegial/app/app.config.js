@@ -52,6 +52,10 @@ angular.
   }).when("/new-arrivals",{
     template: " <new-arrivals></new-arrivals>"
 
+  }).when("/payed",{
+    template: " <payed></payed>"
+
+
   }).otherwise("/home-page");
 
 
