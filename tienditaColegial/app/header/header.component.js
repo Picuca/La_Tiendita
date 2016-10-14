@@ -11,13 +11,18 @@ angular
 })
     .controller('headerCtrl',  function ($scope, $rootScope, $location) {
         $scope.message = "Iniciar Sesion";
+        $scope.hideMe = false;
+
+        $scope.$on('loggedIn', function (event,data) {
+            $scope.message = data.message;
+            $scope.hideMe = data.showLogout;
+        } );
+
+
 
         $scope.toAccount = function () {
             if($rootScope.currentUser != null){
 
-
-
-                $scope.message = "Mi Cuenta";
                 $location.path('/account-info');
             }
             else{
@@ -29,6 +34,12 @@ angular
 
         };
 
+        $scope.logout = function () {
+            $scope.hideMe = false;
+            $rootScope.loggedIn = false;
+            $rootScope.currentUser = null;
+            $scope.message = 'Iniciar Session';
+            $location.path('/home-page');
 
-
+        };
 });

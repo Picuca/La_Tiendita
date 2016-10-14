@@ -16,3 +16,7 @@ angular
 
 });
 
+<<<<<<< HEAD
+=======
+angular.module('materialModule',['ngMaterial']);
+>>>>>>> origin/master
