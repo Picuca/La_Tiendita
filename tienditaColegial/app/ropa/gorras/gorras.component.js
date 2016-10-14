@@ -5,7 +5,10 @@ angular
   .component('gorras',{
     templateUrl: 'ropa/gorras/gorras.template.html',
 
-  }).controller('gorrassController', function ($scope) {
-      $scope.camisasMessage = "gorras PAGE";
+  }).controller('gorrasController', function ($scope, $http) {
+    $http.get('dummyData/gorras.json').then(function(response){
+        $scope.gorras = response.data;
+    });
+
 
 });
