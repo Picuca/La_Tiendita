@@ -1,12 +1,7 @@
 'use strict';
 
 // Define the `tienditaCOlegial` module
-<<<<<<< HEAD
 angular.module('tienditaColegial', ['ngMaterial', 'ngCart',
-=======
-angular.module('tienditaColegial', [
-
->>>>>>> origin/master
   'ngRoute',
   'account',
   'account-info',
@@ -20,15 +15,12 @@ angular.module('tienditaColegial', [
   'home-page',
   'ropa',
   'sign-in',
-<<<<<<< HEAD
   'new-arrivals',
   'top-sellers',
   'payed',
   'camisas',
   'gorras',
   'pantalones'
-=======
-  'footer-nav'
->>>>>>> origin/master
+
 ])
 ;

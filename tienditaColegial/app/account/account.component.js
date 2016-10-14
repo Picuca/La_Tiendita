@@ -20,6 +20,7 @@ angular
                 if($scope.username == $scope.users[i].username && $scope.password == $scope.users[i].password){
                     $rootScope.loggedIn = true;
                     $rootScope.currentUser = $scope.users[i];
+                    $rootScope.$broadcast('logged', {"message": "Mi cuenta", "showLogout": true});
                     console.log($rootScope.currentUser)
                     $location.path('account-info')
 
@@ -29,5 +30,5 @@ angular
                 }
 
             }
-      };
+      }
   });

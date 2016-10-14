@@ -5,7 +5,6 @@ angular
   .component('accountInfo',{
     templateUrl: 'account-info/account-info.template.html',
 
-<<<<<<< HEAD
   })
     .controller('accountInfoCtrl', function ($scope, $rootScope) {
 
@@ -18,12 +17,4 @@ angular
             $scope.payMethod = $rootScope.currentUser.payMethod;
 
         }
-
-
-
-=======
-  }).controller('accountInfController', function ($scope) {
-  $scope.accountInfoMessage = "Account Info";
->>>>>>> origin/master
-
 });

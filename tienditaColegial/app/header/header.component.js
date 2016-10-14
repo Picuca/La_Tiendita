@@ -13,7 +13,7 @@ angular
         $scope.message = "Iniciar Sesion";
         $scope.hideMe = false;
 
-        $scope.$on('loggedIn', function (event,data) {
+        $scope.$on('logged', function (event,data) {
             $scope.message = data.message;
             $scope.hideMe = data.showLogout;
         } );
