@@ -1,24 +1,26 @@
-<md-content layout-gt-sm="row" layout-padding="">
 
-    <div flex="15"></div>
-    <div flex="" >
-        <h2>Articulos Escolares<span><hr></span></h2>
+
+<md-content flex-offset="5" >
+    <h2>Articulos Escolares<span><hr></span></h2>
+
+
 
         <br><br><br>
 
 
 
-        <div  layout="row" layout-align="space-around center" ng-controller="booksController">
-            <div class = "item" ng-repeat="book in books">
+        <div layout="row" layout-wrap  ng-controller="booksController">
+            <div flex="30" ng-repeat="book in books">
                 <img src="{{book.imageUrl}}" height="262 " length = 300>
                 <p>${{book.price}}</p>
                 <ngcart-addtocart id="{{book.id}}" name="{{book.name}}" price="{{book.price}}" quantity="1" quantity-max="5">
                     Add to Cart
                 </ngcart-addtocart>
+                <br><br>
             </div>
         </div>
-    </div>
-    <div flex="15"></div>
+
+    <div flex="5"></div>
 
 </md-content>
 

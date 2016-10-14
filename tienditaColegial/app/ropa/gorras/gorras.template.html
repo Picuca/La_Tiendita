@@ -1,25 +1,22 @@
-<md-content layout-gt-sm="row" layout-padding="">
+<md-content flex-offset="5">
 
-    <div flex="15"></div>
-    <div flex="" >
         <h2>Gorras<span><hr></span></h2>
 
         <br><br><br>
 
 
 
-        <div layout="row" layout-align="space-around center" ng-controller="gorrasController">
-            <div ng-repeat="gorra in gorras">
+        <div layout="row" layout-wrap ng-controller="gorrasController">
+            <div flex="30" ng-repeat="gorra in gorras">
                 <img src="{{gorra.imageUrl}}" height="262" length = 200>
                 <p>${{gorra.price}}</p>
                 <ngcart-addtocart id="{{gorra.id}}" name="{{gorra.name}}" price="{{gorra.price}}" quantity="1" quantity-max="5">
                     Add to Cart
                 </ngcart-addtocart>
+                <br><br>
             </div>
         </div>
     </div>
-    <div flex="15"></div>
-
 </md-content>
 
 

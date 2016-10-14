@@ -1,24 +1,24 @@
-<md-content layout-gt-sm="row" layout-padding="">
+<md-content flex-offset="5">
 
-    <div flex="15"></div>
-    <div flex="" >
+
         <h2>Pantalones<span><hr></span></h2>
 
         <br><br><br>
 
 
 
-        <div layout="row" layout-align="space-around center" ng-controller="pantalonesController">
-            <div ng-repeat="pant in pantalon">
+        <div layout="row" layout-wrap ng-controller="pantalonesController">
+            <div flex="30" ng-repeat="pant in pantalon">
                 <img src="{{pant.imageUrl}}" height="262" length = 200>
                 <p>${{pant.price}}</p>
                 <ngcart-addtocart id="{{pant.id}}" name="{{pant.name}}" price="{{pant.price}}" quantity="1" quantity-max="5">
                     Add to Cart
                 </ngcart-addtocart>
+                <br><br>
             </div>
         </div>
     </div>
-    <div flex="15"></div>
+
 
 </md-content>
 
