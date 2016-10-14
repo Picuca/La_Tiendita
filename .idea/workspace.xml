@@ -60,8 +60,8 @@
       <file leaf-file-name="checkout.template.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tienditaColegial/app/checkout/checkout.template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+            <state relative-caret-position="72">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -900,7 +900,7 @@
       <workItem from="1476366765666" duration="2236000" />
       <workItem from="1476369832488" duration="2154000" />
       <workItem from="1476372147487" duration="15717000" />
-      <workItem from="1476391405156" duration="16137000" />
+      <workItem from="1476391405156" duration="16247000" />
     </task>
     <task id="LOCAL-00001" summary="Adding online pages's directories">
       <created>1475366200964</created>
@@ -1126,11 +1126,18 @@
       <option name="project" value="LOCAL" />
       <updated>1476405245734</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Checkout page">
+      <created>1476407764665</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1476407764665</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88968000" />
+    <option name="totallyTimeSpent" value="89078000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1535" height="876" extended-state="6" />
@@ -1565,8 +1572,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tienditaColegial/app/checkout/checkout.template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+        <state relative-caret-position="72">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding />
         </state>
       </provider>
