@@ -16,19 +16,19 @@
     "id":"A3",
     "name": "Ti 36 Calculator",
     "price": "19.99",
-    "imageUrl":"images/Articulos/ti36.jpeg"
+    "imageUrl":"images/Articulos/ti36.jpg"
   },
   {
     "id":"A4",
     "name": "JeanBook Notebook",
     "price": "1.95",
-    "imageUrl":"images/Articulos/jeanbook.png"
+    "imageUrl":"images/Articulos/jeanbook.jpg"
   },
   {
     "id":"A5",
     "name": "5 Star Notebook",
     "price": "2.99",
-    "imageUrl":"images/Articulos/Notebook5star.JPG"
+    "imageUrl":"images/Articulos/Notebook5star.jpg"
   }
 
 

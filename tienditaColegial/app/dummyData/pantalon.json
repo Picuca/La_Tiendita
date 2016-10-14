@@ -1,0 +1,17 @@
+[
+  {
+    "id":"6",
+    "name": "Sudadera blanca",
+    "price": "22.00",
+    "imageUrl":"images/pantalones/Sudadera.jpg"
+  },
+
+  {
+    "id":"6",
+    "name": "Pantalon negro corto",
+    "price": "8.00",
+    "imageUrl":"images/pantalones/PantalonCorto1.jpg"
+  }
+
+]
+
