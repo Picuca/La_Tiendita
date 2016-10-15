@@ -9,7 +9,6 @@ h1 {
 padding: 10px;
 }
 
-<<<<<<< HEAD
 /* Header */
 .md-toolbar-tools{
 font-size: 32px;
@@ -20,7 +19,6 @@ text-decoration: none;
 color: white;
 text-shadow: 1px 1px, 1px 1px #ccc, 2px 2px 1px #777;
 }
-
 
 /* Home page CSS */
 .home-page{
@@ -105,7 +103,6 @@ img.home-image{
 display: block;
 margin: 0px auto;
 }
->>>>>>> origin/master
 
 .md-toolbar-tools{
 font-size: 32px;
@@ -119,8 +116,6 @@ text-shadow: 1px 1px, 1px 1px #ccc, 2px 2px 1px #777;}
 
 
 /*  This is my custome CSS end */
-
-
 
 
 
