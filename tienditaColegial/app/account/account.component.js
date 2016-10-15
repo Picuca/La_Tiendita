@@ -31,4 +31,31 @@ angular
 
             }
       }
+
+      $scope.newAccount = function () {
+
+          var newInfo = [
+              $scope.newName,
+              $scope.newLastname,
+              $scope.newUsername,
+              $scope.newPassword,
+              $scope.retypePassword,
+              $scope.newEmail,
+              $scope.newPhone
+          ];
+          for(var i =0 ; i < newInfo.length; i++){
+
+              if(newInfo[i] == null){
+                  alert('Favor de llenar todos los campos de informacion \n \n Gracias.');
+                  return
+              }
+              else if(newInfo[3] != newInfo[4]){
+                  alert('Asegurese de que ambas contrasenas sean iguales')
+                  return
+              }
+          }
+
+          $location.path('/sign-in');
+
+      }
   });
