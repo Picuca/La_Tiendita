@@ -1,0 +1,109 @@
+[
+  {
+  "id":"1",
+  "name": "CAAM Baseball Team camisa",
+  "price": "15.00",
+  "imageUrl":"images/Camisas/BaseballTeam.jpg"
+  },
+  {
+    "id":"21",
+    "name": "Python",
+    "price": "100.00",
+    "imageUrl":"images/Books/Python.jpg"
+  },
+
+  {
+  "id":"3",
+    "name": "No soy perfecto camisa",
+  "price": "13.00",
+  "imageUrl":"images/Camisas/NoSoyPerfecto.jpg"
+  },
+  {
+  "id":"4",
+  "name": "Soy quienquise ser camisa",
+  "price": "12.50",
+  "imageUrl":"images/Camisas/SoyQuienQuiseSer.jpg"
+  },
+  {
+  "id":"5",
+  "name": "Volleyball team camisa",
+  "price": "14.00",
+  "imageUrl":"images/Camisas/VolleyBallTeam.jpg"
+  },
+  {
+    "id":"15",
+    "name": "C How to Program",
+    "price": "130.00",
+    "imageUrl":"images/Books/CHowToProgram.jpg"
+  },
+
+  {
+    "id":"16",
+    "name": "Circuits",
+    "price": "110.00",
+    "imageUrl":"images/Books/Circuits.jpg"
+  },
+  {
+    "id":"17",
+    "name": "Data Structure",
+    "price": "130.00",
+    "imageUrl":"images/Books/DataStructure.jpg"
+  },
+  {
+    "id":"18",
+    "name": "Discrete Mathematics",
+    "price": "125.50",
+    "imageUrl":"images/Books/DiscreteMath.jpg"
+  },
+  {
+    "id":"19",
+    "name": "Html & CSS",
+    "price": "140.00",
+    "imageUrl":"images/Books/Html&CSS.jpg"
+  },
+
+  {
+    "id":"9",
+    "name": "Bic Pencils",
+    "price": "5.36",
+    "imageUrl":"images/Articulos/bicpencils.jpg"
+  },
+
+  {
+    "id":"10",
+    "name": "Bic Pens",
+    "price": "4.58",
+    "imageUrl":"images/Articulos/bicpen.jpg"
+  },
+  {
+    "id":"11",
+    "name": "Ti 36 Calculator",
+    "price": "19.99",
+    "imageUrl":"images/Articulos/ti36.jpg"
+  },
+  {
+    "id":"12",
+    "name": "JeanBook Notebook",
+    "price": "1.95",
+    "imageUrl":"images/Articulos/jeanbook.jpg"
+  },
+  {
+    "id":"13",
+    "name": "5 Star Notebook",
+    "price": "2.99",
+    "imageUrl":"images/Articulos/Notebook5star.jpg"
+  },
+  {
+    "id":"20",
+    "name": "Java",
+    "price": "138.00",
+    "imageUrl":"images/Books/Java.jpg"
+  },
+
+  {
+    "id":"23",
+    "name": "thermodinamics",
+    "price": "140.00",
+    "imageUrl":"images/Books/thermodynamics.jpg"
+  }
+  ]

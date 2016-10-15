@@ -4,8 +4,10 @@ angular
   .component('newArrivals', {
     templateUrl: 'new-arrivals/new-arrivals.template.html',
 
-}).controller('new-arrivalsPageController', function ($scope) {
-    $scope.homePageMessage = 'new-arrivals';
+}).controller('newArrivalsController', function ($scope, $http) {
+     $http.get('dummyData/new-arrivals.json').then(function(response){
+            $scope.newArrivals = response.data;
+        });
 
 
 });

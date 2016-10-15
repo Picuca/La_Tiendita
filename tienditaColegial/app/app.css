@@ -3,22 +3,29 @@
 /* This is the Custom CSS i Madee */
 main-body {
   padding: 30px;
+  width: 1130px;
+}
+body{
+font-family: Georgia, Times, serif;
 }
 
-h1 {
+ h2 {
+margin:5px;
 padding: 10px;
+color: #2E7D32;
+font-weight: bold;
+text-transform: uppercase;
 }
 
 /* Header */
 .md-toolbar-tools{
 font-size: 32px;
 background: #2E7D32;
-font-weight: bold;
+font-weight: black;
 text-transform: uppercase;
-text-decoration: none;
 color: white;
-text-shadow: 1px 1px, 1px 1px #ccc, 2px 2px 1px #777;
 }
+
 
 /* Home page CSS */
 .home-page{
@@ -42,7 +49,7 @@ border-style: solid;
 border-color: #2E7D32;
 border-radius: 15px;
 }
-
+/*    End of the home Page CSS
 /*     Ropa homepage Cssss */
 .ropaPage {
 width: 1130px;
@@ -59,27 +66,21 @@ border-color: #2E7D32;
 border-radius: 15px;
 }
 
-/* Item CSS */
+/* End of ropa CSS*/
 
-img.item{
-display: block-inline;
-margin:6px;
-border-width: 4px;
-border-style: solid;
-border-color: #2E7D32;
-border-radius: 15px;
-=======
-/* This is the Custom CSS i Madee */
+
 /*Footer Css */
 
 footer {
 background: #2E7D32;
-font-size: 26px;
+font-size: 28px;
 bottom: 0;
+font-weight: bold;
+text-transform: uppercase;
 width: 100%;
 color: white;
 float: left;
-text-shadow: 1px 1px, 1px 1px #ccc, 2px 2px 1px #777;
+
 
 }
 
@@ -92,57 +93,7 @@ text-shadow: 1px 1px, 1px 1px #ccc, 2px 2px 1px #777;
   }
   .informacion{
   text-shadow: 0px;
-  font-size: 22px;
-  }
-
-a {
-color: white;
-}
-
-img.home-image{
-display: block;
-margin: 0px auto;
-}
-
-.md-toolbar-tools{
-font-size: 32px;
-background: #2E7D32;
-font-weight: bold;
-text-transform: uppercase;
-text-decoration: none;
-color: white;
-text-shadow: 1px 1px, 1px 1px #ccc, 2px 2px 1px #777;}
-}
-
-
-/*  This is my custome CSS end */
-
-
-
-/*Footer Css */
-
-footer {
-background: #2E7D32;
-font-size: 26px;
-bottom: 0;
-width: 100%;
-color: white;
-float: left;
-text-shadow: 1px 1px, 1px 1px #ccc, 2px 2px 1px #777;
-
-}
-
-.footer-first-menu,.footer-second-menu, .informacion, .footer-account {
-  padding: 0px;
-  color: white;
-  width: 300px;
-  float: left;
-  margin: 0px;
-
-  }
-  .informacion{
-  font-size: 20px;
-  text-shadow: 0px 0px, 0px 0px #ccc, 0px 0px 0px #777;
+  font-size: 18px;
   }
 
 a {
@@ -151,15 +102,7 @@ color: white;
 
 
 
-  img.home-image {
-  display: block;
-  margin: 0px auto;}
-  }
-
-  img.home-image {
-  display: block;
-  margin: 0px auto;}
-  }
 
 
 /*  This is my custome CSS end */
+
