@@ -54,7 +54,7 @@ border-radius: 15px;
 .ropaPage {
 width: 1130px;
 margin: 8px auto;
-min-height: 600px;
+min-height: 500px;
 }
 
 img.camisas-image, img.pantalones-image, img.gorras-image{
@@ -80,8 +80,10 @@ text-transform: uppercase;
 width: 100%;
 color: white;
 float: left;
+}
 
-
+ul.footer{
+font-size: 18px;
 }
 
 .footer-first-menu,.footer-second-menu, .informacion, .footer-account {
@@ -100,6 +102,12 @@ a {
 color: white;
 }
 
+.payed, .cuentaCreada {
+width: 1130px;
+margin: 8px auto;
+min-height: 500px;
+
+}
 
 
 
