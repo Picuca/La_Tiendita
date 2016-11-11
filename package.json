@@ -2,6 +2,10 @@
   "name": "tinedita-colegial",
   "private": true,
   "version": "0.0.0",
+  "engines": {
+    "node": "6.2.0",
+    "npm": "3.9.2"
+  },
   "description": "DB",
   "license": "MIT",
   "devDependencies": {
@@ -9,7 +13,8 @@
     "http-server": "^0.9.0"
   },
   "scripts": {
-    "start": "node ./app/server/bin/www"
+    "start": "node ./app/server/bin/www",
+    "postinstall": "bower install"
   },
   "dependencies": {
     "angular-route": "^1.5.8",
