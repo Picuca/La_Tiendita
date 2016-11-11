@@ -13,8 +13,7 @@
     "http-server": "^0.9.0"
   },
   "scripts": {
-    "start": "node ./app/server/bin/www",
-    "postinstall": "bower install"
+    "start": "node ./app/server/bin/www"
   },
   "dependencies": {
     "angular-route": "^1.5.8",
