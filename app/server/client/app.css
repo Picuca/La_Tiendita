@@ -1,0 +1,92 @@
+
+ h2 {
+margin:5px;
+padding: 10px;
+color: #2E7D32;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+/* Header */
+.md-toolbar-tools{
+font-size: 50px;
+background: #2E7D32;
+font-weight: black;
+text-transform: uppercase;
+color: white;
+min-height: 80px;
+}
+
+.searchBar{
+margin:12px;
+margin-left:250px;
+}
+
+/* Home page CSS */
+
+img.home-image{
+margin: 8px;
+border-width: 4px;
+border-style: solid;
+border-color: #2E7D32;
+border-radius: 15px;
+}
+
+img.itemImage{
+margin:6px;
+border-width: 4px;
+border-style: solid;
+border-color: #2E7D32;
+border-radius: 15px;
+}
+
+img.booksImage{
+margin:6px;
+border-width: 4px;
+border-style: solid;
+border-color: #2E7D32;
+border-radius: 15px;
+}
+
+.ropaPage{
+min-height: 300px;
+}
+img.camisas-image, img.pantalones-image, img.gorras-image{
+margin:6px;
+border-width: 4px;
+border-style: solid;
+border-color: #2E7D32;
+border-radius: 15px;
+}
+
+/* End of ropa CSS*/
+
+
+/*Footer Css */
+
+.footer2, .footer-background  {
+background: #3f3f3f;
+font-size: 18px;
+bottom: 0;
+font-weight: bold;
+text-transform: uppercase;
+color: white;
+}
+
+
+a {
+color: white;
+}
+
+.payed, .cuentaCreada {
+width: 1130px;
+margin: 8px auto;
+min-height: 500px;
+
+}
+
+
+
+
+/*  This is my custome CSS end */
+
