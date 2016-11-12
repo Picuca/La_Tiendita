@@ -10,11 +10,11 @@ angular
 
         if($rootScope.loggedIn){
 
-            $scope.name = $rootScope.currentUser.name;
-            $scope.lastname = $rootScope.currentUser.lastname;
-            $scope.email = $rootScope.currentUser.email;
-            $scope.phone = $rootScope.currentUser.phone;
-            $scope.payMethod = $rootScope.currentUser.payMethod;
+            $scope.name = $rootScope.currentUser.n;
+            $scope.lastname = $rootScope.currentUser.clast;
+            $scope.email = $rootScope.currentUser.cemail;
+            $scope.phone = $rootScope.currentUser.ctelephone;
+            $scope.payMethod = "ALGUN METODO";
         };
 
         $scope.pressed = false;

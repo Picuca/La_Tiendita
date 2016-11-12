@@ -4,26 +4,31 @@ var pg = require('../database');
 
 /* GET home page. */
 router.get('/account', function(req, res) {
-  pg.query('SELECT $1::int AS number', ['1'], function (err, result) {
-    console.log('I did it');
-
-    if (err) {
-      return console.error('error running query', err);
+  pg.connect(function(err, client, done) {
+    if(err) {
+      return console.error('error fetching client from pool', err);
     }
-    console.log(result.rows[0].number);
-    //output: 1
+    client.query('SELECT * FROM CUSTOMER', function(err, result) {
+      done();
+
+      if(err) {
+        return console.error('error running query', err);
+      }
+      res.send(result.rows[0]);
+      console.log(result.rows);
+    });
   });
+
+  pg.on('error', function (err, client) {
+    console.error('idle client error', err.message, err.stack)
+  });
+
 });
 
-router.post('/account', function (req, res, next) {
-  pg.query('SELECT * FROM CUSTOMER', function (err, result) {
-    res.send(result);
-    if (err) {
-      return console.error('error running query', err);
-    }
-    console.log(result.rows[0].number);
-    //output: 1
-  });
+router.post('/account', function (req, res) {
+
+  console.log('POST PERFORMED');
+
 });
 
 module.exports = router;
