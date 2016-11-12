@@ -16,6 +16,24 @@ angular
 
       $scope.submit = function () {
 
+          var req = {
+              method: 'POST',
+              url: 'http://tienditatest.herokuapp.com/account',
+              headers: {
+                'Content-Type': undefined
+              },
+              data: {
+                  username: $scope.username,
+                  password: $scope.password
+              }
+          }
+
+          $http(req).then(function(res) {
+              console.log(res.data);
+          }, function(err) {
+              console.log(err);
+          });
+
             for(var i =0; i < $scope.users.length; i++){
                 if($scope.username == $scope.users[i].username && $scope.password == $scope.users[i].password){
                     $rootScope.loggedIn = true;
