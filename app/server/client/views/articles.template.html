@@ -9,7 +9,7 @@
 
         <div layout="row" layout-wrap ng-controller="articlesController">
             <div flex="30"  ng-repeat="article in articles">
-            <img class ="itemImage" src="{{article.itemimage}}" height="262 " length = 300>
+            <img class ="itemImage" src="{{article.imageurl}}" height="262 " length = 300>
                 <p>{{article.itemname}}</p>
             <p>${{article.price}}</p>
             <ngcart-addtocart id="{{article.itemid}}" name="{{article.itemname}}" price="{{article.price}}" quantity="1" quantity-max="5">
