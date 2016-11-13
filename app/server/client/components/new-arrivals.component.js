@@ -5,9 +5,16 @@ angular
     templateUrl: 'views/new-arrivals.template.html',
 
 }).controller('newArrivalsController', function ($scope, $http) {
-     $http.get('dummyData/new-arrivals.json').then(function(response){
-            $scope.newArrivals = response.data;
-        });
+      $http({
+                             method: 'GET',
+                             url:'http://localhost:3000/new-arrivals'
+                         }).then(function (res) {
+                             console.log(res.data);
+                             $scope.newArrivals = res.data;
+                         }, function (err) {
+                             console.log(err);
+
+                         })
 
 
 });

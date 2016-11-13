@@ -18,5 +18,11 @@ module.exports = function (app) {
 
   var articles = require('./articles');
      app.get('/articles', articles.getarticles);
+
+  var newArrivals = require('./new-arrivals');
+       app.get('/new-arrivals', newArrivals.getNewArrivals);
+
+  var topSellers = require('./top-sellers');
+       app.get('/top-sellers', topSellers.getTopSellers);
 };
 
