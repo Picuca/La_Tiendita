@@ -6,9 +6,19 @@ angular
     templateUrl: 'views/camisas.template.html',
 
   }).controller('camisasController', function ($scope, $http) {
-    $http.get('dummyData/camisas.json').then(function(response){
-        $scope.camisas = response.data;
-    });
+
+                     $http({
+                            method: 'GET',
+                            url:'http://localhost:3000/camisas'
+                        }).then(function (res) {
+                            console.log(res.data);
+                            $scope.camisas = res.data;
+                        }, function (err) {
+                            console.log(err);
+
+                        })
+
+
 
 
 });

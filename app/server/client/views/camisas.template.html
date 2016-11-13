@@ -6,10 +6,10 @@
 
         <div layout="row" layout-wrap ng-controller="camisasController">
             <div flex="30" ng-repeat="camisa in camisas">
-                <img class ="itemImage" src="{{camisa.imageUrl}}" height="262" length = 200>
-                <p> {{camisa.name}}</p>
+                <img class ="itemImage" src="{{camisa.itemimage}}" height="262" length = 200>
+                <p> {{camisa.itemname}}</p>
                 <p>${{camisa.price}}</p>
-                <ngcart-addtocart id="{{camisa.id}}" name="{{camisa.name}}" price="{{camisa.price}}" quantity="1" quantity-max="5">
+                <ngcart-addtocart id="{{camisa.itemid}}" name="{{camisa.itemname}}" price="{{camisa.price}}" quantity="1" quantity-max="5">
                     Add to Cart
                 </ngcart-addtocart>
                 <br><br>

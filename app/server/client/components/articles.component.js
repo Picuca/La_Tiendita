@@ -7,9 +7,14 @@ angular
     templateUrl: 'views/articles.template.html',
 
   }).controller('articlesController', function ($scope,$http) {
-      $http.get('dummyData/articles.json').then(function(response){
-          $scope.articles = response.data;
-    });
+      $http({
+                             method: 'GET',
+                             url:'http://localhost:3000/articles'
+                         }).then(function (res) {
+                             console.log(res.data);
+                             $scope.articles = res.data;
+                         }, function (err) {
+                             console.log(err);
 
-
+                         })
 });

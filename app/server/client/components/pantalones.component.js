@@ -6,9 +6,18 @@ angular
     templateUrl: 'views/pantalones.template.html',
 
   }).controller('pantalonesController', function ($scope,$http) {
-    $http.get('dummyData/pantalon.json').then(function(response){
-        $scope.pantalon = response.data;
-    });
+
+                 $http({
+                        method: 'GET',
+                        url:'http://localhost:3000/pantalon'
+                    }).then(function (res) {
+                        console.log(res.data);
+                        $scope.pantalon = res.data;
+                    }, function (err) {
+                        console.log(err);
+
+                    })
+
 
 });
 

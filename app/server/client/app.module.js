@@ -20,7 +20,7 @@ angular.module('tienditaColegial', ['ngMaterial', 'ngCart',
   'payed',
   'camisas',
   'gorras',
-  'pantalones'
-
+  'pantalones',
+  'search'
 ])
 ;
