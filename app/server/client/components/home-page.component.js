@@ -7,8 +7,6 @@ angular
 
 }).controller('homePageController', function ($scope, $http) {
 
-
-
     $http({
         method: 'GET',
         url:'http://localhost:3000/home-page'

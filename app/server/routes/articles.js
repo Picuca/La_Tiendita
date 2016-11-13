@@ -1,13 +1,13 @@
 var db = require('../database');
 
 
-exports.welcome = function (req, res) {
+exports.getarticles = function (req, res) {
 
     db.connect(function(err, client, done) {
         if(err) {
             return console.error('error fetching client from pool', err);
         }
-        client.query('SELECT $1::int AS SOLUTION', ['1'], function(err, result) {
+        client.query('SELECT * FROM schoolsupplies', function(err, result) {
             done();
 
             if(err) {
@@ -15,6 +15,7 @@ exports.welcome = function (req, res) {
             }
             res.send(result.rows);
             console.log(result.rows);
+
         });
     });
 

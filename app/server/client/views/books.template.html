@@ -9,10 +9,10 @@
 
         <div layout="row" layout-wrap  ng-controller="booksController">
             <div flex="30" ng-repeat="book in books">
-                <img class ="booksImage" src="{{book.imageUrl}}" height="252 " length = 290>
-                <p> {{book.name}} </p>
+                <img class ="booksImage" src="{{book.itemimage}}" height="252 " length = 290>
+                <p> {{book.itemname}} </p>
                 <p>${{book.price}}</p>
-                <ngcart-addtocart id="{{book.id}}" name="{{book.name}}" price="{{book.price}}" quantity="1"                     quantity-max="5">
+                <ngcart-addtocart id="{{book.itemid}}" name="{{book.itemname}}" price="{{book.price}}" quantity="1"                     quantity-max="5">
                     Add to Cart
                 </ngcart-addtocart>
                 <br><br>

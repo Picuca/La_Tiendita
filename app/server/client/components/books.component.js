@@ -6,8 +6,22 @@ angular
     templateUrl: 'views/books.template.html',
 
   }).controller('booksController', function ($scope,$http) {
-       $http.get('dummyData/books.json').then(function(response){
-                $scope.books = response.data;
-          });
+
+
+                 $http({
+                        method: 'GET',
+                        url:'http://localhost:3000/books'
+                    }).then(function (res) {
+                        console.log(res.data);
+                        $scope.books = res.data;
+                    }, function (err) {
+                        console.log(err);
+
+                    })
+
+
+
+
+
 
 });
