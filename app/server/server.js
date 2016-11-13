@@ -3,11 +3,13 @@ var path = require('path');
 var favicon = require('serve-favicon');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-
-var routes = require('./routes/index');
-
 var app = express();
-// require('./database');
+
+//DATABASE INITIATION
+require('./database');
+
+//ROUTES
+require('./routes/index')(app);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'serverviews'));
@@ -25,8 +27,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'client')));
-
-app.use('/', routes);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
