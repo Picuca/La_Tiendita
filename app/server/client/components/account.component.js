@@ -8,22 +8,29 @@ angular
   })
     .controller('accountCtrl', [
 
-        '$scope', '$http', '$location','$route','$cookies','userService',
-        function ($scope, $http, $location,$route,$cookies, userService) {
+        '$scope', '$rootScope', '$location','$window','userService',
+        function ($scope,$rootScope,$location,$window, userService) {
             $scope.inputEmail ='';
             $scope.inputPassword = '';
 
 
             $scope.startSession= function (inputEmail, inputPassword) {
-
                 userService.setUserSession(inputEmail,inputPassword);
-                console.log(userService.getUserSession());
-                console.log('MEH');
+
+                if(typeof(userService.getUserSession()) != 'undefined'){
+                    $window.location.reload();
+                    $location.path('/');
+
+                }
+
+
+
+                // $location.path('/home-page');
             }
 
             $scope.newAccount = function () {
 
-                $cookies.remove('user');
+                userService.endUserSession();
             }
 
 

@@ -11,13 +11,19 @@ angular
         '$scope','$timeout','userService',
         function ($scope, $timeout,userService) {
 
-            var user = userService.getUserSession();
+            $scope.user = userService.getUserSession();
+            console.log(userService.getUserSession());
 
-            // $scope.firstname = user.firstname;
-            // $scope.lastname = user.lastname;
-            // $scope.email = user.email;
-            // $scope.phone = user.phone;
+            // $scope.firstname = $scope.user.firstname;
+            // $scope.lastname = $scope.user.lastname;
+            // $scope.email = $scope.user.email;
+            // $scope.phone = $scope.user.phone;
             // $scope.payMethod = 'SOME METHOD';
+
+            // $scope.$apply(function () {
+            //     $timeout.reload();
+            //
+            // })
 
 
 

@@ -8,9 +8,12 @@ angular
 })
     .controller('homePageController', [
 
-        '$scope','$http', 'userService',
-        function ($scope, $http, userService) {
+        '$scope','$route','$rootScope',
+        function ($scope,$route,$rootScope) {
 
+            $scope.$on('userLogged',function () {
+                $route.reload();
+            })
 
 
 }]);
