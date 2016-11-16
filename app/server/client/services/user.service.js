@@ -3,8 +3,8 @@
 angular.module('userServiceModule',[])
     .factory('userService',[
 
-        '$http','$route','$window','$cookies',
-        function ($http,$route,$window,$cookies) {
+        '$http','$timeout','$location','$cookies','$rootScope',
+        function ($http,$timeout,$location,$cookies,$rootScope) {
             return {
 
                 getUserSession: function () {
@@ -30,10 +30,7 @@ angular.module('userServiceModule',[])
                                 type: response.data.ctype
                             });
 
-                            // $location.path('/home-page');
-                            $route.reload();
-                            console.log($cookies.get('user'));
-
+                            return true;
 
                         }else {
                             alert('Informacion invalida');
@@ -47,8 +44,7 @@ angular.module('userServiceModule',[])
 
                 endUserSession: function () {
                     $cookies.remove('user');
-                    $window.location.reload();
-
+                    $location.path('/home-page');
                 }
 
 

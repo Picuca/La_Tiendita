@@ -11,8 +11,8 @@ angular
 })
     .controller('headerCtrl', [
 
-        '$scope','$location','$route','userService',
-        function ($scope, $location,$route, userService) {
+        '$scope','$location','$window','userService',
+        function ($scope, $location,$window, userService) {
 
 
             $scope.message = 'Iniciar Sesion';
@@ -46,9 +46,8 @@ angular
 
             $scope.logout = function () {
                 userService.endUserSession();
+                $window.location.reload();
                 $location.path('/home-page');
 
             };
-
-
 }]);
