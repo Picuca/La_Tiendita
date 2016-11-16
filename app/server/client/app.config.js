@@ -15,9 +15,12 @@ angular.
   }).when("/account-info",{
 
     resolve:{
-      "check": function ($location, $rootScope) {
-        if(!$rootScope.loggedIn){
-          $location.path('/');
+      "check": function ($location, userService) {
+        if(typeof(userService.getUserSession()) == 'undefined'){
+            alert('NICE TRY');
+            $location.path('/')
+        }else if(typeof(userService.getUserSession()) != 'undefined'){
+          $location.path('/account-info');
         }
       }
     },

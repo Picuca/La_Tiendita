@@ -3,27 +3,25 @@
 angular
   .module('account-info')
   .component('accountInfo',{
-    templateUrl: 'views/account-info.template.html',
+    templateUrl: 'views/account-info.template.html'
 
   })
-    .controller('accountInfoCtrl', function ($scope, $rootScope) {
+    .controller('accountInfoCtrl',[
 
-        if($rootScope.loggedIn){
+        '$scope','$timeout','userService',
+        function ($scope, $timeout,userService) {
 
-            $scope.name = $rootScope.currentUser.n;
-            $scope.lastname = $rootScope.currentUser.clast;
-            $scope.email = $rootScope.currentUser.cemail;
-            $scope.phone = $rootScope.currentUser.ctelephone;
-            $scope.payMethod = "ALGUN METODO";
-        };
+            var user = userService.getUserSession();
 
-        $scope.pressed = false;
-        $scope.showInfoType = false;
+            // $scope.firstname = user.firstname;
+            // $scope.lastname = user.lastname;
+            // $scope.email = user.email;
+            // $scope.phone = user.phone;
+            // $scope.payMethod = 'SOME METHOD';
 
 
-        $scope.editInfo = function () {
-            $scope.pressed = true;
 
-        }
 
-});
+
+
+}]);

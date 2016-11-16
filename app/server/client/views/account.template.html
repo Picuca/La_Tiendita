@@ -9,15 +9,15 @@
       <h2>INICIAR SESION<span></span></h2>
 
       <md-input-container>
-        <label>Nombre de Usuario</label>
-        <input type="text" id="username" ng-model="username">
+        <label>Email</label>
+        <input type="email" ng-model="inputEmail">
       </md-input-container>
 
       <md-input-container>
         <label>Contrasena</label>
-        <input type="password" id="password" ng-model="password">
+        <input type="password" ng-model="inputPassword">
       </md-input-container>
-    <md-button class="md-raised md-primary" ng-click="submit()">Iniciar Sesion</md-button>
+    <md-button class="md-raised md-primary" ng-click="startSession(inputEmail, inputPassword)">Iniciar Sesion</md-button>
     </div>
     </form>
     </div>
