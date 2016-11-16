@@ -2,6 +2,8 @@
 
 // Define the `tienditaCOlegial` module
 angular.module('tienditaColegial', ['ngMaterial', 'ngCart',
+  'ngCookies',
+  'userServiceModule',
   'ngRoute',
   'account',
   'account-info',
@@ -22,5 +24,4 @@ angular.module('tienditaColegial', ['ngMaterial', 'ngCart',
   'gorras',
   'pantalones',
   'search'
-])
-;
+]);

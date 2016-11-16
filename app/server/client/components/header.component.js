@@ -9,37 +9,46 @@ angular
 
 
 })
-    .controller('headerCtrl',  function ($scope, $rootScope, $location) {
-        $scope.message = "Iniciar Sesion";
-        $scope.hideMe = false;
+    .controller('headerCtrl', [
 
-        $scope.$on('logged', function (event,data) {
-            $scope.message = data.message;
-            $scope.hideMe = data.showLogout;
-        } );
+        '$scope','$location','$route','userService',
+        function ($scope, $location,$route, userService) {
 
 
+            $scope.message = 'Iniciar Sesion';
+            $scope.hideMe = true;
 
-        $scope.toAccount = function () {
-            if($rootScope.currentUser != null){
+            $scope.user = userService.getUserSession();
 
-                $location.path('/account-info');
+            if(typeof($scope.user) == 'undefined'){
+
+                $scope.message = 'Iniciar Sesion';
+                $scope.hideMe = true;
+
+                $scope.toAccount = function () {
+
+                    $location.path('/account');
+
+
+                }
+
+            }else{
+
+                $scope.message = 'Mi Cuenta';
+                $scope.hideMe = false;
+
+                $scope.toAccount = function () {
+
+                    $location.path('/account-info')
+                }
             }
-            else{
 
-                $scope.message = "Iniciar Sesion"
-                $location.path('/account');
 
-            }
+            $scope.logout = function () {
+                userService.endUserSession();
+                $location.path('/home-page');
 
-        };
+            };
 
-        $scope.logout = function () {
-            $scope.hideMe = false;
-            $rootScope.loggedIn = false;
-            $rootScope.currentUser = null;
-            $scope.message = 'Iniciar Session';
-            $location.path('/home-page');
 
-        };
-});
+}]);
