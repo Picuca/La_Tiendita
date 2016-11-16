@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Tiendita Colegial</title>
+
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.css"/>
+    <link rel="stylesheet" href="app.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+
+
+    <script src="https://www.gstatic.com/firebasejs/3.5.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.5.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.5.2/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.5.2/firebase-messaging.js"></script>
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/3.6.0/firebase.js"></script>
+
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyCq0RW_zUBCZO9-Bgiqwu3SDBELobws1c0",
+        authDomain: "tientitatest.firebaseapp.com",
+        databaseURL: "https://tientitatest.firebaseio.com",
+        storageBucket: "tientitatest.appspot.com",
+        messagingSenderId: "1055504891930"
+      };
+      firebase.initializeApp(config);
+    </script>
+
+
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-material/angular-material.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-messages/angular-messages.js"></script>
+    <script src="bower_components/ngCart/dist/ngCart.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angularfire/dist/angularfire.js"></script>
+
+    <!--SERVICES-->
+    <script src="services/user.js"></script>
+    <!--SERVICES-->
+
+    <script src="modules/account.module.js"></script>
+    <script src="components/account.component.js"></script>
+    <script src="views/account.template.html"></script>
+
+    <script src="modules/account-info.module.js"></script>
+    <script src="components/account-info.component.js"></script>
+    <script src="views/account-info.template.html"></script>
+
+    <script src="modules/articles.module.js"></script>
+    <script src="components/articles.component.js"></script>
+    <script src="views/articles.template.html"></script>
+
+    <script src="modules/books.module.js"></script>
+    <script src="components/books.component.js"></script>
+    <script src="views/books.template.html"></script>
+
+    <script src="modules/cart.module.js"></script>
+    <script src="components/cart.component.js"></script>
+    <script src="views/cart.template.html"></script>
+
+    <script src="modules/contact.module.js"></script>
+    <script src="components/contact.component.js"></script>
+    <script src="views/contact.template.html"></script>
+
+    <script src="modules/footer-nav.module.js"></script>
+    <script src="components/footer-nav.component.js"></script>
+    <script src="views/footer-nav.template.html"></script>
+
+    <script src="modules/header.module.js"></script>
+    <script src="components/header.component.js"></script>
+    <script src="views/header.template.html"></script>
+
+    <script src="modules/home-page.module.js"></script>
+    <script src="components/home-page.component.js"></script>
+    <script src="views/home-page.template.html"></script>
+
+    <script src="modules/ropa.module.js"></script>
+    <script src="components/ropa.component.js"></script>
+    <script src="views/ropa.template.html"></script>
+
+    <script src="modules/sign-in.module.js"></script>
+    <script src="components/sign-in.component.js"></script>
+    <script src="views/sign-in.template.html"></script>
+
+    <script src="modules/top-sellers.module.js"></script>
+    <script src="components/top-sellers.component.js"></script>
+    <script src="views/top-sellers.template.html"></script>
+
+    <script src="modules/new-arrivals.module.js"></script>
+    <script src="components/new-arrivals.component.js"></script>
+    <script src="views/new-arrivals.template.html"></script>
+
+    <script src="modules/checkout.module.js"></script>
+    <script src="components/checkout.component.js"></script>
+    <script src="views/checkout.template.html"></script>
+
+    <script src="modules/payed.module.js"></script>
+    <script src="components/payed.component.js"></script>
+    <script src="views/payed.template.html"></script>
+
+    <script src="modules/camisas.module.js"></script>
+    <script src="components/camisas.component.js"></script>
+    <script src="views/camisas.template.html"></script>
+
+    <script src="modules/pantalones.module.js"></script>
+    <script src="components/pantalones.component.js"></script>
+    <script src="views/pantalones.template.html"></script>
+
+    <script src="modules/gorras.module.js"></script>
+    <script src="components/gorras.component.js"></script>
+    <script src="views/gorras.template.html"></script>
+
+    <script src="modules/search.module.js"></script>
+    <script src="components/search.component.js"></script>
+    <script src="views/search.template.html"></script>
+
+    <script src="app.module.js"></script>
+    <script src="app.config.js"></script>
+
+  </head>
+  <body ng-app="tienditaColegial" >
+
+
+  <header></header>
+  <div ng-view></div>
+  <span><hr></span>
+  <footer-nav> </footer-nav>
+
+
+
+  </body>
+</html>

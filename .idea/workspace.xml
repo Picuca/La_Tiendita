@@ -2,6 +2,138 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16473d63-e51b-49a8-b77e-dd2f1d7fe1c3" name="Default" comment="movi el Css de Bower components to App.Css">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Articulos/Notebook5star.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Articulos/bicpen.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Articulos/bicpencils.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Articulos/jeanbook.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Articulos/ti36.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Banners/Articulos.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Banners/Bulldog-paw.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Banners/CamisasBanner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Banners/GorrasBanner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Banners/Inicio-Banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Banners/Mas-recientes.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Banners/Ropa.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Banners/UPRM-Library-home.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Banners/libros.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Banners/mas-vendidos.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Banners/pantalonesBanner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Books/CHowToProgram.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Books/Circuits.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Books/DataStructure.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Books/DiscreteMath.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Books/Html&amp;CSS.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Books/Java.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Books/Python.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Books/Statics.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Books/chemistry.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Books/thermodynamics.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Bulldog-paw.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Camisas/BaseballTeam.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Camisas/CAAM-Verde.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Camisas/NoSoyPerfecto.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Camisas/SoyQuienQuiseSer.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Camisas/VolleyBallTeam.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Huella-Background.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Huella-footer.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Inicio-Banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Pantalones/PantalonCorto1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Pantalones/Sudadera.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Ropa.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/Sombreros/Gorra1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/UPRM-Library-home.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/basket-cart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/cart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/minus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/search_button_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/search_input_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/shopping-cart-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/images/x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/bin/www.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/app.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/app.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/components/account-info.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/components/account.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/components/articles.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/components/books.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/components/camisas.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/components/cart.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/components/checkout.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/components/contact.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/components/footer-nav.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/components/gorras.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/components/header.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/components/home-page.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/components/new-arrivals.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/components/pantalones.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/components/payed.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/components/ropa.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/components/search.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/components/sign-in.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/components/top-sellers.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/dummyData/articles.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/dummyData/books.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/dummyData/camisas.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/dummyData/gorras.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/dummyData/new-arrivals.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/dummyData/pantalon.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/modules/account-info.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/modules/account.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/modules/articles.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/modules/books.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/modules/camisas.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/modules/cart.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/modules/checkout.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/modules/contact.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/modules/footer-nav.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/modules/gorras.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/modules/header.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/modules/home-page.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/modules/new-arrivals.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/modules/pantalones.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/modules/payed.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/modules/ropa.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/modules/search.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/modules/sign-in.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/modules/top-sellers.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/services/user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/views/account-info.template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/views/account.template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/views/articles.template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/views/books.template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/views/camisas.template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/views/cart.template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/views/checkout.template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/views/contact.template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/views/footer-nav.template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/views/gorras.template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/views/header.template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/views/home-page.template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/views/new-arrivals.template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/views/pantalones.template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/views/payed.template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/views/ropa.template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/views/search.template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/views/sign-in.template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/client/views/top-sellers.template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/database.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/routes/account.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/routes/articles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/routes/books.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/routes/camisas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/routes/gorras.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/routes/home-page.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/routes/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/routes/new-arrivals.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/routes/pantalon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/routes/top-sellers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/serverviews/error.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/serverviews/index.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tienditaColegial/app/server/serverviews/layout.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="La_Tiendita.iws" />
@@ -173,10 +305,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="La_Tiendita" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="La_Tiendita" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tienditaColegial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -754,6 +908,7 @@
       <workItem from="1476494297380" duration="485000" />
       <workItem from="1479244419608" duration="412000" />
       <workItem from="1479260975624" duration="51000" />
+      <workItem from="1479261404745" duration="35000" />
     </task>
     <task id="LOCAL-00001" summary="Adding online pages's directories">
       <created>1475366200964</created>
@@ -1011,7 +1166,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93515000" />
+    <option name="totallyTimeSpent" value="93550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1775" height="976" extended-state="6" />
