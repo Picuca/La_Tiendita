@@ -15,6 +15,7 @@ angular
 
 
             $scope.startSession= function (inputEmail, inputPassword) {
+
                 userService.setUserSession(inputEmail,inputPassword);
 
                 if(typeof(userService.getUserSession()) != 'undefined'){
