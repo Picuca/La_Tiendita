@@ -8,7 +8,9 @@ angular.module('userServiceModule',[])
             return {
 
                 getUserSession: function () {
-                    return $cookies.get('user');
+                    var user = $cookies.get('user');
+
+                    return JSON.parse(user);
                 },
 
                 setUserSession: function (inputEmail, inputPassword) {
@@ -22,16 +24,13 @@ angular.module('userServiceModule',[])
                         if (response.data != 'error') {
 
                             $cookies.putObject('user',{
-                                id: response.data.cid,
-                                firstname: response.data.cfirst,
-                                lastname: response.data.clast,
-                                email: response.data.cemail,
-                                phone: response.data.ctelephone,
+                                cid: response.data.cid,
+                                cfirst: response.data.cfirst,
+                                clast: response.data.clast,
+                                cemail: response.data.cemail,
+                                ctelephone: response.data.ctelephone,
                                 type: response.data.ctype
                             });
-
-                            return true;
-
                         }else {
                             alert('Informacion invalida');
                         }
