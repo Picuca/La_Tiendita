@@ -18,6 +18,7 @@ angular
 
                 userService.setUserSession(inputEmail,inputPassword);
                 console.log(userService.getUserSession());
+                console.log('MEH');
             }
 
             $scope.newAccount = function () {
