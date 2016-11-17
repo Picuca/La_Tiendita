@@ -6,14 +6,13 @@ angular
     templateUrl: 'views/home-page.template.html',
 
 })
-    .controller('homePageController', [
+    .controller('homePageCtrl', [
 
-        '$scope','$route','$rootScope',
-        function ($scope,$route,$rootScope) {
+        '$scope','itemDetailService',
+        function ($scope,itemDetailService) {
 
-            $scope.$on('userLogged',function () {
-                $route.reload();
-            })
-
+            $scope.getDetails = function(ev){
+                itemDetailService.getItemDetail($scope,ev);
+            }
 
 }]);

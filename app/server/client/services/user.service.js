@@ -3,8 +3,8 @@
 angular.module('userServiceModule',[])
     .factory('userService',[
 
-        '$http','$timeout','$location','$cookies','$rootScope',
-        function ($http,$timeout,$location,$cookies,$rootScope) {
+        '$http','$location','$cookies','$rootScope',
+        function ($http,$location,$cookies,$rootScope) {
             return {
 
                 getUserSession: function () {

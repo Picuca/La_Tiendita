@@ -8,8 +8,8 @@ angular
   })
     .controller('accountCtrl', [
 
-        '$scope', '$rootScope', '$location','$window','userService',
-        function ($scope,$rootScope,$location,$window, userService) {
+        '$scope','$timeout','$location','$window','userService',
+        function ($scope,$timeout,$location,$window, userService) {
             $scope.inputEmail ='';
             $scope.inputPassword = '';
 
@@ -19,14 +19,10 @@ angular
                 userService.setUserSession(inputEmail,inputPassword);
 
                 if(typeof(userService.getUserSession()) != 'undefined'){
-                    $window.location.reload();
+                  $window.location.reload();
                     $location.path('/');
-
                 }
 
-
-
-                // $location.path('/home-page');
             }
 
             $scope.newAccount = function () {

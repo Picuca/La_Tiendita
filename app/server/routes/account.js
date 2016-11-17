@@ -12,7 +12,7 @@ exports.getUser = function (req,res) {
             'WHERE cemail =  $1 ' +
             'AND cpassword = $2 ',[req.query.userEmail, req.query.userPassword] , function(err, result) {
 
-            if(err) {
+            if(result.rows[0] == []) {
                 done();
                 return 'error';
 
