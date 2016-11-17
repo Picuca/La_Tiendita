@@ -29,7 +29,7 @@ angular.module('userServiceModule',[])
                                 clast: response.data.clast,
                                 cemail: response.data.cemail,
                                 ctelephone: response.data.ctelephone,
-                                type: response.data.ctype
+                                ctype: response.data.ctype
                             });
                         }else {
                             alert('Informacion invalida');

@@ -67,7 +67,10 @@ angular.
     template: "<gorras></gorras>"
 
   }).when("/search",{
-        template: "<search></search>"
+    template: "<search></search>"
+
+  }).when("/update-inventory",{
+    template: "<update-inventory></update-inventory>"
 
   }).otherwise("/home-page");
 

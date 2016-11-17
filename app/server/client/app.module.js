@@ -23,5 +23,6 @@ angular.module('tienditaColegial', ['ngMaterial', 'ngCart',
   'camisas',
   'gorras',
   'pantalones',
-  'search'
+  'search',
+  'update-inventory'
 ]);

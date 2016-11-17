@@ -1,0 +1,41 @@
+<div ng-controller="inventoryCtrl">
+
+<md-content layout="column" layout-padding="50px">
+
+<h2> Agregar articulo al inventario </h2>
+
+    <form action="/" id="updateInventory">
+        <div layout="column" layout-sm="column" layout-margin="300px">
+
+            <md-input-container >
+                <label>Nombre del articulo</label>
+                <input type="text" id="articleName " ng-model="articleName">
+            </md-input-container>
+
+
+
+            <md-input-container>
+
+                <md-select ng-model="selectedItemType" placeholder="Select the type of item"
+                           ng-options="x for x in names">
+
+
+                </md-select>
+            </md-input-container>
+
+            <md-input-container >
+                <label>Descripcion del articulo </label>
+                <input type="text" id="descripcion" ng-model="descripcion">
+            </md-input-container>
+
+            <md-input-container >
+                <label> Precio del articulo </label>
+                <input type="text" id="articleName " ng-model="articlePrice">
+            </md-input-container>
+
+        </div>
+        </form>
+    </md-content>
+</div>
+
+
