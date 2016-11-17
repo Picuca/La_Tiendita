@@ -17,14 +17,14 @@ angular
 
             $scope.message = 'Iniciar Sesion';
             $scope.hideMe = true;
-
+            $scope.hideUpdate = true;
             $scope.user = userService.getUserSession();
 
             if(typeof($scope.user) == 'undefined'){
 
                 $scope.message = 'Iniciar Sesion';
                 $scope.hideMe = true;
-
+                $scope.hideUpdate = true;
                 $scope.toAccount = function () {
 
                     $location.path('/account');
@@ -34,6 +34,16 @@ angular
 
             }else{
 
+                 var userInfo = JSON.parse($scope.user);
+                 console.log(userInfo)
+                 if(userInfo.ctype == 'admin'){
+                  $scope.hideUpdate = false;
+                  $scope.updateInventory = function () {
+
+                      $location.path('/update-inventory')
+                }
+                }
+
                 $scope.message = 'Mi Cuenta';
                 $scope.hideMe = false;
 
@@ -42,6 +52,7 @@ angular
                     $location.path('/account-info')
                 }
             }
+
 
 
             $scope.logout = function () {
