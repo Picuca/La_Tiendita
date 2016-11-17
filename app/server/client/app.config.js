@@ -42,6 +42,9 @@ angular.
   }).when("/checkout",{
     template:"<checkout></checkout>"
 
+  }).when("item-detail/:itemid",{
+    template: "<item-detail></item-detail>"
+
   }).when("/ropa", {
     template: "<ropa></ropa>"
 

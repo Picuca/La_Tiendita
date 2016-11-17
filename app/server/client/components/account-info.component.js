@@ -11,8 +11,8 @@ angular
         '$scope','$timeout','userService',
         function ($scope, $timeout,userService) {
 
-            var user = userService.getUserSession();
-            
+            var user = JSON.parse(userService.getUserSession());
+
             $scope.firstname = user.cfirst;
             $scope.lastname = user.clast;
             $scope.email = user.cemail;
