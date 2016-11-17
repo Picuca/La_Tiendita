@@ -10,7 +10,7 @@ angular.module('userServiceModule',[])
                 getUserSession: function () {
                     var user = $cookies.get('user');
 
-                    return JSON.parse(user);
+                    return user;
                 },
 
                 setUserSession: function (inputEmail, inputPassword) {
