@@ -3,8 +3,8 @@
 angular.module('userServiceModule',[])
     .factory('userService',[
 
-        '$http','$location','$cookies','$rootScope',
-        function ($http,$location,$cookies,$rootScope) {
+        '$http','$location','$cookies','$mdDialog',
+        function ($http,$location,$cookies,$mdDialog) {
             return {
 
                 getUserSession: function () {
@@ -13,7 +13,18 @@ angular.module('userServiceModule',[])
                     return user;
                 },
 
-                setUserSession: function (inputEmail, inputPassword) {
+                invalidInfo: function(){
+                  $mdDialog.show(
+                      $mdDialog.alert()
+                          .clickOutsideToClose(true)
+                          .title('Verifique sus Credenciales')
+                          .ok('Cerrar')
+                          .openFrom('#left')
+                          .closeTo(angular.element(document.querySelector('#right'))));
+
+                },
+
+                attemptSession: function (inputEmail, inputPassword) {
 
                     $http({
                         method: 'GET',
@@ -21,30 +32,39 @@ angular.module('userServiceModule',[])
                         params: {userEmail: inputEmail, userPassword: inputPassword}
                     }).then(function (response) {
 
-                        if (response.data != 'error') {
+                        if (response.data != '') {
 
-                            $cookies.putObject('user',{
-                                cid: response.data.cid,
-                                cfirst: response.data.cfirst,
-                                clast: response.data.clast,
-                                cemail: response.data.cemail,
-                                ctelephone: response.data.ctelephone,
-                                ctype: response.data.ctype
-                            });
-                        }else {
-                            alert('Informacion invalida');
+                          $cookies.putObject('user',{
+                              cid: response.data.cid,
+                              cfirst: response.data.cfirst,
+                              clast: response.data.clast,
+                              cemail: response.data.cemail,
+                              ctelephone: response.data.ctelephone,
+                              ctype: response.data.ctype
+                          });
                         }
 
                     }, function (err) {
                         console.log('QUERY ERROR', err);
 
                     });
+
+                    if(typeof($cookies.get('user')) == 'undefined'){
+                      return true
+
+                    }else{
+                      return false
+
+                    }
+
+
                 },
 
                 endUserSession: function () {
                     $cookies.remove('user');
-                    $location.path('/home-page');
-                }
+                },
+
+
 
 
 

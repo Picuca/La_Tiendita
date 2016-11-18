@@ -7,7 +7,14 @@ angular.module('itemDetailModule')
     })
 
     .controller('itemDetailCtrl',[
-        function () {
+        '$scope','itemDetailService',
+        function ($scope, itemDetailService) {
+
+            $scope.holyShit = 'HOLY SHIT IS THERE!!!';
+
+            $scope.currentItem = itemDetailService.getItemDetails();
+            console.log($scope.currentItem);
+
 
         }
     ]);

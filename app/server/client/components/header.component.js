@@ -35,7 +35,6 @@ angular
             }else{
 
                  var userInfo = JSON.parse($scope.user);
-                 console.log(userInfo)
                  if(userInfo.ctype == 'admin'){
                   $scope.hideUpdate = false;
                   $scope.updateInventory = function () {
