@@ -1,19 +1,18 @@
-<md-dialog >
+<md-dialog class="itemDetail" aria-label>
   <form ng-cloak>
-    <md-toolbar>
-      <div class="md-toolbar-tools">
-
-      </div>
-    </md-toolbar>
+    <md-toolbar></md-toolbar>
 
     <md-dialog-content>
       <div layout layout="row" ng-controller="itemDetailCtrl">
-          <div flex="30" flex-xs>
+          <div flex="50" flex-xs>
             <img ng-src="{{currentItem.imageurl}}" height="500 " length = 450>
           </div>
-          <div flex-offset="10" flex="40">
+          <div layout="column" flex-offset="5" flex="40">
 
-            <h2></h2>
+            <h1>{{currentItem.itemname}}</h1>
+            <h3>{{currentItem.description}}</h3>
+            <h3>${{currentItem.price}}</h3>
+
 
           </div>
 

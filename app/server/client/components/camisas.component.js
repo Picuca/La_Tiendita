@@ -5,7 +5,10 @@ angular
   .component('camisas',{
     templateUrl: 'views/camisas.template.html',
 
-  }).controller('camisasController', function ($scope, $http) {
+  }).controller('camisasController',[
+
+    '$scope','$http','itemDetailService',
+   function ($scope, $http, itemDetailService) {
 
                      $http({
                             method: 'GET',
@@ -16,9 +19,15 @@ angular
                         }, function (err) {
                             console.log(err);
 
-                        })
+                        });
+
+                        $scope.getShirtDetails = function (ev,someShirt) {
+
+                            itemDetailService.setItemDetails(someShirt);
+                            itemDetailService.showItemDetails(ev);
+                        };
 
 
 
 
-});
+}]);
