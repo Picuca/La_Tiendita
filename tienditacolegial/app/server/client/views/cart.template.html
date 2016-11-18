@@ -1,0 +1,105 @@
+
+
+<md-content layout-gt-sm="row" layout-padding="">
+
+    <div flex="15"></div>
+    <div flex="" >
+        <h2>Carrito<span><hr></span></h2>
+
+        <ngcart-cart></ngcart-cart>
+        <br><br><br>
+        <h3>Checkout<span><hr></span></h3>
+
+
+        <div layout="row" layout-align="space-around center" ng-controller="cartController">
+            <md-button class="md-primary md-raised" ng-disabled=checkCart() href = "#!/checkout">Checkout</md-button>
+            <h4> PayPal<span><ngcart-checkout service="paypal" settings="payPalSettings"></ngcart-checkout></span></h4>
+
+        </div>
+    </div>
+    <div flex="15"></div>
+
+</md-content>
+
+
+
+
+<script type="text/ng-template" id="template/ngCart/checkout.html">
+
+    <div ng-if="service=='http' || service == 'log'">
+        <button class="checkoutB" ng-click="checkout()" ng-disabled="!ngCart.getTotalItems()" ng-transclude>Checkout</button>
+    </div>
+
+    <div ng-if="service=='paypal'">
+
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" ng-show="ngCart.getTotalItems()">
+            <input type="hidden" name="cmd" value="_xclick">
+            <input type="hidden" name="business" value="{{ settings.paypal.business }}">
+            <input type="hidden" name="lc" value="CA">
+            <input type="hidden" name="item_name" value="{{ settings.paypal.item_name }}">
+            <input type="hidden" name="item_number" value="{{ settings.paypal.item_number }}">
+            <input type="hidden" name="amount" value="{{ ngCart.getSubTotal()}}">
+            <input type="hidden" name="currency_code" value="{{ settings.paypal.currency_code }}">
+            <input type="hidden" name="button_subtype" value="services">
+            <input type="hidden" name="no_note" value="0">
+            <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+
+    </div>
+
+</script>
+
+<script type="text/ng-template" id="template/ngCart/cart.html">
+    <div style="color: orange" role="alert" ng-show="ngCart.getTotalItems() === 0">
+        Your cart is empty
+    </div>
+
+    <div class="table-responsive col-lg-12" ng-show="ngCart.getTotalItems() > 0">
+
+        <table class="table table-striped ngCart cart">
+
+            <thead>
+            <tr>
+                <th></th>
+                <th></th>
+
+                <th>Quantity</th>
+
+                <th>Amount</th>
+                <th>Total</th>
+            </tr>
+            </thead>
+            <tfoot>
+            <tr>
+                <td></td><td></td>
+                <td></td>
+
+                <td>Total:</td>
+                <td>{{ ngCart.totalCost() | currency }}</td>
+            </tr>
+            </tfoot>
+            <tbody>
+            <tr ng-repeat="item in ngCart.getCart().items track by $index">
+
+                <td><img src="images/x.png" height="15" length = "15" ng-click="ngCart.removeItemById(item.getId())"></td>
+
+                <td>{{ item.getName() }}</td>
+
+                <td><img src="images/minus.jpg"  height="15" length = "15" ng-class="{'disabled':item.getQuantity()==1}"
+                         ng-click="item.setQuantity(-1, true)">&nbsp;&nbsp;
+                    {{ item.getQuantity() | number }}&nbsp;&nbsp;
+                    <img src="images/plus.png"  height="15" length = "15" ng-click="item.setQuantity(1, true)"></td>
+
+                <td>{{ item.getPrice() | currency}}</td>
+
+                <td>{{ item.getTotal() | currency }}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+</script>
+
+

@@ -1,0 +1,37 @@
+[
+  {
+    "id":"1",
+    "name": "CAAM Baseball Team camisa",
+    "price": "15.00",
+    "imageUrl":"images/Camisas/BaseballTeam.jpg"
+  },
+
+  {
+    "id":"2",
+    "name": "camisa Verde CAAM",
+    "price": "10.00",
+    "imageUrl":"images/Camisas/CAAM-Verde.jpg"
+  },
+  {
+    "id":"3",
+    "name": "No soy perfecto camisa",
+    "price": "13.00",
+    "imageUrl":"images/Camisas/NoSoyPerfecto.jpg"
+  },
+  {
+    "id":"4",
+    "name": "Soy quienquise ser camisa",
+    "price": "12.50",
+    "imageUrl":"images/Camisas/SoyQuienQuiseSer.jpg"
+  },
+  {
+    "id":"5",
+    "name": "Volleyball team camisa",
+    "price": "14.00",
+    "imageUrl":"images/Camisas/VolleyBallTeam.jpg"
+  }
+
+
+
+]
+

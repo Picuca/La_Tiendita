@@ -1,0 +1,45 @@
+<md-content flex-offset="5">
+
+        <h2>Gorras<span><hr></span></h2>
+
+        <br><br><br>
+
+
+
+        <div layout="row" layout-wrap ng-controller="gorrasController">
+            <div flex="30" ng-repeat="gorra in gorras">
+                <img class ="itemImage" src="{{gorra.imageurl}}" height="262" length = 200>
+                <p>{{gorra.itemname}}</p>
+                <p>${{gorra.price}}</p>
+                <ngcart-addtocart id="{{gorra.itemid}}" name="{{gorra.itemname}}" price="{{gorra.price}}" quantity="1" quantity-max="5">
+                    Add to Cart
+                </ngcart-addtocart>
+                <br><br>
+            </div>
+        </div>
+    </div>
+</md-content>
+
+
+
+
+
+<script type="text/ng-template" id="template/ngCart/addtocart.html">
+    <div ng-hide="attrs.id">
+        <a class="btn btn-lg btn-primary" ng-disabled="true" ng-transclude></a>
+    </div>
+    <div ng-show="attrs.id">
+        <div>
+    <span ng-show="quantityMax">
+      <select name="quantity" id="quantity" ng-model="q" ng-options=" v for v in qtyOpt"></select>
+    </span>
+            <md-button class="md-primary md-raised">
+                <a style="color: #0f0f0f;" ng-click="ngCart.addItem(id, name, price, q, data)" ng-transclude></a>
+            </md-button>
+        </div>
+        <span ng-show="inCart()">
+
+  <p class="alert alert-info">This item is in your cart. <a ng-click="ngCart.removeItemById(id)" style="cursor: pointer; color: orange">Remove</a></p>
+  </span>
+    </div>
+</script>

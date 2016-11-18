@@ -1,0 +1,26 @@
+{
+  "name": "tiendita-colegial",
+  "description": "A starter project for AngularJS",
+  "version": "0.0.0",
+  "homepage": "https://github.com/angular/angular-phonecat",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.5.x",
+    "angular-mocks": "1.5.x",
+    "angular-route": "1.5.x",
+    "bootstrap": "3.3.x",
+    "angular-material": "^1.1.1",
+    "angular-animate": "^1.5.8",
+    "angular-aria": "^1.5.8",
+    "angular-ui-utils": "^3.0.0",
+    "angular-ui-router": "^0.3.1",
+    "angular-resource": "^1.5.8",
+    "hammerjs": "^2.0.8",
+    "angular-messages": "^1.5.8",
+    "material-design-icons": "^3.0.1",
+    "ngCart": "ngcart#^1.0.0",
+    "angular-cookies": "^1.5.8",
+    "angularfire": "^2.1.0"
+  }
+}
