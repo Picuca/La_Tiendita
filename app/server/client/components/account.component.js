@@ -19,7 +19,7 @@ angular
                 userService.setUserSession(inputEmail,inputPassword);
 
                 if(typeof(userService.getUserSession()) != 'undefined'){
-                  $window.location.reload();
+                    $window.location.reload();
                     $location.path('/');
                 }
 
