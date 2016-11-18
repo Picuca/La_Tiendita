@@ -5,26 +5,32 @@ angular.module('itemDetailServiceModule',[])
 
         '$mdDialog',
         function ($mdDialog) {
+
+
+          var currentItem = {};
+
             return {
 
-                getItemDetail: function ($scope,event) {
+                setItemDetails: function(inputItem){
+                  currentItem = inputItem;
+                },
 
-                    $mdDialog.show({
-                        templateUrl: 'views/itemDetail.template.html',
-                        parent: angular.element(document.body),
-                        targetEvent: event,
-                        clickOutsideToClose:true,
-                        fullscreen: $scope.customFullscreen // Only for -xs, -sm breakpoints.
-                    })
-                        .then(function(answer) {
-                            $scope.status = 'You said the information was "' + answer + '".';
-                        }, function() {
-                            $scope.status = 'You cancelled the dialog.';
-                        });
+                getItemDetails: function(){
+                  return currentItem;
+                },
 
 
-                }
+
+                showItemDetails: function (ev) {
+
+                  $mdDialog.show({
+                      templateUrl: 'views/itemDetail.template.html',
+                      parent: angular.element(document.body),
+                      targetEvent: ev,
+                      clickOutsideToClose:true,
+                      fullscreen: false
+                    });
+                },
 
             }
-
         }]);

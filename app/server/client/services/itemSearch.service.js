@@ -20,4 +20,8 @@ angular.module('itemSearchServiceModule',[])
             get: get
         }
 
+<<<<<<< HEAD
         });
+=======
+        });
+>>>>>>> d87ae12f6c5404803606924b1e14491a1c65cc66

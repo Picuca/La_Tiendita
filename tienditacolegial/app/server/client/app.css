@@ -89,6 +89,10 @@ min-height: 500px;
   width: 50%;
 }
 
+.update-inventory{
+  overflow-x: hidden;
+}
+
 
 
 

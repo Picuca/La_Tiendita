@@ -8,26 +8,43 @@ angular
   })
     .controller('accountCtrl', [
 
-        '$scope','$timeout','$location','$window','userService',
-        function ($scope,$timeout,$location,$window, userService) {
+        '$scope','$cookies','$location','$window','userService',
+        function ($scope,$cookies,$location,$window, userService) {
             $scope.inputEmail ='';
             $scope.inputPassword = '';
 
 
             $scope.startSession= function (inputEmail, inputPassword) {
 
-                userService.setUserSession(inputEmail,inputPassword);
+                if(inputPassword == '' || inputEmail == ''){
+                    return userService.invalidInfo();
 
-                if(typeof(userService.getUserSession()) != 'undefined'){
-                  $window.location.reload();
-                    $location.path('/');
+                }else{
+                  if(userService.attemptSession(inputEmail,inputPassword)){
+                        userService.invalidInfo();
+                  }else{
+                      $location.path('/home-page');
+                      $window.location.reload()
+
+                  }
                 }
+
+
+                // if(typeof(userService.getUserSession()) != 'undefined'){
+                //     $location.path('/home-page');
+                // }else{
+                //     $location.reload();
+                //     $location.path('/home-page');
+                // }
+
+
 
             }
 
             $scope.newAccount = function () {
 
                 userService.endUserSession();
+                $location.path('/home-page')
             }
 
 

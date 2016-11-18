@@ -6,8 +6,9 @@ angular
     templateUrl: 'views/books.template.html',
 
   })
-    .controller('booksController',
+    .controller('booksCtrl',[
 
+        '$scope','$http','itemDetailService',
         function ($scope,$http,itemDetailService) {
 
             $scope.books = {};
@@ -16,16 +17,17 @@ angular
                 method: 'GET',
                 url:'http://localhost:3000/books'
             }).then(function (res) {
-                console.log(res.data);
                 $scope.books = res.data;
             }, function (err) {
                 console.log(err);
 
             });
 
-            $scope.getBookDetails = function (event) {
-                itemDetailService.getItemDetail($scope,event);
 
+            $scope.getBookDetails = function (ev,someBook) {
+
+                itemDetailService.setItemDetails(someBook);
+                itemDetailService.showItemDetails(ev);
             };
 
-});
+}]);
