@@ -4,7 +4,11 @@ angular
   .component('newArrivals', {
     templateUrl: 'views/new-arrivals.template.html',
 
-}).controller('newArrivalsController', function ($scope, $http) {
+}).controller('newArrivalsController',[
+
+
+'$scope','$http','itemDetailService',
+function ($scope, $http,itemDetailService) {
       $http({
                              method: 'GET',
                              url:'http://localhost:3000/new-arrivals'
@@ -14,7 +18,13 @@ angular
                          }, function (err) {
                              console.log(err);
 
-                         })
+                         });
+
+                         $scope.getnewArrivalDetails = function (ev,someArrival) {
+
+                             itemDetailService.setItemDetails(someArrival);
+                             itemDetailService.showItemDetails(ev);
+                         };
 
 
-});
+}]);

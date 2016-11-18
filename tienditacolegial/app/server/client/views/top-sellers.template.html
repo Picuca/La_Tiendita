@@ -5,7 +5,7 @@
 
     <div layout="row" layout-wrap  ng-controller="topSellersController">
         <div flex="30" ng-repeat="topSeller in topSellers">
-            <img class ="itemImage" src="{{topSeller.imageurl}}" height="262 " length = 300>
+            <img class ="itemImage" src="{{topSeller.imageurl}}" height="262 " length = 200 ng-click="getTopSellerDetails($event,topSeller)">
             <p> {{topSeller.itemname}} </p>
             <p>${{topSeller.price}}</p>
             <ngcart-addtocart id="{{topSeller.itemid}}" name="{{topSeller.itemname}}" price="{{topSeller.price}}" quantity="1" quantity-max="5">

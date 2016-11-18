@@ -5,7 +5,10 @@ angular
   .component('gorras',{
     templateUrl: 'views/gorras.template.html',
 
-  }).controller('gorrasController', function ($scope, $http) {
+  }).controller('gorrasController',
+
+  '$scope','$http','itemDetailService',
+  function ($scope, $http, itemDetailService) {
      $http({
                             method: 'GET',
                             url:'http://localhost:3000/gorras'
@@ -15,7 +18,14 @@ angular
                         }, function (err) {
                             console.log(err);
 
-                        })
+                        });
+
+                        $scope.getHatDetails = function (ev,someHat) {
+
+                            itemDetailService.setItemDetails(someHat);
+                            itemDetailService.showItemDetails(ev);
+                        };
+
 
 
 

@@ -6,9 +6,13 @@ angular
   .component('articles',{
     templateUrl: 'views/articles.template.html',
 
-  }).controller('articlesController', function ($scope,$http) {
-      $http({
-                             method: 'GET',
+  }).controller('articlesController',[
+
+
+    '$scope','$http','itemDetailService',
+      function ($scope,$http,itemDetailService) {
+          $http({
+                   method: 'GET',
                              url:'http://localhost:3000/articles'
                          }).then(function (res) {
                              console.log(res.data);
@@ -17,4 +21,16 @@ angular
                              console.log(err);
 
                          })
-});
+
+
+
+
+                         $scope.getArticleDetails = function (ev,someArticle) {
+
+                             itemDetailService.setItemDetails(someArticle);
+                             itemDetailService.showItemDetails(ev);
+                         };
+
+
+
+}]);

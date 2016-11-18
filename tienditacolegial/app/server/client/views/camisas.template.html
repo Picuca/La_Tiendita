@@ -6,7 +6,7 @@
 
         <div layout="row" layout-wrap ng-controller="camisasController">
             <div flex="30" ng-repeat="camisa in camisas">
-                <img class ="itemImage" src="{{camisa.imageurl}}" height="262" length = 200>
+                <img class ="itemImage" src="{{camisa.imageurl}}" height="262" length = 200 ng-click="getShirtDetails($event,camisa)">
                 <p> {{camisa.itemname}}</p>
                 <p>${{camisa.price}}</p>
                 <ngcart-addtocart id="{{camisa.itemid}}" name="{{camisa.itemname}}" price="{{camisa.price}}" quantity="1" quantity-max="5">

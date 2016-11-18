@@ -16,8 +16,14 @@ angular
                     }, function (err) {
                         console.log(err);
 
-                    })
+                    });
+
+
+                    $scope.getPantDetails = function (ev,somePant) {
+
+                        itemDetailService.setItemDetails(somePant);
+                        itemDetailService.showItemDetails(ev);
+                    };
 
 
 });
-

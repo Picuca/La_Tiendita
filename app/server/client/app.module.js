@@ -31,4 +31,5 @@ angular.module('tienditaColegial', ['ngMaterial', 'ngCart','ngMessages',
 
 
 
+
 ]);

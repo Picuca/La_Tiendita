@@ -3,7 +3,10 @@ angular
   .component('topSellers', {
     templateUrl: 'views/top-sellers.template.html',
 
-}).controller('topSellersController', function ($scope, $http) {
+}).controller('topSellersController',[
+
+'$scope','$http','itemDetailService',
+function ($scope, $http,itemDetailService) {
 
  $http({
                               method: 'GET',
@@ -14,6 +17,14 @@ angular
                             }, function (err) {
                                 console.log(err);
 
-                            })
+                            });
 
-});
+                            $scope.getTopSellerDetails = function (ev,someTopSeller) {
+
+                                itemDetailService.setItemDetails(someTopSeller);
+                                itemDetailService.showItemDetails(ev);
+                            };
+
+
+
+}]);
