@@ -12,7 +12,7 @@ angular
         function ($scope, $timeout,userService) {
 
             var user = JSON.parse(userService.getUserSession());
-            
+
             $scope.firstname = user.cfirst;
             $scope.lastname = user.clast;
             $scope.email = user.cemail;
