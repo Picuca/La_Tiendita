@@ -1,7 +1,7 @@
-<div ng-controller="inventoryCtrl">
+<div class = "updateinventory" ng-controller="inventoryCtrl">
 
 
-        <md-content layout="column" flex = "80" layout-align = "center" flex-offset="10">
+        <md-content layout="column" flex = "80" flex-offset="10">
             <h2> Agregar articulo al inventario </h2>
             <md-input-container >
                 <label>Nombre del articulo</label>
@@ -27,12 +27,15 @@
                 <label> Precio del articulo </label>
                 <input type="text" id="articleName " ng-model="articlePrice">
             </md-input-container>
+
             <input class="ng-hide" id="input-file-id" multiple type="file" />
             <label for="input-file-id" class="md-button md-raised">Seleccione una imagen</label>
 
             <md-button class="md-raised md-primary" ng-click="addItem(articleName, selectedType, descripcion,               articlePrice)"> Agregar articulo </md-button>
+
             <div flex-offset="10"></div>
             </md-content>
+
 </div>
 
 

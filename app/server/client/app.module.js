@@ -5,6 +5,7 @@ angular.module('tienditaColegial', ['ngMaterial', 'ngCart','ngMessages',
     'ngCookies',
     'userServiceModule',
     'itemDetailServiceModule',
+    'itemSearchServiceModule',
     'itemDetailModule',
     'ngRoute',
     'account',
@@ -27,6 +28,7 @@ angular.module('tienditaColegial', ['ngMaterial', 'ngCart','ngMessages',
     'pantalones',
     'search',
     'update-inventory'
+
 
 
 

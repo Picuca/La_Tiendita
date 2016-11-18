@@ -26,5 +26,8 @@ module.exports = function (app) {
 
     var topSellers = require('./top-sellers');
     app.get('/top-sellers', topSellers.getTopSellers);
+
+     var search = require('./search');
+     app.get('/search', search.getSearch);
 };
 

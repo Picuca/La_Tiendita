@@ -11,14 +11,15 @@ angular
 })
     .controller('headerCtrl', [
 
-        '$scope','$location','$window','userService',
-        function ($scope, $location,$window, userService) {
+        '$scope','$location','$window','userService','itemSearchService',
+        function ($scope, $location,$window, userService, itemSearchService ) {
 
 
             $scope.message = 'Iniciar Sesion';
             $scope.hideMe = true;
             $scope.hideUpdate = true;
             $scope.user = userService.getUserSession();
+
 
             if(typeof($scope.user) == 'undefined'){
 
@@ -56,9 +57,23 @@ angular
 
 
             $scope.logout = function () {
+                console.log('hi');
                 userService.endUserSession();
                 $window.location.reload();
                 $location.path('/home-page');
 
+            }
+
+            $scope.itemSearch = function(){
+
+
+            console.log($scope.itemSearch)
+            itemSearchService.set('bola');
+            console.log(itemSearchService.get());
+
+            $location.path("/search");
             };
+
+
+
 }]);

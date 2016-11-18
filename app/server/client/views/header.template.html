@@ -1,6 +1,8 @@
+
+<div ng-controller="headerCtrl">
 <div layout="column" ng-cloak="" class="headerInfo" >
   <md-toolbar class="headerToolbar">
-    <div class="md-toolbar-tools" ng-controller="headerCtrl">
+    <div class="md-toolbar-tools">
       <img src = "images/Banners/Bulldog-paw.jpg" height="40" length = "40"/>
       <h1>
         <span>TIENDITA COLEGIAL</span>
@@ -14,12 +16,12 @@
     </div>
   </md-toolbar>
 </div>
-</div>
 
 
 
 
-<div ng-cloak="" class="navBar" >
+
+<div ng-cloak="" class="navBar" ng-conntroller="headerCtrl">
   <md-content class="navPadding">
     <md-nav-bar md-selected-nav-item="currentNavItem" nav-bar-aria-label="navigation links">
       <md-nav-item class="md-primary" md-nav-href= "#!/home-page" name="home-page">Inicio </md-nav-item>
@@ -27,13 +29,17 @@
       <md-nav-item md-nav-href= "#!/ropa" name="ropa">Ropa</md-nav-item>
       <md-nav-item md-nav-href= "#!/articles" name="articles">Articulos Escolares</md-nav-item>
       <md-nav-item md-nav-href= "#!/contact" name="contact">Contactos</md-nav-item>
-
+      <div>
       <div class = "searchBar" flex-offset="20">
-      <input type="text" placeholder="nombre de articulo">
+      <input type="text" placeholder="nombre de articulo" ng-model="itemName">
       </div>
-      <md-button class="md-primary"> Busqueda </md-button>
+
+      <md-button class="md-primary md-raised" ng-hide= "false" ng-model="itemName" ng-click="itemSearch()"> Busqueda </md-button>
     </md-nav-bar>
+</div>
   </md-content>
+
+</div>
 
 </div>
 
