@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16473d63-e51b-49a8-b77e-dd2f1d7fe1c3" name="Default" comment="movi el Css de Bower components to App.Css">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/server/client/Phase2.docx.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/server/client/app.module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/server/client/components/account.component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/server/client/components/books.component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/server/client/components/home-page.component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/server/client/components/itemDetail.component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/server/client/components/search.component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/server/client/modules/itemDetail.module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/server/client/services/itemDetail.service.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/server/client/services/itemSearch.service.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/server/client/services/user.service.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/server/client/views/books.template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/server/client/views/itemDetail.template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/server/client/views/search.template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/server/routes/search.js" afterPath="" />
+    <list default="true" id="16473d63-e51b-49a8-b77e-dd2f1d7fe1c3" name="Default" comment="Se modifico el item Details 2">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/client/app.css" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/client/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/client/components/itemDetail.component.js" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/client/components/itemDetail.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/dist/ngCart.js" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/dist/ngCart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/dist/ngCart.min.js" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/dist/ngCart.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/src/ngCart.js" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/src/ngCart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/template/ngCart/cart.html" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/template/ngCart/cart.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/client/components/books.component.js" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/client/components/books.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/client/index.html" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/client/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/client/views/books.template.html" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/client/views/books.template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/client/views/cart.template.html" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/client/views/cart.template.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/client/views/itemDetail.template.html" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/client/views/itemDetail.template.html" />
     </list>
     <ignored path="La_Tiendita.iws" />
@@ -51,11 +43,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="cart.template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/views/cart.template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="84" column="43" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="itemDetail.template.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/views/itemDetail.template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+            <state relative-caret-position="225">
+              <caret line="16" column="78" selection-start-line="16" selection-start-column="78" selection-end-line="16" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -64,28 +66,18 @@
       <file leaf-file-name="books.template.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/views/books.template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="16" column="35" selection-start-line="14" selection-start-column="16" selection-end-line="16" selection-end-column="35" />
+            <state relative-caret-position="165">
+              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="books.component.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/components/books.component.js">
+      <file leaf-file-name="cart.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/template/ngCart/cart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/app.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="44" column="62" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -107,7 +99,7 @@
       <GitPushTagMode />
     </option>
     <push-targets>
-      <push-target-info repo="$PROJECT_DIR$" source="master" target-remote="origin" target-branch="material-branch" />
+      <push-target-info repo="$PROJECT_DIR$" source="master" target-remote="origin" target-branch="master" />
     </push-targets>
   </component>
   <component name="GradleLocalSettings">
@@ -118,16 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tienditaColegial/app/recientes/recientes.template.html" />
-        <option value="$PROJECT_DIR$/tienditaColegial/app/mas-vendidos/mas-vendidos.template.html" />
-        <option value="$PROJECT_DIR$/tienditaColegial/app/recently/recently.module.js" />
-        <option value="$PROJECT_DIR$/tienditaColegial/app/recently/recently.component.js" />
-        <option value="$PROJECT_DIR$/tienditaColegial/app/new-arrivals/new-arrivals.js" />
-        <option value="$PROJECT_DIR$/tienditaColegial/app/top-sellers/top-seller.component.js" />
-        <option value="$PROJECT_DIR$/tienditaColegial/app/top-sellers/top-sellers.module.js" />
-        <option value="$PROJECT_DIR$/tienditaColegial/app/new-arrivals/new-arrivals.module.js" />
-        <option value="$PROJECT_DIR$/tienditaColegial/app/home-page/home-page.template.html" />
-        <option value="$PROJECT_DIR$/tienditaColegial/app/appServices/login-service.js" />
         <option value="$PROJECT_DIR$/tienditaColegial/app/account/dashboard.html" />
         <option value="$PROJECT_DIR$/tienditaColegial/app/sign-in/sign-in.component.js" />
         <option value="$PROJECT_DIR$/tienditaColegial/app/sign-in/sign-in.module.js" />
@@ -167,8 +149,18 @@
         <option value="$PROJECT_DIR$/tienditaColegial/app/sign-in/sign-in.template.html" />
         <option value="$PROJECT_DIR$/tienditaColegial/app/account/account.component.js" />
         <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/components/itemDetail.component.js" />
-        <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/app.css" />
+        <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/index.html" />
+        <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/dist/ngCart.min.js" />
+        <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/src/ngCart.js" />
+        <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/dist/ngCart.js" />
+        <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/template/ngCart/addtocart.html" />
+        <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/template/ngCart/cart.html" />
+        <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/src/ngCart.directives.js" />
+        <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/components/books.component.js" />
+        <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/views/cart.template.html" />
+        <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/views/books.template.html" />
         <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/views/itemDetail.template.html" />
+        <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/app.css" />
       </list>
     </option>
   </component>
@@ -350,7 +342,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
+              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -994,7 +986,14 @@
       <option name="project" value="LOCAL" />
       <updated>1476417768821</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Se modifico el item Details">
+      <created>1480748957373</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1480748957373</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1002,7 +1001,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1215" height="804" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1015,7 +1014,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3144033" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3160494" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1070,8 +1069,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="BLa bla bla" />
-    <MESSAGE value="Created MOdules and components of directories" />
     <MESSAGE value="Resuelto el problema de los JSON files para correr el server" />
     <MESSAGE value="Upload de Angular Seed" />
     <MESSAGE value="Upload de Angular Seed (Arreglado)" />
@@ -1095,25 +1092,15 @@
     <MESSAGE value="Checkout page" />
     <MESSAGE value="reordenando directorios de ropa" />
     <MESSAGE value="Se anadieron los jsons de gorras, pantalones y camisas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se anadieron los jsons de gorras, pantalones y camisas" />
+    <MESSAGE value="Se modifico el item Details" />
+    <MESSAGE value="Se modifico el item Details 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se modifico el item Details 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/DUMMYDATA/users/users.json" />
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/contact/contact.template.html" />
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/header/header.template.html" />
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/account-info/account-info.component.js" />
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/header/header.component.js" />
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/contact/contact.component.js" />
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/contact/contact.module.js" />
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/account-info/account-info.template.html" />
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/checkout/checkout.module.js" />
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/payed/payed.module.js" />
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/payed/payed.component.js" />
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/checkout/checkout.component.js" />
     <entry file="file://$PROJECT_DIR$/tienditaColegial/app/payed/payed.template.html" />
     <entry file="file://$PROJECT_DIR$/tienditaColegial/app/app.config.js" />
     <entry file="file://$PROJECT_DIR$/tienditaColegial/app/app.module.js" />
@@ -1151,18 +1138,121 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/components/itemDetail.component.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="80" selection-start-line="18" selection-start-column="80" selection-end-line="18" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/components/cart.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/src/ngCart.directives_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/template/ngCart/summary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/template/ngCart/addtocart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/dist/ngCart.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="1" column="427" selection-start-line="1" selection-start-column="425" selection-end-line="1" selection-end-column="427" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/dist/ngCart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/src/ngCart.fulfilment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/components/books.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/src/ngCart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="277" column="28" selection-start-line="277" selection-start-column="23" selection-end-line="277" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="77" column="15" selection-start-line="77" selection-start-column="15" selection-end-line="77" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/src/ngCart.directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/template/ngCart/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="44" column="62" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/views/cart.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="84" column="43" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -1175,26 +1265,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/components/books.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/views/books.template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="16" column="35" selection-start-line="14" selection-start-column="16" selection-end-line="16" selection-end-column="35" />
+        <state relative-caret-position="165">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/views/itemDetail.template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        <state relative-caret-position="225">
+          <caret line="16" column="78" selection-start-line="16" selection-start-column="78" selection-end-line="16" selection-end-column="78" />
           <folding />
         </state>
       </provider>

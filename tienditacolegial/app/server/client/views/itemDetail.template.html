@@ -1,24 +1,30 @@
 
-<md-dialog class="itemDetail" aria-label>
-  <form ng-cloak>
+<md-dialog class="itemDetail" >
+
+  <form ng-cloak style = "max-height: 700px; overflow-y: hidden;
+        overflow-x:hidden;">
 
 
     <md-toolbar>
-        <div  layout="row"  layout-align="center"> <h1>Tiendita Colegial</h1> </div>
+        <div  layout="row"  layout-align="center center"  style = "max-height: 200px;">
+            <h1>Tiendita Colegial</h1> </div>
+
     </md-toolbar>
      <br> <br>
 
       <div>
     <md-dialog-content>
       <div layout layout="row" ng-controller="itemDetailCtrl" flex-offset="5">
-          <div flex="50" flex-xs>
+          <div flex="50" >
             <img ng-src="{{currentItem.imageurl}}" height="300" length = "300">
           </div>
           <div layout="column" flex-offset="5" flex="40">
-
-            <h1>{{currentItem.itemname}}</h1>
+            <h3> Nombre: {{currentItem.itemname}}</h3>
+              <h3>Descripcion: </h3>
+              <div class = "itemDescription" layout = "column" >
             <h3>{{currentItem.description}}</h3>
-            <h3>${{currentItem.price}}</h3>
+            </div>
+              <h3>Precio: ${{currentItem.price}}</h3>
 
               <ngcart-addtocart id="{currentItem.itemid}}" name="{{currentItem.itemname}}"                              price="{{currentItem.price}}" quantity="1" quantity-max="5">
                   Add to Cart
@@ -50,6 +56,6 @@
     </div>
 </script>
 
-
   </form>
+
 </md-dialog>

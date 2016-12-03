@@ -205,8 +205,8 @@ angular.module('ngCart', ['ngCart.directives'])
             this.setPrice(price);
             this.setQuantity(quantity);
             this.setData(data);
-        };
 
+        };
 
         item.prototype.setId = function(id){
             if (id)  this._id = id;
@@ -293,6 +293,7 @@ angular.module('ngCart', ['ngCart.directives'])
                 quantity: this.getQuantity(),
                 data: this.getData(),
                 total: this.getTotal()
+
             }
         };
 

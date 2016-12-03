@@ -12,6 +12,7 @@ angular
         function ($scope,$http,itemDetailService) {
 
             $scope.books = {};
+            $scope.imageUrl = '';
 
             $http({
                 method: 'GET',

@@ -73,7 +73,12 @@ text-transform: uppercase;
 color: white;
 }
 
-
+.itemDescription{
+font-size: 14px;
+max-height: 140px;
+overflow-y: scroll;
+overflow-x:hidden;
+}
 
 a {
 color: white;
@@ -87,7 +92,8 @@ min-height: 500px;
 }
 
 .itemDetail{
-  width: 50%;
+ min-height: 600px;
+ width: 600px;
 }
 
 .update-inventory{
