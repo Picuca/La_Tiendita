@@ -10,7 +10,7 @@ angular.module('itemDetailModule')
         '$scope','itemDetailService',
         function ($scope, itemDetailService) {
 
-            $scope.holyShit = 'HOLY SHIT IS THERE!!!';
+            $scope.holyShit = 'HOLY!!!';
 
             $scope.currentItem = itemDetailService.getItemDetails();
             console.log($scope.currentItem);
