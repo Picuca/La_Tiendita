@@ -12,7 +12,8 @@
             <img class ="itemImage" src="{{newArrival.imageurl}}" height="262 " length = 300 ng-click="getnewArrivalDetails($event,newArrival)">
             <p> {{newArrival.itemname}}</p>
             <p>${{newArrival.price}}</p>
-            <ngcart-addtocart id="{{newArrival.itemid}}" name="{{newArrival.itemname}}" price="{{newArrival.price}}" quantity="1" quantity-max="5">
+            <ngcart-addtocart id="{{newArrival.itemid}}" name="{{newArrival.itemname}}" price="{{newArrival.price}}"
+                              data="newArrival" quantity="1" quantity-max="5">
                 Add to Cart
             </ngcart-addtocart>
             <br><br>

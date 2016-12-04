@@ -9,7 +9,8 @@
                 <img class ="itemImage" src="{{camisa.imageurl}}" height="262" length = 200 ng-click="getShirtDetails($event,camisa)">
                 <p> {{camisa.itemname}}</p>
                 <p>${{camisa.price}}</p>
-                <ngcart-addtocart id="{{camisa.itemid}}" name="{{camisa.itemname}}" price="{{camisa.price}}" quantity="1" quantity-max="5">
+                <ngcart-addtocart id="{{camisa.itemid}}" name="{{camisa.itemname}}" price="{{camisa.price}}"
+                                  data="camisa" quantity="1" quantity-max="5">
                     Add to Cart
                 </ngcart-addtocart>
                 <br><br>

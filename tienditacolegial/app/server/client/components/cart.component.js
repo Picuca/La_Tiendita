@@ -5,7 +5,7 @@ angular.
   component('cart', {
     templateUrl: 'views/cart.template.html',
 
-}).controller('cartController', function ($scope, $location) {
+}).controller('cartController', function ($scope) {
 
     $scope.checkCart = function () {
 

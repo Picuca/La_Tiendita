@@ -82,11 +82,11 @@
             </tfoot>
             <tbody>
             <tr ng-repeat="item in ngCart.getCart().items track by $index">
-                <td>  src="{{item.getData()}}" ></td>
+                <td> <img src="{{item.getData().imageurl}}" /><td>
 
                 <td><img src="images/x.png" height="15" length = "15" ng-click="ngCart.removeItemById(item.getId())"></td>
 
-                <td>{{item.getName() }}</td>
+                <td>{{item.getName()}}</td>
 
                 <td><img src="images/minus.jpg"  height="15" length = "15" ng-class="{'disabled':item.getQuantity()==1}"
                          ng-click="item.setQuantity(-1, true)">&nbsp;&nbsp;
