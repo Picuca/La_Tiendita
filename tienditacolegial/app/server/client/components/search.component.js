@@ -13,7 +13,7 @@ angular.
 
                      $http({
                             method: 'GET',
-                            url:'http://localhost:3000/search'
+                            url:'http://localhost:3000/search',
                             params:{ item: itemSearchService.get()}
                         }).then(function (res) {
                             console.log(res.data);

@@ -14,7 +14,6 @@ exports.getTopSellers = function (req, res) {
                 return console.error('error running query', err);
             }
             res.send(result.rows);
-            console.log(result.rows);
 
         });
     });
