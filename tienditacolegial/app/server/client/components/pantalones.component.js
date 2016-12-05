@@ -5,7 +5,8 @@ angular
   .component('pantalones',{
     templateUrl: 'views/pantalones.template.html',
 
-  }).controller('pantalonesController', function ($scope,$http) {
+  }).controller('pantalonesController',[ '$scope','$http','itemDetailService',
+             function ($scope,$http, itemDetailService) {
 
                  $http({
                         method: 'GET',
@@ -25,5 +26,7 @@ angular
                         itemDetailService.showItemDetails(ev);
                     };
 
+            $scope.itemSizes = ['Pequeño','Mediano','Grade','Extra Grande','Extra Extra Grande'];
+            $scope.selectedSize = '';
 
-});
+}]);

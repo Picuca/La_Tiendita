@@ -5,10 +5,8 @@ angular
   .component('camisas',{
     templateUrl: 'views/camisas.template.html',
 
-  }).controller('camisasController',[
-
-    '$scope','$http','itemDetailService',
-   function ($scope, $http, itemDetailService) {
+  }).controller('camisasController',[ '$scope','$http','itemDetailService',
+              function ($scope, $http, itemDetailService) {
 
                      $http({
                             method: 'GET',
@@ -28,6 +26,8 @@ angular
                         };
 
 
+            $scope.itemSizes = ['10 - 12','14 - 16','Pequeña','Mediana','Grade','Extra Grande','Extra Extra Grande'];
+            $scope.selectedSize = '';
+        }
 
-
-}]);
+     ]);

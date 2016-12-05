@@ -12,6 +12,14 @@
                 <img class ="itemImage" src="{{pant.imageurl}}" height="262" length = 200 ng-click="getPantDetails($event,pant)">
                 <p>{{pant.itemname}}</p>
                 <p>${{pant.price}}</p>
+
+
+                <div flex="50">
+                    <md-select ng-model="selectedSize" placeholder="Tamaño">
+                        <md-option ng-value="itemSize" ng-repeat="itemSize in itemSizes">{{itemSize}}</md-option>
+                    </md-select>
+                </div>
+
                 <ngcart-addtocart id="{{pant.itemid}}" name="{{pant.itemname}}" price="{{pant.price}}"
                                   data="pant" quantity="1" quantity-max="5">
                     Add to Cart

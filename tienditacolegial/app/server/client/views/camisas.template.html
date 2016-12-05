@@ -9,8 +9,15 @@
                 <img class ="itemImage" src="{{camisa.imageurl}}" height="262" length = 200 ng-click="getShirtDetails($event,camisa)">
                 <p> {{camisa.itemname}}</p>
                 <p>${{camisa.price}}</p>
+
+                <div flex="50">
+                <md-select ng-model="selectedSize" placeholder="Tamaño">
+                    <md-option ng-value="itemSize" ng-repeat="itemSize in itemSizes">{{itemSize}}</md-option>
+                </md-select>
+                </div>
+
                 <ngcart-addtocart id="{{camisa.itemid}}" name="{{camisa.itemname}}" price="{{camisa.price}}"
-                                  data="camisa" quantity="1" quantity-max="5">
+                                  data="camisa" quantity="1" quantity-max="5" size = "selectedSize">
                     Add to Cart
                 </ngcart-addtocart>
                 <br><br>

@@ -84,6 +84,26 @@ a {
 color: white;
 }
 
+table.cartTable {
+padding: 10px;
+border: 2px solid #000000;
+border-collapse: collapse;}
+
+th{
+padding: 10px;
+text-transform: uppercase;
+border: 2px solid #000000;
+empty-cells: hide;
+text-align: center;
+}
+
+td{
+padding: 10px;
+border: 2px solid #000000;
+empty-cells: hide;
+text-align: center;
+}
+
 .payed, .cuentaCreada {
 width: 1130px;
 margin: 8px auto;

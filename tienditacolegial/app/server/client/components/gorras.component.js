@@ -5,11 +5,9 @@ angular
   .component('gorras',{
     templateUrl: 'views/gorras.template.html',
 
-  }).controller('gorrasController',
-
-  '$scope','$http','itemDetailService',
-  function ($scope, $http, itemDetailService) {
-     $http({
+  }).controller('gorrasController',['$scope','$http','itemDetailService',
+                    function ($scope, $http, itemDetailService) {
+                    $http({
                             method: 'GET',
                             url:'http://localhost:3000/gorras'
                         }).then(function (res) {
@@ -26,7 +24,8 @@ angular
                             itemDetailService.showItemDetails(ev);
                         };
 
+                     $scope.itemSizes = ['Pequeña','Mediana','Grade','Extra Grande'];
+                                $scope.selectedSize = '';
 
 
-
-});
+}]);

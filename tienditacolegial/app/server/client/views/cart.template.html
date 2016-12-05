@@ -4,9 +4,12 @@
 
     <div flex="15"></div>
     <div flex="" >
-        <h2>Carrito<span><hr></span></h2>
+
+        <h2> Carrito<span><hr></span></h2>
 
         <ngcart-cart></ngcart-cart>
+
+
         <br><br><br>
         <h3>Checkout<span><hr></span></h3>
 
@@ -58,47 +61,52 @@
 
     <div class="table-responsive col-lg-12" ng-show="ngCart.getTotalItems() > 0">
 
-        <table class="table table-striped ngCart cart">
+        <table class="cartTable">
 
             <thead>
             <tr>
-                <th></th>
-                <th></th>
 
-                <th>Quantity</th>
+                <th> Imagen </th>
 
-                <th>Amount</th>
-                <th>Total</th>
+                <th> Nombre </th>
+
+                <th> Cantidad </th>
+
+                <th> Tamaño </th>
+
+                <th> Precio </th>
+
+                <th> Total </th>
+
+                <th> Eliminar </th>
+
             </tr>
             </thead>
-            <tfoot>
-            <tr>
-                <td></td><td></td>
-                <td></td>
 
-                <td>Total:</td>
-                <td>{{ ngCart.totalCost() | currency }}</td>
-            </tr>
-            </tfoot>
             <tbody>
             <tr ng-repeat="item in ngCart.getCart().items track by $index">
-                <td> <img src="{{item.getData().imageurl}}" /><td>
 
-                <td><img src="images/x.png" height="15" length = "15" ng-click="ngCart.removeItemById(item.getId())"></td>
+                <td> <img src="{{item.getData().imageurl}}" height = "250"  > </td>
 
-                <td>{{item.getName()}}</td>
+                <td> {{item.getName()}}   </td>
 
-                <td><img src="images/minus.jpg"  height="15" length = "15" ng-class="{'disabled':item.getQuantity()==1}"
+                <td>  <img src="images/minus.jpg"  height="15" length = "15" ng-class="{'disabled':item.getQuantity()==1}"
                          ng-click="item.setQuantity(-1, true)">&nbsp;&nbsp;
-                    {{ item.getQuantity() | number }}&nbsp;&nbsp;
-                    <img src="images/plus.png"  height="15" length = "15" ng-click="item.setQuantity(1, true)"></td>
+                      {{item.getQuantity() | number }}  &nbsp;&nbsp;
+                    <img src="images/plus.png"  height="15" length = "15" ng-click="item.setQuantity(1, true)">  </td>
+                <td>  N/A   </td>
+                <td>  {{ item.getPrice() | currency}}  </td>
 
-                <td>{{ item.getPrice() | currency}}</td>
-
-                <td>{{ item.getTotal() | currency }}</td>
+                <td>  {{ item.getTotal() | currency }}  </td>
+                <td> <img src="images/x.png" height="25" length = "25" ng-click="ngCart.removeItemById(item.getId())"> </td>
             </tr>
             </tbody>
         </table>
+        <h3>Total de Compra: {{ ngCart.totalCost() | currency }} </h3>
+
+        <h3>Impuesto de un {{ngCart.setTaxRate(11.5)}}%</h3>
+        <h3>Impuesto a pagar: ${{ ngCart.getTax()}} </h3>
+        <h3>Total a Pagar: ${{ngCart.totalCost() + ngCart.getTax()}} </h3>
     </div>
 
 </script>

@@ -8,9 +8,16 @@
 
         <div layout="row" layout-wrap ng-controller="gorrasController">
             <div flex="30" ng-repeat="gorra in gorras">
-                <img class ="itemImage" src="{{gorra.imageurl}}" height="262" length = 200 ng-click="getHatDetails($event,gorra)">
+                <img class ="itemImage" src="{{gorra.imageurl}}" height="262"  ng-click="getHatDetails($event,gorra)"/>
                 <p>{{gorra.itemname}}</p>
                 <p>${{gorra.price}}</p>
+
+                <div flex="50">
+                    <md-select ng-model="selectedSize" placeholder="Tamaño">
+                        <md-option ng-value="itemSize" ng-repeat="itemSize in itemSizes">{{itemSize}}</md-option>
+                    </md-select>
+                </div>
+
                 <ngcart-addtocart id="{{gorra.itemid}}" name="{{gorra.itemname}}" price="{{gorra.price}}"
                                   data="gorra" quantity="1" quantity-max="5">
                     Add to Cart
@@ -18,7 +25,7 @@
                 <br><br>
             </div>
         </div>
-    </div>
+
 </md-content>
 
 
