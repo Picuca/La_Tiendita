@@ -5,7 +5,15 @@ angular.module('userServiceModule',[])
 
         '$http','$location','$cookies','$mdDialog',
         function ($http,$location,$cookies,$mdDialog) {
+
+            var infoToChange = '';
+
             return {
+
+                getInfoToChange: function(){
+                  return infoToChange;
+
+                },
 
                 getUserSession: function () {
                     var user = $cookies.get('user');
@@ -13,16 +21,6 @@ angular.module('userServiceModule',[])
                     return user;
                 },
 
-                invalidInfo: function(){
-                  $mdDialog.show(
-                      $mdDialog.alert()
-                          .clickOutsideToClose(true)
-                          .title('Verifique sus Credenciales')
-                          .ok('Cerrar')
-                          .openFrom('#left')
-                          .closeTo(angular.element(document.querySelector('#right'))));
-
-                },
 
                 attemptSession: function (inputEmail, inputPassword) {
 
@@ -60,16 +58,35 @@ angular.module('userServiceModule',[])
 
                 },
 
-                endUserSession: function () {
-                    $cookies.remove('user');
+                changeUserInfo: function(ev,someInfo){
+
+                  infoToChange = someInfo;
+
+                  $mdDialog.show({
+                      templateUrl: 'views/editUser.template.html',
+                      parent: angular.element(document.body),
+                      targetEvent: ev,
+                      clickOutsideToClose:true,
+                      fullscreen: false
+                    });
+
+                },
+
+                invalidInfo: function(){
+                  $mdDialog.show(
+                      $mdDialog.alert()
+                          .clickOutsideToClose(true)
+                          .title('Verifique sus Credenciales')
+                          .ok('Cerrar')
+                          .openFrom('#left')
+                          .closeTo(angular.element(document.querySelector('#right'))));
+
                 },
 
 
-
-
-
-
-
+                endUserSession: function () {
+                    $cookies.remove('user');
+                },
             }
 
 

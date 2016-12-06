@@ -19,4 +19,8 @@ angular
             $scope.phone = user.ctelephone;
             $scope.payMethod = 'SOME METHOD';
 
+            $scope.changeUserInfo = function(ev,infoToChange){
+              userService.changeUserInfo(ev,infoToChange);
+            }
+
 }]);

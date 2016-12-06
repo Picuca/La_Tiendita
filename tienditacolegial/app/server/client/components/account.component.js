@@ -28,17 +28,6 @@ angular
 
                   }
                 }
-
-
-                // if(typeof(userService.getUserSession()) != 'undefined'){
-                //     $location.path('/home-page');
-                // }else{
-                //     $location.reload();
-                //     $location.path('/home-page');
-                // }
-
-
-
             }
 
             $scope.newAccount = function () {

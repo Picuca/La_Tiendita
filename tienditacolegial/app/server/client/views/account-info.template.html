@@ -11,8 +11,8 @@
           <p>{{firstname}}</p>
           <md-input-container ng-hide="true"> <label>Nuevo Nombre</label> <input type="text" id="name2Change" ng-model="name2Change"></md-input-container>
         </div>
-        <md-button class="md-primary md-secondary md-raised" ng-click="editInfo()" ng-hide="pressed">Editar</md-button>
-        <!-- <md-button class="md-primary md-secondary md-raised md-warn" ng-hide="">Guardar Cambios</md-button> -->
+        <md-button class="md-primary md-secondary md-raised" ng-click="changeUserInfo($event,'cfirst')">Editar</md-button>
+
         <md-divider ng-if="!$last"></md-divider>
 
       </md-list-item>

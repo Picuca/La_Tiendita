@@ -116,6 +116,11 @@ min-height: 500px;
  width: 600px;
 }
 
+.editUser{
+  min-height: 600px;
+  width: 600px
+}
+
 .update-inventory{
   overflow-x: hidden;
 }
