@@ -199,7 +199,7 @@ angular.module('ngCart', ['ngCart.directives'])
 
     .factory('ngCartItem', ['$rootScope', '$log', function ($rootScope, $log) {
 
-        var item = function (id, name, price, quantity, data) {
+        var item = function (id, name, price, quantity, data, size) {
             this.setId(id);
             this.setName(name);
             this.setPrice(price);
@@ -272,7 +272,10 @@ angular.module('ngCart', ['ngCart.directives'])
         };
 
         item.prototype.setData = function(data){
-            if (data) this._data = data;
+
+            if (data){
+            this._data = data;
+            }
         };
 
         item.prototype.getData = function(){

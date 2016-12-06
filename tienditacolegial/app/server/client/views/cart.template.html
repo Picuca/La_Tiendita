@@ -94,7 +94,7 @@
                          ng-click="item.setQuantity(-1, true)">&nbsp;&nbsp;
                       {{item.getQuantity() | number }}  &nbsp;&nbsp;
                     <img src="images/plus.png"  height="15" length = "15" ng-click="item.setQuantity(1, true)">  </td>
-                <td>  N/A   </td>
+                <td>  {{item.getData().Size}} </td>
                 <td>  {{ item.getPrice() | currency}}  </td>
 
                 <td>  {{ item.getTotal() | currency }}  </td>
@@ -102,11 +102,14 @@
             </tr>
             </tbody>
         </table>
+
+        <div >
         <h3>Total de Compra: {{ ngCart.totalCost() | currency }} </h3>
 
         <h3>Impuesto de un {{ngCart.setTaxRate(11.5)}}%</h3>
         <h3>Impuesto a pagar: ${{ ngCart.getTax()}} </h3>
-        <h3>Total a Pagar: ${{ngCart.totalCost() + ngCart.getTax()}} </h3>
+        <h3>Total a Pagar: ${{ngCart.totalCost() + ngCart.getTax() | number: 2}} </h3>
+        </div>
     </div>
 
 </script>
