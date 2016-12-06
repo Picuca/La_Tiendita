@@ -10,11 +10,16 @@ angular.module('itemDetailModule')
         '$scope','itemDetailService',
         function ($scope, itemDetailService) {
 
-            $scope.holyShit = 'HOLY!!!';
+
 
             $scope.currentItem = itemDetailService.getItemDetails();
             console.log($scope.currentItem);
 
 
+              $scope.itemSizes = ['Pequeña','Mediana','Grande','Extra Grande'];
+              $scope.selectedSize = '';
+
+
         }
+
     ]);

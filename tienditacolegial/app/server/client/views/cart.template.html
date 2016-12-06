@@ -86,7 +86,7 @@
             <tbody>
             <tr ng-repeat="item in ngCart.getCart().items track by $index">
 
-                <td> <img src="{{item.getData().imageurl}}" height = "250"  > </td>
+                <td> <img src="{{item.getData().item.imageurl}}" height = "250"  > </td>
 
                 <td> {{item.getName()}}   </td>
 
@@ -94,7 +94,7 @@
                          ng-click="item.setQuantity(-1, true)">&nbsp;&nbsp;
                       {{item.getQuantity() | number }}  &nbsp;&nbsp;
                     <img src="images/plus.png"  height="15" length = "15" ng-click="item.setQuantity(1, true)">  </td>
-                <td>  {{item.getData().Size}} </td>
+                <td>  {{item.getData().size}} </td>
                 <td>  {{ item.getPrice() | currency}}  </td>
 
                 <td>  {{ item.getTotal() | currency }}  </td>

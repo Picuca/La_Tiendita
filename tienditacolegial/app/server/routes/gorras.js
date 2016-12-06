@@ -7,7 +7,7 @@ exports.getgorras = function (req, res) {
         if(err) {
             return console.error('error fetching client from pool', err);
         }
-        client.query('SELECT * FROM hat', function(err, result) {
+        client.query("SELECT * FROM hat where size = 'Mediana'", function(err, result) {
             done();
 
             if(err) {

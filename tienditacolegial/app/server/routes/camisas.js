@@ -7,7 +7,7 @@ exports.getcamisas = function (req, res) {
         if(err) {
             return console.error('error fetching client from pool', err);
         }
-        client.query('SELECT * FROM shirt', function(err, result) {
+        client.query("SELECT * FROM shirt where size = 'Mediana'", function(err, result) {
             done();
 
             if(err) {

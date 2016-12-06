@@ -3,11 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="16473d63-e51b-49a8-b77e-dd2f1d7fe1c3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/src/ngCart.js" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/src/ngCart.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/client/components/camisas.component.js" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/client/components/camisas.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/client/components/itemDetail.component.js" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/client/components/itemDetail.component.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/client/views/camisas.template.html" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/client/views/camisas.template.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/client/views/cart.template.html" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/client/views/cart.template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/client/views/gorras.template.html" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/client/views/gorras.template.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/client/views/itemDetail.template.html" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/client/views/itemDetail.template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/client/views/pantalones.template.html" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/client/views/pantalones.template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/routes/camisas.js" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/routes/camisas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/routes/gorras.js" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/routes/gorras.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/routes/pantalon.js" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/routes/pantalon.js" />
     </list>
     <ignored path="La_Tiendita.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,41 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="camisas.template.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="camisas.template.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/views/camisas.template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="49" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cart.template.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/views/cart.template.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="96" column="39" selection-start-line="96" selection-start-column="39" selection-end-line="96" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ngCart.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/src/ngCart.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="273" column="46" selection-start-line="273" selection-start-column="46" selection-end-line="273" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ngCart.directives.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/src/ngCart.directives.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+            <state relative-caret-position="300">
+              <caret line="19" column="75" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -71,8 +46,48 @@
       <file leaf-file-name="camisas.component.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/components/camisas.component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="37" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="37" />
+            <state relative-caret-position="390">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="itemDetail.template.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/views/itemDetail.template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gorras.template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/views/gorras.template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="itemDetail.component.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/components/itemDetail.component.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gorras.component.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/components/gorras.component.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -105,9 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tienditaColegial/app/header/header.component.js" />
-        <option value="$PROJECT_DIR$/tienditaColegial/app/articles/articles.template.html" />
-        <option value="$PROJECT_DIR$/tienditaColegial/app/checkout/checkout.module.js" />
         <option value="$PROJECT_DIR$/tienditaColegial/app/cart/cart.template.html" />
         <option value="$PROJECT_DIR$/tienditaColegial/app/payed/payed.module.js" />
         <option value="$PROJECT_DIR$/tienditaColegial/app/payed/payed.component.js" />
@@ -131,7 +143,6 @@
         <option value="$PROJECT_DIR$/tienditaColegial/app/books/books.template.html" />
         <option value="$PROJECT_DIR$/tienditaColegial/app/sign-in/sign-in.template.html" />
         <option value="$PROJECT_DIR$/tienditaColegial/app/account/account.component.js" />
-        <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/components/itemDetail.component.js" />
         <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/index.html" />
         <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/dist/ngCart.min.js" />
         <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/dist/ngCart.js" />
@@ -146,16 +157,20 @@
         <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/app.css" />
         <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/components/update-inventory.component.js" />
         <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/components/pantalones.component.js" />
-        <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/views/pantalones.template.html" />
         <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/components/gorras.component.js" />
-        <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/views/gorras.template.html" />
         <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/src/ngCart.directives.js" />
-        <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/views/itemDetail.template.html" />
         <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/components/cart.component.js" />
-        <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/views/camisas.template.html" />
-        <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/components/camisas.component.js" />
-        <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/views/cart.template.html" />
         <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/src/ngCart.js" />
+        <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/components/camisas.component.js" />
+        <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/views/camisas.template.html" />
+        <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/views/cart.template.html" />
+        <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/views/pantalones.template.html" />
+        <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/views/gorras.template.html" />
+        <option value="$PROJECT_DIR$/tienditacolegial/app/server/routes/camisas.js" />
+        <option value="$PROJECT_DIR$/tienditacolegial/app/server/routes/gorras.js" />
+        <option value="$PROJECT_DIR$/tienditacolegial/app/server/routes/pantalon.js" />
+        <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/components/itemDetail.component.js" />
+        <option value="$PROJECT_DIR$/tienditacolegial/app/server/client/views/itemDetail.template.html" />
       </list>
     </option>
   </component>
@@ -278,6 +293,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="La_Tiendita" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="La_Tiendita" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tienditacolegial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -338,79 +379,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ngCart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="La_Tiendita" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="La_Tiendita" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tienditacolegial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ngCart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="La_Tiendita" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="La_Tiendita" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tienditacolegial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
+              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1023,7 +992,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480926664428</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Se modifico el carrito part 2">
+      <created>1480993557704</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1480993557704</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1044,7 +1020,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2436214" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2855967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1099,7 +1075,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Upload de Angular Seed" />
     <MESSAGE value="Upload de Angular Seed (Arreglado)" />
     <MESSAGE value="Lo ARREGLEEEEEEE" />
     <MESSAGE value="Se importaron todos los modulos" />
@@ -1124,16 +1099,14 @@
     <MESSAGE value="Se modifico el item Details" />
     <MESSAGE value="Se modifico el item Details 2" />
     <MESSAGE value="Se modifico el carrito y se le puso los sizes a la ropa" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se modifico el carrito y se le puso los sizes a la ropa" />
+    <MESSAGE value="Se modifico el carrito part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se modifico el carrito part 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/images/Books/CHowToProgram.jpg" />
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/images/Books/chemistry.jpg" />
-    <entry file="file://$PROJECT_DIR$/tienditaColegial/app/dummyData/books.json" />
     <entry file="file://$PROJECT_DIR$/tienditaColegial/app/dummyData/camisas.json" />
     <entry file="file://$PROJECT_DIR$/tienditaColegial/app/dummyData/gorras.json" />
     <entry file="file://$PROJECT_DIR$/tienditaColegial/app/articles/articles.template.html" />
@@ -1150,13 +1123,6 @@
     <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/images/Books/Circuits.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/components/itemDetail.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/index.html">
@@ -1271,13 +1237,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/routes/gorras.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/modules/gorras.module.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1314,41 +1273,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/views/pantalones.template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/components/gorras.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="83" selection-start-line="26" selection-start-column="83" selection-end-line="26" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/views/gorras.template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/bower_components/ngCart/src/ngCart.directives_test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/views/itemDetail.template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="28" column="200" selection-start-line="28" selection-start-column="200" selection-end-line="28" selection-end-column="200" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1384,26 +1312,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/components/camisas.component.js">
+    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/components/account.component.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="37" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="37" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/views/cart.template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="96" column="39" selection-start-line="96" selection-start-column="39" selection-end-line="96" selection-end-column="39" />
+        <state relative-caret-position="107">
+          <caret line="88" column="48" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/views/pantalones.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/routes/gorras.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/routes/camisas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/routes/pantalon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/views/camisas.template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="49" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="49" />
+        <state relative-caret-position="300">
+          <caret line="19" column="75" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/components/camisas.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/components/gorras.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/views/gorras.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/components/itemDetail.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/views/itemDetail.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
           <folding />
         </state>
       </provider>

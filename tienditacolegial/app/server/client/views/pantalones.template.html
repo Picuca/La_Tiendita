@@ -21,7 +21,7 @@
                 </div>
 
                 <ngcart-addtocart id="{{pant.itemid}}" name="{{pant.itemname}}" price="{{pant.price}}"
-                                  data="pant" quantity="1" quantity-max="5">
+                                  data="{item: pant, size: selectedSize}" quantity="1" quantity-max="5">
                     Add to Cart
                 </ngcart-addtocart>
                 <br><br>
