@@ -11,7 +11,7 @@ angular
         '$scope','$timeout','userService',
         function ($scope, $timeout,userService) {
 
-            var user = JSON.parse(userService.getUserSession());
+            var user = userService.getUserSession();
 
             $scope.firstname = user.cfirst;
             $scope.lastname = user.clast;
@@ -19,8 +19,8 @@ angular
             $scope.phone = user.ctelephone;
             $scope.payMethod = 'SOME METHOD';
 
-            $scope.changeUserInfo = function(ev,infoToChange){
-              userService.changeUserInfo(ev,infoToChange);
+            $scope.editUserInfo = function(ev,infoToChange){
+              userService.editUserInfo(ev,infoToChange);
             }
 
 }]);

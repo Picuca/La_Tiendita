@@ -8,8 +8,9 @@ angular
   })
     .controller('accountCtrl', [
 
-        '$scope','$cookies','$location','$window','userService',
-        function ($scope,$cookies,$location,$window, userService) {
+        '$scope','$cookies','$location','userService',
+        function ($scope,$cookies,$location, userService) {
+          
             $scope.inputEmail ='';
             $scope.inputPassword = '';
 
@@ -20,12 +21,10 @@ angular
                     return userService.invalidInfo();
 
                 }else{
-                  if(userService.attemptSession(inputEmail,inputPassword)){
-                        userService.invalidInfo();
-                  }else{
-                      $location.path('/home-page');
-                      $window.location.reload()
+                  userService.attemptSession(inputEmail, inputPassword);
 
+                  if(typeof($cookies.get('cid') =='undefined')){
+                      userService.invalidInfo();
                   }
                 }
             }

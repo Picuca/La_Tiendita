@@ -19,10 +19,10 @@ angular
             $scope.message = 'Iniciar Sesion';
             $scope.hideMe = true;
             $scope.hideUpdate = true;
-            $scope.user = userService.getUserSession();
+            var user = userService.getUserSession();
 
 
-            if(typeof($scope.user) == 'undefined'){
+            if(typeof(user.cid) == 'undefined'){
 
                 $scope.message = 'Iniciar Sesion';
                 $scope.hideMe = true;
@@ -36,8 +36,8 @@ angular
 
             }else{
 
-                 var userInfo = JSON.parse($scope.user);
-                 console.log(userInfo)
+                 var userInfo = user;
+                //  console.log(userInfo)
                  if(userInfo.ctype == 'admin'){
                   $scope.hideUpdate = false;
                   $scope.updateInventory = function () {
