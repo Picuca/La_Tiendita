@@ -8,10 +8,7 @@ exports.editInfo = function (req, res) {
             return console.error('error fetching client from pool', err);
         }
         client.query(
-          'UPDATE CUSTOMER '+
-          'SET $3 = $1 ' +
-          'WHERE ' +
-          'WHERE cid = $1 ', [req.query.p1], function(err, result) {
+          'SELECT $1::int AS SOLUTION', ['1'], function(err, result) {
             done();
 
             if(err) {

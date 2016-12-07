@@ -29,7 +29,6 @@ angular.module('userServiceModule',[])
                     }
 
 
-                    // var user = $cookies.get('user');
 
                     return currentUser;
                 },
@@ -90,12 +89,12 @@ angular.module('userServiceModule',[])
 
                   }).then(function(response){
 
-                      // $cookies.remove(infoToChange);
-                      // $cookies.put(infoToChange,inputInfo);
+                      $cookies.remove(infoToChange);
+                      $cookies.put(infoToChange,inputInfo);
 
-                      // console.log($cookies.get(infoToChange));
+                      console.log($cookies.get(infoToChange));
 
-                      // $window.location.reload();
+                      $window.location.reload();
 
                   }, function(err){
                     console.log('QUERY ERROR', err);
