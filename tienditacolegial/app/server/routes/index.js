@@ -2,6 +2,7 @@ module.exports = function (app) {
 
     var account = require('./account');
     app.get('/account',account.getUser);
+    app.post('/account', account.addUser);
 
     var accountInfo = require('./account-info');
     app.post('/account-info',accountInfo.editInfo);

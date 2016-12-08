@@ -35,7 +35,6 @@
 
 
     <div flex="40">
-      <!--Enviar texto al telefono para atentificar la cuenta o email para identificar-->
 
       <form action="/" id="Register">
       <div layout="column" layout-sm="column" layout-margin="300px">
@@ -45,41 +44,37 @@
 
         <md-input-container >
           <label>Nombre</label>
-          <input type="text" id="newName" ng-model="newName">
+          <input type="text" ng-model="newName">
         </md-input-container>
 
         <md-input-container>
           <label>Apellidos</label>
-          <input type="text" id="newLastName" ng-model="newLastname">
-        </md-input-container>
-
-        <md-input-container >
-          <label>Nombre de Usuario</label>
-          <input type="text" id="newUsername" ng-model="newUsername">
+          <input type="text" ng-model="newLastname">
         </md-input-container>
 
         <md-input-container >
           <label>Contrasena</label>
-          <input type="text" id="newPassword" ng-model="newPassword">
+          <input type="password" ng-model="newPassword">
         </md-input-container>
 
         <md-input-container >
           <label>Reescribir Contrasena</label>
-          <input type="text" id="retypePassword" ng-model="retypePassword">
+          <input type="password" ng-model="newRetypePassword">
         </md-input-container>
 
         <md-input-container>
           <label>Email</label>
-          <input type="text" id="newEmail" ng-model="newEmail">
+          <input type="text" ng-model="newEmail">
         </md-input-container>
 
         <md-input-container>
           <label>Telefono</label>
-          <input type="text" id="newPhone" ng-model="newPhone">
+          <input type="text" ng-model="newPhone">
         </md-input-container>
 
 
-        <md-button class="md-raised md-primary" ng-click="newAccount()"> Crear Cuenta</md-button>
+        <md-button class="md-raised md-primary" ng-click="newAccount(newName, newLastname, newPassword,
+                                                                      newRetypePassword, newEmail, newPhone)"> Crear Cuenta</md-button>
       </div>
       </form>
       </div>

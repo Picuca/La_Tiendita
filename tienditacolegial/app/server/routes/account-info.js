@@ -7,16 +7,18 @@ exports.editInfo = function (req, res) {
         if(err) {
             return console.error('error fetching client from pool', err);
         }
+
+        var field = req.query.p3;
+
         client.query(
-          'SELECT $1::int AS SOLUTION', ['1'], function(err, result) {
+          'UPDATE CUSTOMER ' +
+          'SET ' + field + ' = $1 '+
+          'WHERE cid = $2', [req.query.p1, req.query.p2], function(err, result) {
             done();
 
             if(err) {
                 return console.error('error running query', err);
             }
-
-            console.log(result.rows[0]);
-
 
             res.send(result.rows);
         });

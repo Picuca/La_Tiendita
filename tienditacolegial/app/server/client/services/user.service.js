@@ -63,6 +63,21 @@ angular.module('userServiceModule',[])
 
                 },
 
+                createAccount: function(newName,newLastname,newPassword, newEmail,newPhone){
+
+                    $http({
+                        method:'POST',
+                        url:'http://localhost:3000/account',
+                        params:{ p1: newName, p2: newLastname, p3: newPassword, p4: newEmail, p5: newPassword },
+                        data:{}
+                    }).then(function(response){
+
+                    }, function(err){
+                        console.log('QUERY ERROR', err);
+                    });
+
+                },
+
                 editUserInfo: function(ev,someInfo){
 
                   infoToChange = someInfo;
@@ -80,7 +95,6 @@ angular.module('userServiceModule',[])
                 keepUserChanges: function(inputInfo){
                   var userId = JSON.parse($cookies.get('userId'));
 
-
                   $http({
                     method: 'POST',
                     url:'http://localhost:3000/account-info',
@@ -91,8 +105,6 @@ angular.module('userServiceModule',[])
 
                       $cookies.remove(infoToChange);
                       $cookies.put(infoToChange,inputInfo);
-
-                      console.log($cookies.get(infoToChange));
 
                       $window.location.reload();
 
@@ -108,7 +120,7 @@ angular.module('userServiceModule',[])
                   $mdDialog.show(
                       $mdDialog.alert()
                           .clickOutsideToClose(true)
-                          .title('Verifique sus Credenciales')
+                          .title('Informacion incorrecta')
                           .ok('Cerrar')
                           .openFrom('#left')
                           .closeTo(angular.element(document.querySelector('#right'))));
