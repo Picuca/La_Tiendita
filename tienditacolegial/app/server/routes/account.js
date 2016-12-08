@@ -59,6 +59,8 @@ exports.addUser = function (req, res) {
 
                   res.send(result.rows[0]);
 
+                });
+
             }
         });
 

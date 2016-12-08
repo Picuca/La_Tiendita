@@ -14,7 +14,7 @@ angular.module('userServiceModule',[])
             return {
 
                 getUserLogged: function(){
-                  reurn userLogged;
+                  return userLogged;
                 },
 
                 getInfoToChange: function(){
