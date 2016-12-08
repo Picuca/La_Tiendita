@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16473d63-e51b-49a8-b77e-dd2f1d7fe1c3" name="Default" comment="Se modificaron todos los sizes y se naden al carrito">
+    <list default="true" id="16473d63-e51b-49a8-b77e-dd2f1d7fe1c3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/client/components/camisas.component.js" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/client/components/camisas.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/client/components/search.component.js" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/client/components/search.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/client/views/search.template.html" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/client/views/search.template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/routes/search.js" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/routes/search.js" />
     </list>
     <ignored path="La_Tiendita.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,8 +56,8 @@
       <file leaf-file-name="search.component.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/components/search.component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+            <state relative-caret-position="702">
+              <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -913,7 +909,7 @@
       <workItem from="1479369814358" duration="341000" />
       <workItem from="1479370169182" duration="626000" />
       <workItem from="1480812828154" duration="4793000" />
-      <workItem from="1481168448018" duration="1749000" />
+      <workItem from="1481168448018" duration="1889000" />
     </task>
     <task id="LOCAL-00001" summary="Adding online pages's directories">
       <created>1475366200964</created>
@@ -1195,11 +1191,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481004890443</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Search bar">
+      <created>1481170234837</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1481170234837</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101059000" />
+    <option name="totallyTimeSpent" value="101199000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1535" height="876" extended-state="6" />
@@ -1271,7 +1274,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Lo ARREGLEEEEEEE" />
     <MESSAGE value="Se importaron todos los modulos" />
     <MESSAGE value="Se arreglo EL NAv Bar y el Css" />
     <MESSAGE value="Se arreglo EL NAv Bar y el Css part 2" />
@@ -1296,7 +1298,8 @@
     <MESSAGE value="Se modifico el carrito y se le puso los sizes a la ropa" />
     <MESSAGE value="Se modifico el carrito part 2" />
     <MESSAGE value="Se modificaron todos los sizes y se naden al carrito" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se modificaron todos los sizes y se naden al carrito" />
+    <MESSAGE value="Search bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Search bar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1614,8 +1617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/components/search.component.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        <state relative-caret-position="702">
+          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
           <folding />
         </state>
       </provider>
