@@ -12,8 +12,7 @@
           <md-input-container ng-hide="true"> <label>Nuevo Nombre</label> <input type="text" id="name2Change" ng-model="name2Change"></md-input-container>
         </div>
         <md-button class="md-primary md-secondary md-raised" ng-click="editUserInfo($event,'cfirst','Nombre')">Editar</md-button>
-        <md-button class="md-primary md-secondary md-raised md-warn" ng-click="seeCurrentUser()">CURRENT USER</md-button>
-        <md-button class="md-primary md-secondary md-raised md-warn" ng-click="startUser()">START USER</md-button>
+        <md-button class="md-primary md-secondary md-raised md-warn" ng-click="seeUser() ; emailVerification()">CURRENT USER</md-button>
 
 
 
@@ -53,8 +52,10 @@
           <p><b> Contrasena:</b></p>
           <p>XXXXXXXXXX</p>
         </div>
-        <md-button class="md-primary md-secondary md-raised md-warn"ng-click="editUserInfo($event,'cpassword','Contraseña')"> Editar Contrasena</md-button>
+        <md-button class="md-primary md-secondary md-raised"ng-click="editUserInfo($event,'cpassword','Contraseña')"> Editar Contrasena</md-button>
         <md-divider ng-if="!$last"></md-divider>
       </md-list-item>
     </md-list>
+    <md-button class="md-primary md-secondary md-raised md-warn" ng-click="deleteAccount()"> Borrar Cuenta </md-button>
+
   </md-content>

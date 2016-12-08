@@ -8,11 +8,7 @@ angular
 })
     .controller('homePageCtrl', [
 
-        '$scope','itemDetailService',
-        function ($scope,itemDetailService) {
-
-            $scope.getDetails = function(ev){
-                itemDetailService.getItemDetail($scope,ev);
-            }
+        '$scope','userService',
+        function ($scope,userService) {
 
 }]);

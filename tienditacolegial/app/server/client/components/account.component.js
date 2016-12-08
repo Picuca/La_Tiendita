@@ -29,10 +29,13 @@ angular
                     return userService.invalidInfo();
 
                 }else{
-                  userService.attemptSession(inputEmail, inputPassword);
 
-                  if(typeof($cookies.get('cid') =='undefined')){
-                      userService.invalidInfo();
+                  userService.connectFB(inputEmail,inputPassword);
+
+                  if(firebase.auth().currentUser != null){
+                    userService.attemptSession(inputEmail, inputPassword);
+                  }else{
+                    userService.invalidInfo();
                   }
                 }
             }
@@ -51,17 +54,27 @@ angular
 
               }else if(newPassword == newRetypePassword){
 
-                userService.createAccount(newName, newLastname, newPassword,newEmail,newPhone);
-                // $location.path('/home-page')
+                firebase.auth().createUserWithEmailAndPassword(newEmail, newPassword).catch(function(error) {
+                  // Handle Errors here.
+                  var errorCode = error.code;
+                  var errorMessage = error.message;
+                  // ...
+                });
+
+                userService.sendVerifyEmail();
+
+                if(firebase.auth().currentUser !=null){
+
+                  userService.createAccount(newName, newLastname, newPassword,newEmail,newPhone);
 
 
-              }else{
+                }else{
 
-                userService.invalidInfo();
+
+                  userService.invalidInfo();
+
+                }
               }
-
-
-
             }
 
 

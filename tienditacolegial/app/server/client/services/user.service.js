@@ -1,4 +1,4 @@
-'use strict';
+  'use strict';
 
 angular.module('userServiceModule',[])
     .factory('userService',[
@@ -6,7 +6,6 @@ angular.module('userServiceModule',[])
         '$http','$location','$cookies','$mdDialog','$window',
         function ($http,$location,$cookies,$mdDialog,$window) {
 
-            var userLogged = false;
 
             var infoToChange = '';
             var inputInsert = '';
@@ -39,16 +38,29 @@ angular.module('userServiceModule',[])
                     return currentUser;
                 },
 
-
-                attemptSession: function (inputEmail, inputPassword) {
-
+                connectFB: function(inputEmail,inputPassword){
                   firebase.auth().signInWithEmailAndPassword(inputEmail, inputPassword).catch(function(error) {
                     // Handle Errors here.
                     var errorCode = error.code;
                     var errorMessage = error.message;
+
+                    console.log('CODE ERROR ' + errorCode);
+                    console.log(errorMessage);
                     // ...
                   });
+                },
 
+                  sendVerifyEmail: function(){
+                  var user = firebase.auth().currentUser;
+
+                  user.sendEmailVerification().then(function() {
+                    // Email sent.
+                  }, function(error) {
+                    // An error happened.
+                  });
+                },
+
+                attemptSession: function (inputEmail, inputPassword) {
 
                     $http({
                         method: 'GET',
@@ -64,17 +76,34 @@ angular.module('userServiceModule',[])
                           $cookies.put('cemail', response.data.cemail);
                           $cookies.put('ctelephone', response.data.ctelephone);
                           $cookies.put('ctype', response.data.ctype);
+                          userLogged = true;
 
-                          $window.location.reload();
                           $location.path('/home-page');
+                          $window.location.reload();
+
                         }
 
                     }, function (err) {
                         console.log('QUERY ERROR', err);
 
                     });
+                },
 
+                deleteUser: function(userEmail){
+                  swal({
+                    title: 'Su cuenta sera borrada permanentemente.',
+                    type: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: 'green',
+                    confirmButtonText: 'OK'
+                  }).then(function() {
 
+                      swal('Su cuenta ha sido cancelada'
+                    ).then(function(){
+                            //QUERY con userEmail
+                            console.log('Account Canceled');
+                          });
+                  });
                 },
 
                 createAccount: function(newName,newLastname,newPassword, newEmail,newPhone){
@@ -90,7 +119,6 @@ angular.module('userServiceModule',[])
                         data:{}
                     }).then(function(response){
 
-                      userLogged = true;
 
                       $cookies.put('cid', response.data.cid);
                       $cookies.put('cfirst', response.data.cfirst);
@@ -99,8 +127,9 @@ angular.module('userServiceModule',[])
                       $cookies.put('ctelephone', response.data.ctelephone);
                       $cookies.put('ctype', response.data.ctype);
 
-                      $window.location.reload();
                       $location.path('/home-page');
+                      $window.location.reload();
+
 
                     }, function(err){
                         console.log('QUERY ERROR', err);
@@ -156,6 +185,22 @@ angular.module('userServiceModule',[])
 
                 },
 
+                endUserSession: function () {
+                  firebase.auth().signOut().then(function() {
+                    // Sign-out successful.
+                  }, function(error) {
+                    // An error happened.
+                  });
+
+                    $cookies.remove('userId');
+                    $cookies.remove('cid');
+                    $cookies.remove('cfirst');
+                    $cookies.remove('clast');
+                    $cookies.remove('cemail');
+                    $cookies.remove('ctelephone');
+                    $cookies.remove('ctype');
+                },
+
                 invalidInfo: function(){
                   $mdDialog.show(
                       $mdDialog.alert()
@@ -164,24 +209,6 @@ angular.module('userServiceModule',[])
                           .ok('Cerrar')
                           .openFrom('#left')
                           .closeTo(angular.element(document.querySelector('#right'))));
-
-                },
-
-
-                endUserSession: function () {
-                  firebase.auth().signOut().then(function() {
-                    // Sign-out successful.
-                  }, function(error) {
-                    // An error happened.
-                  });
-                    userLogged = false;
-                    $cookies.remove('userId');
-                    $cookies.remove('cid');
-                    $cookies.remove('cfirst');
-                    $cookies.remove('clast');
-                    $cookies.remove('cemail');
-                    $cookies.remove('ctelephone');
-                    $cookies.remove('ctype');
                 },
             }
 

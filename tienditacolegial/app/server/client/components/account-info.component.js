@@ -8,8 +8,8 @@ angular
   })
     .controller('accountInfoCtrl',[
 
-        '$scope','$rootScope','userService',
-        function ($scope,$rootScope,userService) {
+        '$scope','$window','userService',
+        function ($scope,$window,userService) {
 
             var user = userService.getUserSession();
 
@@ -19,28 +19,42 @@ angular
             $scope.phone = user.ctelephone;
             $scope.payMethod = 'SOME METHOD';
 
+
+            if(!firebase.auth().currentUser.emailVerified){
+              swal({
+                title: 'Cuenta no verificada.',
+                text: "Un mensaje ha sido enviado a " + user.cemail + ". Favor de verificar. Gracias",
+                type: 'warning',
+                allowOutsideClick: false,
+                confirmButtonColor: 'green',
+                confirmButtonText: 'OK'
+              }).then(function   () {
+                if(firebase.auth().currentUser.emailVerified){
+                  swal('Su cuenta ha sido verificada');
+
+                }else{
+                  $window.location.reload();
+                }
+              });
+            }
+
             $scope.editUserInfo = function(ev,infoToChange,dialogDisplay){
 
               userService.editUserInfo(ev,infoToChange,dialogDisplay);
 
             }
 
-            $scope.seeCurrentUser = function(){
+            $scope.deleteAccount = function(){
+
+              userService.deleteUser(user.cemail);
+
+            };
+
+
+            $scope.seeUser = function(){
 
               var user = firebase.auth().currentUser;
               console.log(user);
-            }
-
-            $scope.startUser = function(){
-              firebase.auth().signInWithEmailAndPassword('arnaldo@gmail.com', 'arnaldo').catch(function(error) {
-                // Handle Errors here.
-                var errorCode = error.code;
-                var errorMessage = error.message;
-
-                console.log('CODE ERROR ' + errorCode);
-                console.log(errorMessage);
-                // ...
-              });
             }
 
 }]);
