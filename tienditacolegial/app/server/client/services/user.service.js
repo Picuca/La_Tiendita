@@ -42,6 +42,14 @@ angular.module('userServiceModule',[])
 
                 attemptSession: function (inputEmail, inputPassword) {
 
+                  firebase.auth().signInWithEmailAndPassword(inputEmail, inputPassword).catch(function(error) {
+                    // Handle Errors here.
+                    var errorCode = error.code;
+                    var errorMessage = error.message;
+                    // ...
+                  });
+
+
                     $http({
                         method: 'GET',
                         url: 'http://localhost:3000/account',
@@ -71,9 +79,13 @@ angular.module('userServiceModule',[])
 
                 createAccount: function(newName,newLastname,newPassword, newEmail,newPhone){
 
+
                     $http({
                         method:'POST',
                         url:'http://localhost:3000/account',
+                        headers: {
+                          'Content-Type': undefined
+                        },
                         params:{ p1: newName, p2: newLastname, p3: newPassword, p4: newEmail, p5: newPhone },
                         data:{}
                     }).then(function(response){
@@ -157,6 +169,11 @@ angular.module('userServiceModule',[])
 
 
                 endUserSession: function () {
+                  firebase.auth().signOut().then(function() {
+                    // Sign-out successful.
+                  }, function(error) {
+                    // An error happened.
+                  });
                     userLogged = false;
                     $cookies.remove('userId');
                     $cookies.remove('cid');

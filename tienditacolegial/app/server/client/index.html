@@ -8,6 +8,19 @@
     <link rel="stylesheet" href="app.css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
 
+    <script src="https://www.gstatic.com/firebasejs/3.6.3/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyBLUfFwBvmIiDskWK1oV2iIibHrn91KyUY",
+      authDomain: "latiendita-fcea6.firebaseapp.com",
+      databaseURL: "https://latiendita-fcea6.firebaseio.com",
+      storageBucket: "latiendita-fcea6.appspot.com",
+      messagingSenderId: "156541954926"
+    };
+    firebase.initializeApp(config);
+    </script>
+
 
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-aria/angular-aria.js"></script>
@@ -17,6 +30,11 @@
     <script src="bower_components/angular-messages/angular-messages.js"></script>
     <script src="bower_components/ngCart/dist/ngCart.js"></script>
     <script src="/bower_components/angular-cookies/angular-cookies.js"></script>
+
+
+
+
+
 
     <!--SERVICES-->
     <script type="text/javascript" src="services/user.service.js"></script>

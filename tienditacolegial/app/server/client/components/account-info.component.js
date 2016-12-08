@@ -25,4 +25,22 @@ angular
 
             }
 
+            $scope.seeCurrentUser = function(){
+
+              var user = firebase.auth().currentUser;
+              console.log(user);
+            }
+
+            $scope.startUser = function(){
+              firebase.auth().signInWithEmailAndPassword('arnaldo@gmail.com', 'arnaldo').catch(function(error) {
+                // Handle Errors here.
+                var errorCode = error.code;
+                var errorMessage = error.message;
+
+                console.log('CODE ERROR ' + errorCode);
+                console.log(errorMessage);
+                // ...
+              });
+            }
+
 }]);

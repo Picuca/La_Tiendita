@@ -65,20 +65,6 @@ exports.addUser = function (req, res) {
             }
         });
 
-        client.query(
-          'SELECT cid, cfirst, clast, cemail, ctelephone , ctype ' +
-          'FROM CUSTOMER ' +
-          'WHERE cemail = $1',[req.query.p4],function(err, result){
-            done();
-
-            if(err){
-              return console.error('error running query');
-            }
-
-            res.send(result.rows[0]);
-
-          });
-
     });
 
     db.on('error', function (err, client) {
