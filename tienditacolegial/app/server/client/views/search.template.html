@@ -8,11 +8,12 @@
     <div>
 
         <div layout="row" layout-wrap  ng-controller="searchController">
+
             <div flex="33" ng-repeat="articulo in articulos">
                 <img class ="booksImage" ng-src="{{articulo.imageurl}}" imageUrl = "{{articulo.imageurl}}" height="252 " length = 290 ng-click="getSearchDetails($event,articulo)">
-                <p ng-click="getBookDetails($event)"> {{articulo.itemname}} </p>
+                <p ng-click="getSearchDetails($event)"> {{articulo.itemname}} </p>
                 <p>${{articulo.price}}</p>
-                <p> {{articulo.itemname}}</p>
+
 
 
                 <div flex="50">

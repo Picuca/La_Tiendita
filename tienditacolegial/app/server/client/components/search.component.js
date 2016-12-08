@@ -31,7 +31,7 @@ angular.
                           };
 
 
-    $scope.selectedSize = '';
+    $scope.selectedSize = 'Mediana';
     $scope.itemSizes = ['10 - 12','14 - 16','Pequeña','Mediana','Grande','Extra Grande','Extra Extra Grande'];
 
 
