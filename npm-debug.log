@@ -1,81 +1,20 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'start' ]
 2 info using npm@3.10.9
 3 info using node@v7.1.0
 4 verbose config Skipping project config: /home/robbie/.npmrc. (matches userconfig)
-5 silly loadCurrentTree Starting
-6 silly install loadCurrentTree
-7 silly install readLocalPackageData
-8 silly install normalizeTree
-9 silly loadCurrentTree Finishing
-10 silly loadIdealTree Starting
-11 silly install loadIdealTree
-12 silly cloneCurrentTree Starting
-13 silly install cloneCurrentTreeToIdealTree
-14 silly cloneCurrentTree Finishing
-15 silly loadShrinkwrap Starting
-16 silly install loadShrinkwrap
-17 silly loadShrinkwrap Finishing
-18 silly loadAllDepsIntoIdealTree Starting
-19 silly install loadAllDepsIntoIdealTree
-20 silly loadAllDepsIntoIdealTree Finishing
-21 silly loadIdealTree Finishing
-22 silly currentTree robbie
-22 silly currentTree └── nodejs@0.0.0
-23 silly idealTree robbie
-23 silly idealTree └── nodejs@0.0.0
-24 silly generateActionsToTake Starting
-25 silly install generateActionsToTake
-26 silly generateActionsToTake Finishing
-27 silly diffTrees action count 0
-28 silly decomposeActions action count 0
-29 silly runTopLevelLifecycles Starting
-30 silly install runPreinstallTopLevelLifecycles
-31 silly preinstall robbie /home/robbie/robbie-e4bdd746
-32 info lifecycle undefined~preinstall: undefined
-33 silly lifecycle undefined~preinstall: no script for preinstall, continuing
-34 silly executeActions Starting
-35 silly install executeActions
-36 silly doSerial global-install 0
-37 silly doParallel fetch 0
-38 verbose correctMkdir /home/robbie/.npm/_locks correctMkdir not in flight; initializing
-39 verbose lock using /home/robbie/.npm/_locks/staging-91ac9ff405837047.lock for /home/robbie/node_modules/.staging
-40 verbose unlock done using /home/robbie/.npm/_locks/staging-91ac9ff405837047.lock for /home/robbie/node_modules/.staging
-41 silly rollbackFailedOptional Starting
-42 silly rollbackFailedOptional Finishing
-43 silly runTopLevelLifecycles Finishing
-44 silly install printInstalled
-45 warn enoent ENOENT: no such file or directory, open '/home/robbie/package.json'
-46 verbose enoent ENOENT: no such file or directory, open '/home/robbie/package.json'
-46 verbose enoent This is most likely not a problem with npm itself
-46 verbose enoent and is related to npm not being able to find a file.
-47 warn robbie No description
-48 verbose If you need help, you may report this error at:
-48 verbose     <https://github.com/npm/npm/issues>
-49 warn robbie No repository field.
-50 verbose If you need help, you may report this error at:
-50 verbose     <https://github.com/npm/npm/issues>
-51 warn robbie No README data
-52 verbose If you need help, you may report this error at:
-52 verbose     <https://github.com/npm/npm/issues>
-53 warn robbie No license field.
-54 verbose If you need help, you may report this error at:
-54 verbose     <https://github.com/npm/npm/issues>
-55 verbose stack Error: EACCES: permission denied, mkdir '/home/robbie/node_modules/.staging'
-56 verbose cwd /home/robbie/Desktop/La_Tiendita
-57 error Linux 4.4.0-53-generic
-58 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
-59 error node v7.1.0
-60 error npm  v3.10.9
-61 error path /home/robbie/node_modules/.staging
-62 error code EACCES
-63 error errno -13
-64 error syscall mkdir
-65 error Error: EACCES: permission denied, mkdir '/home/robbie/node_modules/.staging'
-65 error  { Error: EACCES: permission denied, mkdir '/home/robbie/node_modules/.staging'
-65 error   errno: -13,
-65 error   code: 'EACCES',
-65 error   syscall: 'mkdir',
-65 error   path: '/home/robbie/node_modules/.staging' }
-66 error Please try running this command again as root/Administrator.
-67 verbose exit [ -13, true ]
+5 verbose stack Error: ENOENT: no such file or directory, open '/home/robbie/package.json'
+6 verbose cwd /home/robbie/Desktop/La_Tiendita
+7 error Linux 4.4.0-53-generic
+8 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+9 error node v7.1.0
+10 error npm  v3.10.9
+11 error path /home/robbie/package.json
+12 error code ENOENT
+13 error errno -2
+14 error syscall open
+15 error enoent ENOENT: no such file or directory, open '/home/robbie/package.json'
+16 error enoent ENOENT: no such file or directory, open '/home/robbie/package.json'
+16 error enoent This is most likely not a problem with npm itself
+16 error enoent and is related to npm not being able to find a file.
+17 verbose exit [ -2, true ]

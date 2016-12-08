@@ -113,7 +113,8 @@ angular.module('userServiceModule',[])
                       inputInsert = result;
                       infoToChange = someInfo
 
-                      if(result != ''){
+                      if(typeof(result) != 'undefined'){
+
                         var userId = JSON.parse($cookies.get('cid'));
 
                         $http({
@@ -137,37 +138,9 @@ angular.module('userServiceModule',[])
                         });
                       }
 
-                    }, function(onCancel) {
+                    }, function() {
 
                     });
-
-                },
-
-                keepUserChanges: function(){
-
-                  // var userId = JSON.parse($cookies.get('cid'));
-                  //
-                  // $http({
-                  //   method: 'POST',
-                  //   url:'http://localhost:3000/account-info',
-                  //   params:{p1: inputInsert , p2: userId, p3: infoToChange},
-                  //   data:{}
-                  //
-                  // }).then(function(response){
-                  //
-                  //     $cookies.remove(infoToChange);
-                  //     $cookies.put(infoToChange,inputInsert);
-                  //
-                  //     console.log(response.data.cid);
-                  //
-                  //
-                  //     $window.location.reload();
-                  //
-                  // }, function(err){
-                  //   console.log('QUERY ERROR', err);
-                  //
-                  // });
-
 
                 },
 

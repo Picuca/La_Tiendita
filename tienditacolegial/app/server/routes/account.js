@@ -37,6 +37,7 @@ exports.addUser = function (req, res) {
         if(err) {
             return console.error('error fetching client from pool', err);
         }
+
         client.query(
           'INSERT INTO CUSTOMER (cfirst, clast, cpassword, cemail, ctelephone, ctype) ' +
           'VALUES($1,$2,$3,$4,$5,$6)', [req.query.p1, req.query.p2, req.query.p3, req.query.p4, req.query.p5, 'user'], function(err, result) {
