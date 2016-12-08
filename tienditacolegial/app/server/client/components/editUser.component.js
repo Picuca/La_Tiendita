@@ -12,6 +12,12 @@ angular
         function ($scope,$window, userService) {
 
             $scope.inputInfo = '';
+            $scope.displayMessage = '';
+            $scope.$on('dialogDisplay',function(event,args){
+              $scope.displayMessage = args.data;
+            });
+
+
 
             $scope.keepChanges = function(someInfo){
 

@@ -8,8 +8,8 @@ angular
   })
     .controller('accountInfoCtrl',[
 
-        '$scope','$timeout','userService',
-        function ($scope, $timeout,userService) {
+        '$scope','$rootScope','userService',
+        function ($scope,$rootScope,userService) {
 
             var user = userService.getUserSession();
 
@@ -19,8 +19,10 @@ angular
             $scope.phone = user.ctelephone;
             $scope.payMethod = 'SOME METHOD';
 
-            $scope.editUserInfo = function(ev,infoToChange){
-              userService.editUserInfo(ev,infoToChange);
+            $scope.editUserInfo = function(ev,infoToChange,dialogDisplay){
+
+              userService.editUserInfo(ev,infoToChange,dialogDisplay);
+
             }
 
 }]);

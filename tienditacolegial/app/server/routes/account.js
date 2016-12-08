@@ -39,14 +39,43 @@ exports.addUser = function (req, res) {
         }
         client.query(
           'INSERT INTO CUSTOMER (cfirst, clast, cpassword, cemail, ctelephone, ctype) ' +
-          'VALUES($1,$2,$3,$4,$5,user)', [req.query.p1, req.query.p2, req.query.p3, req.query.p4, req.query.p5], function(err, result) {
-            done();
+          'VALUES($1,$2,$3,$4,$5,$6)', [req.query.p1, req.query.p2, req.query.p3, req.query.p4, req.query.p5, 'user'], function(err, result) {
+
 
             if(err) {
+              done();
                 return console.error('error running query', err);
+            }else{
+
+              client.query(
+                'SELECT cid, cfirst, clast, cemail, ctelephone , ctype ' +
+                'FROM CUSTOMER ' +
+                'WHERE cemail = $1',[req.query.p4],function(err, result){
+                  done();
+
+                  if(err){
+                    return console.error('error running query');
+                  }
+
+                  res.send(result.rows[0]);
+
             }
-            res.send(result.rows);
         });
+
+        client.query(
+          'SELECT cid, cfirst, clast, cemail, ctelephone , ctype ' +
+          'FROM CUSTOMER ' +
+          'WHERE cemail = $1',[req.query.p4],function(err, result){
+            done();
+
+            if(err){
+              return console.error('error running query');
+            }
+
+            res.send(result.rows[0]);
+
+          });
+
     });
 
     db.on('error', function (err, client) {

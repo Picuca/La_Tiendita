@@ -6,10 +6,16 @@ angular.module('userServiceModule',[])
         '$http','$location','$cookies','$mdDialog','$window',
         function ($http,$location,$cookies,$mdDialog,$window) {
 
+            var userLogged = false;
 
             var infoToChange = '';
+            var inputInsert = '';
 
             return {
+
+                getUserLogged: function(){
+                  reurn userLogged;
+                },
 
                 getInfoToChange: function(){
                   return infoToChange;
@@ -72,49 +78,95 @@ angular.module('userServiceModule',[])
                         data:{}
                     }).then(function(response){
 
-                        console.log(response.data);
+                      userLogged = true;
+
+                      $cookies.put('cid', response.data.cid);
+                      $cookies.put('cfirst', response.data.cfirst);
+                      $cookies.put('clast', response.data.clast);
+                      $cookies.put('cemail', response.data.cemail);
+                      $cookies.put('ctelephone', response.data.ctelephone);
+                      $cookies.put('ctype', response.data.ctype);
+
+                      $window.location.reload();
+                      $location.path('/home-page');
 
                     }, function(err){
                         console.log('QUERY ERROR', err);
-                        alert('ya existe ese usuario');
+                        alert('ya existe ese usuario o su informacion es muy larga');
                     });
 
                 },
 
-                editUserInfo: function(ev,someInfo){
+                editUserInfo: function(ev,someInfo,someDisplay){
 
-                  infoToChange = someInfo;
+                  var confirm = $mdDialog.prompt()
+                    .title('Editar   ' + someDisplay)
+                    .clickOutsideToClose(true)
+                    .textContent('Escriba su informacion')
+                    .placeholder(someDisplay)
+                    .initialValue('')
+                    .targetEvent(ev)
+                    .ok('Guardar Cambios')
+                    .cancel('Cancelar');
 
-                  $mdDialog.show({
-                      templateUrl: 'views/editUser.template.html',
-                      parent: angular.element(document.body),
-                      targetEvent: ev,
-                      clickOutsideToClose:true,
-                      fullscreen: false
+                    $mdDialog.show(confirm).then(function(result) {
+                      inputInsert = result;
+                      infoToChange = someInfo
+
+                      if(result != ''){
+                        var userId = JSON.parse($cookies.get('cid'));
+
+                        $http({
+                          method: 'POST',
+                          url:'http://localhost:3000/account-info',
+                          params:{p1: result , p2: userId, p3: someInfo},
+                          data:{}
+
+                        }).then(function(response){
+
+                            $cookies.remove(someInfo);
+                            $cookies.put(someInfo,result);
+
+                            userLogged = true;
+
+                            $window.location.reload();
+
+                        }, function(err){
+                          console.log('QUERY ERROR', err);
+
+                        });
+                      }
+
+                    }, function(onCancel) {
+
                     });
 
                 },
 
-                keepUserChanges: function(inputInfo){
-                  var userId = JSON.parse($cookies.get('userId'));
+                keepUserChanges: function(){
 
-                  $http({
-                    method: 'POST',
-                    url:'http://localhost:3000/account-info',
-                    params:{p1: inputInfo , p2: userId, p3: infoToChange},
-                    data:{}
-
-                  }).then(function(response){
-
-                      $cookies.remove(infoToChange);
-                      $cookies.put(infoToChange,inputInfo);
-
-                      $window.location.reload();
-
-                  }, function(err){
-                    console.log('QUERY ERROR', err);
-
-                  });
+                  // var userId = JSON.parse($cookies.get('cid'));
+                  //
+                  // $http({
+                  //   method: 'POST',
+                  //   url:'http://localhost:3000/account-info',
+                  //   params:{p1: inputInsert , p2: userId, p3: infoToChange},
+                  //   data:{}
+                  //
+                  // }).then(function(response){
+                  //
+                  //     $cookies.remove(infoToChange);
+                  //     $cookies.put(infoToChange,inputInsert);
+                  //
+                  //     console.log(response.data.cid);
+                  //
+                  //
+                  //     $window.location.reload();
+                  //
+                  // }, function(err){
+                  //   console.log('QUERY ERROR', err);
+                  //
+                  // });
 
 
                 },
@@ -132,7 +184,8 @@ angular.module('userServiceModule',[])
 
 
                 endUserSession: function () {
-                    // $cookies.remove('user');
+                    userLogged = false;
+                    $cookies.remove('userId');
                     $cookies.remove('cid');
                     $cookies.remove('cfirst');
                     $cookies.remove('clast');

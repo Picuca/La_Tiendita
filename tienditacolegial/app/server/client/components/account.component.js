@@ -52,6 +52,8 @@ angular
               }else if(newPassword == newRetypePassword){
 
                 userService.createAccount(newName, newLastname, newPassword,newEmail,newPhone);
+                // $location.path('/home-page')
+
 
               }else{
 
@@ -60,7 +62,6 @@ angular
 
 
 
-                // $location.path('/home-page')
             }
 
 
