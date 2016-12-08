@@ -9,7 +9,7 @@ exports.getSearch = function (req, res) {
         }
         var field = req.query.p1;
 
-        client.query("SELECT * FROM book WHERE UPPER(itemname) LIKE "+ "'%" + field + "%'", function(err, result) {
+        client.query("SELECT * FROM allitems WHERE UPPER(itemname) LIKE "+ "'%" + field + "%'", function(err, result) {
             done();
 
             if(err) {

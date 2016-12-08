@@ -1,6 +1,6 @@
 <md-content flex-offset="15" layout-align="center">
     <div class = "home-page" flex = "80">
-        <h2> Libros <span><hr></span></h2>
+        <h2> Busqueda <span><hr></span></h2>
 
     </div>
 
@@ -10,11 +10,21 @@
         <div layout="row" layout-wrap  ng-controller="searchController">
             <div flex="33" ng-repeat="articulo in articulos">
                 <img class ="booksImage" ng-src="{{articulo.imageurl}}" imageUrl = "{{articulo.imageurl}}" height="252 " length = 290 ng-click="getSearchDetails($event,articulo)">
-                <p ng-click="getBookDetails($event)"> {{book.itemname}} </p>
+                <p ng-click="getBookDetails($event)"> {{articulo.itemname}} </p>
                 <p>${{articulo.price}}</p>
+                <p> {{articulo.itemname}}</p>
+
+
+                <div flex="50">
+                    <ng-show ng-show="articulo.size == 'Mediana'">
+                    <md-select ng-model="selectedSize" placeholder="Tamaño" >
+                        <md-option ng-value="itemSize" ng-repeat="itemSize in itemSizes">{{itemSize}}</md-option>
+                    </md-select>
+                    </ng-show>
+                </div>
 
                 <ngcart-addtocart id="{{articulo.itemid}}" name="{{articulo.itemname}}"
-                                  data="book" price="{{articulo.price}}" quantity="1" quantity-max="5"  >
+                                  data=" {item: articulo, size: selectedSize} " price="{{articulo.price}}" quantity="1" quantity-max="5"  >
                     Add to Cart
                 </ngcart-addtocart>
                 <br><br>
