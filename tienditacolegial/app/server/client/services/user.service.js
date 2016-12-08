@@ -68,12 +68,15 @@ angular.module('userServiceModule',[])
                     $http({
                         method:'POST',
                         url:'http://localhost:3000/account',
-                        params:{ p1: newName, p2: newLastname, p3: newPassword, p4: newEmail, p5: newPassword },
+                        params:{ p1: newName, p2: newLastname, p3: newPassword, p4: newEmail, p5: newPhone },
                         data:{}
                     }).then(function(response){
 
+                        console.log(response.data);
+
                     }, function(err){
                         console.log('QUERY ERROR', err);
+                        alert('ya existe ese usuario');
                     });
 
                 },

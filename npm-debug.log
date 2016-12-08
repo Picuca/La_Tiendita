@@ -62,8 +62,8 @@
 54 verbose If you need help, you may report this error at:
 54 verbose     <https://github.com/npm/npm/issues>
 55 verbose stack Error: EACCES: permission denied, mkdir '/home/robbie/node_modules/.staging'
-56 verbose cwd /home/robbie/Documents/La_Tiendita
-57 error Linux 4.4.0-47-generic
+56 verbose cwd /home/robbie/Desktop/La_Tiendita
+57 error Linux 4.4.0-53-generic
 58 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
 59 error node v7.1.0
 60 error npm  v3.10.9
