@@ -9,7 +9,7 @@ angular.module('itemSearchServiceModule',[])
         var savedData = '';
 
         function set(data){
-            savedData = data;
+            savedData = data.toUpperCase();
         }
         function get(){
             return savedData

@@ -65,13 +65,10 @@ angular
 
             }
 
-            $scope.itemSearch = function(){
+            $scope.itemSearch = function(itn){
 
-
-            console.log($scope.itemSearch)
-            itemSearchService.set('bola');
-            console.log(itemSearchService.get());
-
+            itemSearchService.set(itn);
+            //console.log(itemSearchService.get());
             $location.path("/search");
             };
 

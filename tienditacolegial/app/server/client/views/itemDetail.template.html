@@ -24,16 +24,14 @@
               <div class = "itemDescription" layout = "column" >
             <h3>{{currentItem.description}}</h3>
             </div>
-              <h3>Precio: ${{currentItem.price}}</h3>
-            <ng-show ng-show = "currentItem.size == 'Mediana'">
 
-              <md-select placeholder="Tamaño" ng-model = "selectedSize">
-                  <md-option ng-value="itemSize" ng-repeat="itemSize in itemSizes">{{itemSize}}</md-option>
-              </md-select>
-          </ng-show>
-              <ngcart-addtocart id="{currentItem.itemid}}" name="{{currentItem.itemname}}" price="{{currentItem.price}}" quantity="1" quantity-max="5" data = "{item:currentItem, size: selectedSize} ">
-                  Add to Cart
-              </ngcart-addtocart>
+              <ng-hide ng-hide = "currentItem.author == 'NA'">
+                  <h3> Autor: {{currentItem.author}} </h3>
+              </ng-hide>
+
+              <h3>Precio: ${{currentItem.price}}</h3>
+
+
           </div>
 
       </div>

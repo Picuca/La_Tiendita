@@ -26,7 +26,7 @@ angular
                         };
 
             $scope.selectedSize = '';
-            $scope.itemSizes = ['10 - 12','14 - 16','Pequeña','Mediana','Grade','Extra Grande','Extra Extra                Grande'];
+            $scope.itemSizes = ['10 - 12','14 - 16','Pequeña','Mediana','Grade','Extra Grande','Extra Extra Grande'];
 
 
         }

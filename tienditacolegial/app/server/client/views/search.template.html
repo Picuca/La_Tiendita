@@ -1,45 +1,64 @@
-<md-content flex-offset="5">
+<md-content flex-offset="15" layout-align="center">
+    <div class = "home-page" flex = "80">
+        <h2> Busqueda <span><hr></span></h2>
 
-    <h2>Busqueda de Articulos<span><hr></span></h2>
+    </div>
 
-    <br><br><br>
 
-<h3> {{itemSearchService.get()}} </h3>
+    <div>
 
-    <div layout="row" layout-wrap ng-controller="searchController">
-        <div flex="30" ng-repeat="articulo in articulos">
-            <img class ="itemImage" src="{{articulo.imageurl}}" height="262" length = 200>
-            <p>{{articulo.itemname}}</p>
-            <p>${{articulo.price}}</p>
-            <ngcart-addtocart id="{{articulo.itemid}}" name="{{articulo.itemname}}" price="{{articulo.price}}" quantity="1" quantity-max="5">
-                Add to Cart
-            </ngcart-addtocart>
-            <br><br>
+        <div layout="row" layout-wrap  ng-controller="searchController">
+            <div flex="33" ng-repeat="articulo in articulos">
+                <img class ="booksImage" ng-src="{{articulo.imageurl}}" imageUrl = "{{articulo.imageurl}}" height="252 " length = 290 ng-click="getSearchDetails($event,articulo)">
+                <p ng-click="getBookDetails($event)"> {{articulo.itemname}} </p>
+                <p>${{articulo.price}}</p>
+                <p> {{articulo.itemname}}</p>
+
+
+                <div flex="50">
+                    <ng-show ng-show="articulo.size == 'Mediana'">
+                    <md-select ng-model="selectedSize" placeholder="Tamaño" >
+                        <md-option ng-value="itemSize" ng-repeat="itemSize in itemSizes">{{itemSize}}</md-option>
+                    </md-select>
+                    </ng-show>
+                </div>
+
+                <ngcart-addtocart id="{{articulo.itemid}}" name="{{articulo.itemname}}"
+                                  data=" {item: articulo, size: selectedSize} " price="{{articulo.price}}" quantity="1" quantity-max="5"  >
+                    Add to Cart
+                </ngcart-addtocart>
+                <br><br>
+            </div>
         </div>
-    </div>
-    </div>
-</md-content>
 
 
 
 
-
-<script type="text/ng-template" id="template/ngCart/addtocart.html">
-    <div ng-hide="attrs.id">
-        <a class="btn btn-lg btn-primary" ng-disabled="true" ng-transclude></a>
-    </div>
-    <div ng-show="attrs.id">
-        <div>
+        <script type="text/ng-template" id="template/ngCart/addtocart.html">
+            <div ng-hide="attrs.id">
+                <a class="btn btn-lg btn-primary" ng-disabled="true" ng-transclude></a>
+            </div>
+            <div ng-show="attrs.id">
+                <div>
     <span ng-show="quantityMax">
       <select name="quantity" id="quantity" ng-model="q" ng-options=" v for v in qtyOpt"></select>
     </span>
-            <md-button class="md-primary md-raised">
-                <a style="color: #0f0f0f;" ng-click="ngCart.addItem(id, name, price, q, data)" ng-transclude></a>
-            </md-button>
-        </div>
-        <span ng-show="inCart()">
+                    <md-button class="md-primary md-raised">
+                        <a style="color: #0f0f0f;" ng-click="ngCart.addItem(id, name, price, q, data)" ng-transclude></a>
+                    </md-button>
+                </div>
+                <span ng-show="inCart()">
 
   <p class="alert alert-info">This item is in your cart. <a ng-click="ngCart.removeItemById(id)" style="cursor: pointer; color: orange">Remove</a></p>
   </span>
+            </div>
+        </script>
+
+
     </div>
-</script>
+
+
+
+
+
+</md-content>
