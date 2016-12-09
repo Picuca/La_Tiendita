@@ -1,5 +1,6 @@
   <md-content layout="column" layout-padding="50px" ng-controller="accountInfoCtrl">
 
+
     <md-whiteframe class="md-whiteframe-1dp">
       <h2>Bienvenido a tu cuenta</h2>
     </md-whiteframe>
@@ -53,6 +54,11 @@
         <md-divider ng-if="!$last"></md-divider>
       </md-list-item>
     </md-list>
+
+    <md-button class="md-primary md-secondary md-raised" ng-click="seeTransactions()">Transacciones</md-button>
+
+    <br><br>
+
     <md-button class="md-primary md-secondary md-raised md-warn" ng-click="deleteAccount()"> Borrar Cuenta </md-button>
 
   </md-content>

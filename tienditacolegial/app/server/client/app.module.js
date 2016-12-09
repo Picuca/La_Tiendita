@@ -6,6 +6,7 @@ angular.module('tienditaColegial', ['ngMaterial', 'ngCart','ngMessages',
     'userServiceModule',
     'itemDetailServiceModule',
     'itemSearchServiceModule',
+    'transactionsServiceModule',
     'itemDetailModule',
     'ngRoute',
     'account',
@@ -27,15 +28,6 @@ angular.module('tienditaColegial', ['ngMaterial', 'ngCart','ngMessages',
     'gorras',
     'pantalones',
     'search',
-    'update-inventory'
+    'update-inventory',
 
-]).controller('mainCtrl',[
-      '$scope',
-      function($scope){
-
-          $scope.dialogMessage = '';
-
-
-
-
-      }]);
+]);

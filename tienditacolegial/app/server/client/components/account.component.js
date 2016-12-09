@@ -34,8 +34,9 @@ angular
 
                   if(firebase.auth().currentUser != null){
                     userService.attemptSession(inputEmail, inputPassword);
-                    $window.location.reload();
                     $location.path('/home-page');
+                    $window.location.reload();
+
 
                   }else{
                     userService.invalidInfo();
@@ -68,8 +69,9 @@ angular
 
                   userService.sendVerifyEmail();
                   userService.createAccount(newName, newLastname, newPassword,newEmail,newPhone);
-                  $window.location.reload();
                   $location.path('/home-page');
+                  $window.location.reload();
+
 
 
                 }else{

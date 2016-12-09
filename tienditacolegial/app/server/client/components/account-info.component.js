@@ -8,8 +8,8 @@ angular
   })
     .controller('accountInfoCtrl',[
 
-        '$scope','$window','userService',
-        function ($scope,$window,userService) {
+        '$scope','$window','userService','transactionsService',
+        function ($scope,$window,userService,transactionsService) {
 
             var user = userService.getUserSession();
 
@@ -39,6 +39,11 @@ angular
               });
             }
 
+            $scope.seeTransactions = function(ev){
+              transactionsService.showTransactions(ev);
+
+            }
+
             $scope.editUserInfo = function(ev,infoToChange,dialogDisplay){
 
               userService.editUserInfo(ev,infoToChange,dialogDisplay);
@@ -52,6 +57,6 @@ angular
               userService.endUserSession();
             }
           }
-        
+
 
 }]);
