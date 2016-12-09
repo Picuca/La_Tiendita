@@ -33,6 +33,7 @@ angular
                   swal('Su cuenta ha sido verificada');
 
                 }else{
+
                   $window.location.reload();
                 }
               });
@@ -47,14 +48,10 @@ angular
             $scope.deleteAccount = function(){
 
               userService.deleteUser(user.cemail);
-
-            };
-
-
-            $scope.seeUser = function(){
-
-              var user = firebase.auth().currentUser;
-              console.log(user);
+              if(firebase.auth().currentUser.emailVerified == null){
+              userService.endUserSession();
             }
+          }
+        
 
 }]);

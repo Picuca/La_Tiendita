@@ -13,7 +13,8 @@
     "postinstall": "./node_modules/bower/bin/bower install"
   },
   "dependencies": {
-    "angular": "^1.6.0",
+    "angular": "^*",
+    "angular-messages": "^1.6.0",
     "angular-route": "^1.5.8",
     "angularfire": "^2.1.0",
     "body-parser": "^1.15.2",

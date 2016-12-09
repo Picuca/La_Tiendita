@@ -7,7 +7,7 @@ exports.getUser = function (req,res) {
             console.error('error fetching client from pool', err);
         }
         client.query('SELECT ' +
-            'cid, cfirst, clast, cemail, ctelephone , ctype ' +
+            'cid, cfirst, clast, cemail, ctelephone , ctype, available ' +
             'FROM CUSTOMER ' +
             'WHERE cemail =  $1 ' +
             'AND cpassword = $2 ',[req.query.userEmail, req.query.userPassword] , function(err, result) {
@@ -18,8 +18,14 @@ exports.getUser = function (req,res) {
 
             }else {
                 //QUERY RESULT
+                if(result.rows[0].available == true){
                 done();
                 return res.send(result.rows[0]);
+
+              }else{
+                done();
+                return console.console.error('error on query',err);
+              }
 
             }
         });
@@ -39,8 +45,8 @@ exports.addUser = function (req, res) {
         }
 
         client.query(
-          'INSERT INTO CUSTOMER (cfirst, clast, cpassword, cemail, ctelephone, ctype) ' +
-          'VALUES($1,$2,$3,$4,$5,$6)', [req.query.p1, req.query.p2, req.query.p3, req.query.p4, req.query.p5, 'user'], function(err, result) {
+          'INSERT INTO CUSTOMER (cfirst, clast, cpassword, cemail, ctelephone, ctype,available) ' +
+          'VALUES($1,$2,$3,$4,$5,$6,true)', [req.query.p1, req.query.p2, req.query.p3, req.query.p4, req.query.p5, 'user'], function(err, result) {
 
 
             if(err) {

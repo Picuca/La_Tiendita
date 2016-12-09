@@ -76,7 +76,6 @@ angular.module('userServiceModule',[])
                           $cookies.put('cemail', response.data.cemail);
                           $cookies.put('ctelephone', response.data.ctelephone);
                           $cookies.put('ctype', response.data.ctype);
-                          userLogged = true;
 
                           $location.path('/home-page');
                           $window.location.reload();
@@ -90,18 +89,34 @@ angular.module('userServiceModule',[])
                 },
 
                 deleteUser: function(userEmail){
+
                   swal({
                     title: 'Su cuenta sera borrada permanentemente.',
                     type: 'warning',
-                    showCancelButton: true,
-                    confirmButtonColor: 'green',
-                    confirmButtonText: 'OK'
+                    confirmButtonColor: 'red',
+                    confirmButtonText: 'Borrar Cuenta'
                   }).then(function() {
 
-                      swal('Su cuenta ha sido cancelada'
-                    ).then(function(){
-                            //QUERY con userEmail
-                            console.log('Account Canceled');
+                      swal({
+                        title:'Su cuenta ha sido cancelada',
+                        allowOutsideClick:false
+                          }).then(function(){
+
+                            var user = firebase.auth().currentUser;
+                            user.delete().then(function(){
+                            },function(error){
+                            });
+
+                            $http({
+                              method: 'POST',
+                              url:'http://localhost:3000/account-info',
+                              params:{p1:userEmail}
+                            }).then(function(response){
+
+                            }, function(err){
+                              console.log('ERROR RUNNING QUERY',err);
+                            })
+
                           });
                   });
                 },
@@ -133,7 +148,7 @@ angular.module('userServiceModule',[])
 
                     }, function(err){
                         console.log('QUERY ERROR', err);
-                        alert('ya existe ese usuario o su informacion es muy larga');
+                        swal('Ya existe ese usuario o su informacion es muy larga');
                     });
 
                 },
@@ -169,7 +184,6 @@ angular.module('userServiceModule',[])
                             $cookies.remove(someInfo);
                             $cookies.put(someInfo,result);
 
-                            userLogged = true;
 
                             $window.location.reload();
 
@@ -199,6 +213,9 @@ angular.module('userServiceModule',[])
                     $cookies.remove('cemail');
                     $cookies.remove('ctelephone');
                     $cookies.remove('ctype');
+
+                    $window.location.reload();
+                    $location.path('/home-page');
                 },
 
                 invalidInfo: function(){
@@ -210,6 +227,7 @@ angular.module('userServiceModule',[])
                           .openFrom('#left')
                           .closeTo(angular.element(document.querySelector('#right'))));
                 },
+
             }
 
 

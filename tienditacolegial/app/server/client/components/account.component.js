@@ -61,12 +61,10 @@ angular
                   // ...
                 });
 
-                userService.sendVerifyEmail();
-
                 if(firebase.auth().currentUser !=null){
 
+                  userService.sendVerifyEmail();
                   userService.createAccount(newName, newLastname, newPassword,newEmail,newPhone);
-
 
                 }else{
 

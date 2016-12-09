@@ -17,7 +17,8 @@ angular.
     resolve:{
       "check": function ($location, userService) {
         if(typeof(userService.getUserSession()) == 'undefined'){
-            alert('NICE TRY');
+
+            swal('FAVOR DE INICIAR SESION');
             $location.path('/')
         }else if(typeof(userService.getUserSession()) != 'undefined'){
           $location.path('/account-info');
@@ -30,7 +31,7 @@ angular.
   }).when("/books",{
     template: "<books></books>"
 
-  }).when("/cart",{
+  }).when("/cart"){
     template: "<cart></cart>"
 
   }).when("/contact", {
