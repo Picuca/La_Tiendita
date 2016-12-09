@@ -9,13 +9,9 @@
             </md-input-container>
 
             <md-input-container>
-
-
                 <md-select ng-model="selectedType" placeholder="Select the type of item" >
                     <md-option ng-value="itemType" ng-repeat="itemType in itemTypes">{{itemType}}</md-option>
                 </md-select>
-
-
             </md-input-container>
 
             <md-input-container >
@@ -25,12 +21,78 @@
 
             <md-input-container >
                 <label> Precio del articulo </label>
-                <input type="text" id="articleName " ng-model="articlePrice">
+                <input type="text" id="articlePrice " ng-model="articlePrice">
             </md-input-container>
-            <input class="ng-hide" id="input-file-id" multiple type="file" />
-            <label for="input-file-id" class="md-button md-raised">Seleccione una imagen</label>
 
-            <md-button class="md-raised md-primary" ng-click="addItem(articleName, selectedType, descripcion, articlePrice)"> Agregar articulo </md-button>
+            <md-input-container >
+                <label> Enlace de la imagen </label>
+                <input type="text" id="imageurl" ng-model="imageurl">
+            </md-input-container>
+
+
+            <ng-show ng-show="selectedType == 'Camisa' || selectedType == 'Gorra' || selectedType == 'Pantalon'">
+                <h3> Tamaños en los que el articulo estara disponible y cantidad</h3>
+                <md-content  >
+
+                    <div ng-repeat="itemSize in itemSizes" >
+
+
+                    <input
+                            type="checkbox"
+                            name="selectedSizes[]"
+                            value="{{itemSizes.name}}"
+                            ng-model="itemSize.selected">
+                     {{itemSize.name}}
+                        <br>
+
+                    <md-input-container >
+                        <label> Cantidad  </label>
+                        <input type="text" id="cantidad" ng-model="itemSize.cantidad">
+                    </md-input-container>
+                    <br>
+
+
+                    </div>
+                </md-content>
+            </ng-show>
+
+            <ng-show ng-show="selectedType == 'Libro'" >
+                <md-content class="update-inventory" layout="column" flex = "100" layout-align = "center">
+                <md-input-container>
+                    <label>Autor del libro </label>
+                    <input type="text" id="autor" ng-model="autor">
+                </md-input-container>
+
+                <md-input-container>
+                    <label> Casa publicadora </label>
+                    <input type="text" id="casaPublicadora " ng-model="casaPublicadora">
+                </md-input-container>
+                    <md-input-container>
+                        <label> Cantidad </label>
+                        <input type="text" id="cantidadArticulo " ng-model="cantidadArticulo">
+                    </md-input-container>
+                </md-content>
+            </ng-show>
+
+
+             <ng-show ng-show="selectedType == 'Articulo escolar'" >
+
+
+                <md-content class="update-inventory" layout="column" flex = "100" layout-align = "center">
+                    <md-input-container>
+                        <label>Fabricante </label>
+                        <input type="text" id="fabricante" ng-model="fabricante">
+                    </md-input-container>
+
+                    <md-input-container>
+                        <label> Cantidad </label>
+                        <input type="text" id="cantidadArticulo " ng-model="cantidadArticulo">
+                    </md-input-container>
+                </md-content>
+            </ng-show>
+
+
+            <md-button class="md-raised md-primary" ng-click="addItem(articleName, selectedType, descripcion, articlePrice, imageurl, autor, fabricante, casaPublicadora, cantidadArticulo)"> Agregar articulo </md-button>
             <div flex-offset="10"></div>
             </md-content>
 </div>

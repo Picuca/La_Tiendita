@@ -104,11 +104,11 @@
         </table>
 
         <div >
-        <h3>Total de Compra: {{ ngCart.totalCost() | currency }} </h3>
+        <h3>Total de Compra: {{ ngCart.getSubTotal() | currency }} </h3>
 
         <h3>Impuesto de un {{ngCart.setTaxRate(11.5)}}%</h3>
-        <h3>Impuesto a pagar: ${{ ngCart.getTax()}} </h3>
-        <h3>Total a Pagar: ${{ngCart.totalCost() + ngCart.getTax() | number: 2}} </h3>
+        <h3>Impuesto a pagar: ${{ ngCart.getTax() | number: 2}} </h3>
+        <h3>Total a Pagar: ${{ngCart.totalCost() | number: 2}} </h3>
         </div>
     </div>
 

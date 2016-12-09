@@ -32,6 +32,9 @@ module.exports = function (app) {
     var topSellers = require('./top-sellers');
     app.get('/top-sellers', topSellers.getTopSellers);
 
-     var search = require('./search');
-     app.get('/search', search.getSearch);
+    var search = require('./search');
+    app.get('/search', search.getSearch);
+
+    var inventory = require('./update-inventory');
+    app.post('/update-inventory',inventory.updateInventory);
 };

@@ -26,7 +26,7 @@ angular
                         itemDetailService.showItemDetails(ev);
                     };
 
-            $scope.itemSizes = ['Pequeño','Mediano','Grade','Extra Grande','Extra Extra Grande'];
+            $scope.itemSizes = ['Pequeño','Mediano','Grande','Extra Grande','Extra Extra Grande'];
             $scope.selectedSize = 'Mediano';
 
 }]);
