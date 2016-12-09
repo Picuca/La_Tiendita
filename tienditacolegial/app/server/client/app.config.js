@@ -31,7 +31,7 @@ angular.
   }).when("/books",{
     template: "<books></books>"
 
-  }).when("/cart"){
+  }).when("/cart",{
     template: "<cart></cart>"
 
   }).when("/contact", {

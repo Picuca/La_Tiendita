@@ -39,7 +39,7 @@ exports.deleteUser = function(){
 
       client.query(
         'UPDATE CUSTOMER ' +
-        'SET available = false'
+        'SET available = false ' +
         'WHERE cemail = $1', [req.query.p1], function(err, result) {
           done();
 
