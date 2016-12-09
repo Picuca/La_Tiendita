@@ -8,8 +8,8 @@ angular
   })
     .controller('accountCtrl', [
 
-        '$scope','$cookies','$location','userService',
-        function ($scope,$cookies,$location, userService) {
+        '$scope','$cookies','$location','$window','userService',
+        function ($scope,$cookies,$location,$window, userService) {
 
             //Start Session
             $scope.inputEmail ='';
@@ -34,6 +34,9 @@ angular
 
                   if(firebase.auth().currentUser != null){
                     userService.attemptSession(inputEmail, inputPassword);
+                    $window.location.reload();
+                    $location.path('/home-page');
+
                   }else{
                     userService.invalidInfo();
                   }
@@ -65,6 +68,9 @@ angular
 
                   userService.sendVerifyEmail();
                   userService.createAccount(newName, newLastname, newPassword,newEmail,newPhone);
+                  $window.location.reload();
+                  $location.path('/home-page');
+
 
                 }else{
 

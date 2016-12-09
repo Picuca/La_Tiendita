@@ -32,6 +32,19 @@ angular.
     template: "<books></books>"
 
   }).when("/cart",{
+
+    resolve:{
+      "check": function ($location, userService) {
+        if(firebase.auth().currentUser == null){
+
+            swal('FAVOR DE INICIAR SESION');
+            $location.path('/');
+        }else{
+          $location.path('/cart');
+        }
+      }
+    },
+
     template: "<cart></cart>"
 
   }).when("/contact", {

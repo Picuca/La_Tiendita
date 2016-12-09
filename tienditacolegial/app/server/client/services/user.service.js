@@ -78,7 +78,6 @@ angular.module('userServiceModule',[])
                           $cookies.put('ctype', response.data.ctype);
 
                           $location.path('/home-page');
-                          $window.location.reload();
 
                         }
 
@@ -141,10 +140,6 @@ angular.module('userServiceModule',[])
                       $cookies.put('cemail', response.data.cemail);
                       $cookies.put('ctelephone', response.data.ctelephone);
                       $cookies.put('ctype', response.data.ctype);
-
-                      $location.path('/home-page');
-                      $window.location.reload();
-
 
                     }, function(err){
                         console.log('QUERY ERROR', err);
