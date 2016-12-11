@@ -9,7 +9,7 @@
 
         <div layout="row" layout-wrap ng-controller="pantalonesController">
             <div flex="30" ng-repeat="pant in pantalon">
-                <img class ="itemImage" src="{{pant.imageurl}}" height="262" length = 200 ng-click="getPantDetails($event,pant)">
+                <img class ="itemImage" src="{{pant.imageurl}}" height="262"  width= "250" ng-click="getPantDetails($event,pant)">
                 <p>{{pant.itemname}}</p>
                 <p>${{pant.price}}</p>
 

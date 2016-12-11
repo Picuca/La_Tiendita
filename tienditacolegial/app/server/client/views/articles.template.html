@@ -9,7 +9,7 @@
 
         <div layout="row" layout-wrap ng-controller="articlesController">
             <div flex="30"  ng-repeat="article in articles">
-            <img class ="itemImage" src="{{article.imageurl}}" height="262 " length = 300 ng-click="getArticleDetails($event,article)">
+            <img class ="itemImage" src="{{article.imageurl}}" height="262"  width= "250" ng-click="getArticleDetails($event,article)">
                 <p>{{article.itemname}}</p>
             <p>${{article.price}}</p>
             <ngcart-addtocart id="{{article.itemid}}" name="{{article.itemname}}" price="{{article.price}}"

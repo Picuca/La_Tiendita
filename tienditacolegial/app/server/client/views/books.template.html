@@ -9,7 +9,7 @@
 
         <div layout="row" layout-wrap  ng-controller="booksCtrl">
             <div flex="33" ng-repeat="book in books">
-                <img class ="booksImage" ng-src="{{book.imageurl}}" imageUrl = "{{book.imageurl}}" height="252 " length = 290 ng-click="getBookDetails($event,book)">
+                <img class ="booksImage" ng-src="{{book.imageurl}}" imageUrl = "{{book.imageurl}}" height="262"  width= "250" ng-click="getBookDetails($event,book)">
                 <p ng-click="getBookDetails($event)"> {{book.itemname}} </p>
                 <p>${{book.price}}</p>
 

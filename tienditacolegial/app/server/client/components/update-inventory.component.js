@@ -7,6 +7,9 @@ angular
 
          function ($scope, $http,addItemService) {
 
+          event.preventDefault();
+          event.stopPropagation();
+
             $scope.itemTypes = ['Articulo escolar','Camisa','Gorra','Libro','Pantalon'];
             $scope.selectedType = '';
 
