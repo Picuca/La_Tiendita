@@ -35,6 +35,6 @@ module.exports = function (app) {
     var search = require('./search');
     app.get('/search', search.getSearch);
 
-    var inventory = require('./update-inventory');
-    app.post('/update-inventory',inventory.updateInventory);
+    // var inventory = require('./update-inventory');
+    // app.post('/update-inventory',inventory.updateInventory);
 };

@@ -37,8 +37,11 @@ angular.
     resolve:{
       "check": function ($location, userService) {
         if(firebase.auth().currentUser == null){
-
-            swal('FAVOR DE INICIAR SESION');
+            swal({
+              title:'Favor de Iniciar Sesion',
+              confirmButtonColor:'green'
+            });
+            $location.path('/home-page');
         }else{
           $location.path('/cart');
         }

@@ -6,14 +6,14 @@ angular.module('userServiceModule',[])
         '$http','$location','$cookies','$mdDialog','$window',
         function ($http,$location,$cookies,$mdDialog,$window) {
 
-
-            var infoToChange = '';
-            var inputInsert = '';
-
             return {
 
-                getUserLogged: function(){
-                  return userLogged;
+                userLogged: function(){
+                  if(firebase.auth().currentUser == null){
+                    return false;
+                  }else{
+                    return true;
+                  }
                 },
 
                 getInfoToChange: function(){
@@ -32,21 +32,12 @@ angular.module('userServiceModule',[])
                       ctype: $cookies.get('ctype')
 
                     }
-
-
-
                     return currentUser;
                 },
 
                 connectFB: function(inputEmail,inputPassword){
-                  firebase.auth().signInWithEmailAndPassword(inputEmail, inputPassword).catch(function(error) {
-                    // Handle Errors here.
-                    var errorCode = error.code;
-                    var errorMessage = error.message;
-
-                    console.log('CODE ERROR ' + errorCode);
-                    console.log(errorMessage);
-                    // ...
+                  firebase.auth().signInWithEmailAndPassword(inputEmail, inputPassword).then(function(response){
+                    console.log(response);
                   });
                 },
 
@@ -54,9 +45,9 @@ angular.module('userServiceModule',[])
                   var user = firebase.auth().currentUser;
 
                   user.sendEmailVerification().then(function() {
-                    // Email sent.
+                    console.log('EMAIL SENT');
                   }, function(error) {
-                    // An error happened.
+                    console.log('EMAIL NOT SENT');
                   });
                 },
 
@@ -76,9 +67,6 @@ angular.module('userServiceModule',[])
                           $cookies.put('cemail', response.data.cemail);
                           $cookies.put('ctelephone', response.data.ctelephone);
                           $cookies.put('ctype', response.data.ctype);
-
-                          $location.path('/home-page');
-
                         }
 
                     }, function (err) {
@@ -150,48 +138,82 @@ angular.module('userServiceModule',[])
 
                 editUserInfo: function(ev,someInfo,someDisplay){
 
-                  var confirm = $mdDialog.prompt()
-                    .title('Editar   ' + someDisplay)
-                    .clickOutsideToClose(true)
-                    .textContent('Escriba su informacion')
-                    .placeholder(someDisplay)
-                    .initialValue('')
-                    .targetEvent(ev)
-                    .ok('Guardar Cambios')
-                    .cancel('Cancelar');
+                  swal({
+                    title: 'Cambiar ' + someDisplay,
+                    input: 'text',
+                    showCancelButton:true,
+                    confirmButtonColor:'green'
+                  }).then(function (input) {
+                    if(input == ''){
+                      swal({
+                        type:'warning',
+                        title:'Favor de escribir informacion'
+                      });
 
-                    $mdDialog.show(confirm).then(function(result) {
-                      inputInsert = result;
-                      infoToChange = someInfo
+                    }else{
 
-                      if(typeof(result) != 'undefined'){
+                      var userId = JSON.parse($cookies.get('cid'));
 
-                        var userId = JSON.parse($cookies.get('cid'));
-
+                      if(someInfo=='cpassword'){
                         $http({
-                          method: 'POST',
+                          method:'POST',
                           url:'http://localhost:3000/account-info',
-                          params:{p1: result , p2: userId, p3: someInfo},
+                          params:{p1:input, p2:userId, p3:someInfo},
                           data:{}
-
                         }).then(function(response){
-
-                            $cookies.remove(someInfo);
-                            $cookies.put(someInfo,result);
-
-
-                            $window.location.reload();
+                          $cookies.remove(someInfo);
+                          $cookies.put(someInfo,input);
+                          firebase.auth().currentUser.updatePassword(input).then(function(){
+                            console.log('Password Updated');
+                          });
 
                         }, function(err){
-                          console.log('QUERY ERROR', err);
+                          console.log('ERROR IN QUERY',err);
+                        });
 
+                      }else if(someInfo == 'cemail'){
+
+                        $http({
+                          method:'POST',
+                          url:'http://localhost:3000/account-info',
+                          params:{p1:input, p2:userId, p3:someInfo},
+                          data:{}
+                        }).then(function(response){
+                          $cookies.remove(someInfo);
+                          $cookies.put(someInfo,input);
+                          firebase.auth().currentUser.updateEmail(input).then(function(){
+                            console.log('email Updated');
+                          });
+
+                        }, function(err){
+                          console.log('ERROR IN QUERY',err);
+                        });
+
+                      }else{
+                        $http({
+                          method:'POST',
+                          url:'http://localhost:3000/account-info',
+                          params:{p1:input, p2:userId, p3:someInfo},
+                          data:{}
+                        }).then(function(response){
+                          $cookies.remove(someInfo);
+                          $cookies.put(someInfo,input);
+
+                        }, function(err){
+                          console.log('ERROR IN QUERY',err);
                         });
                       }
 
-                    }, function() {
+                      swal({
+                        title:'Informacion Actualizada',
+                        confirmButtonColor:'green',
+                        allowOutsideClick: false
+                      }).then(function(){
+                        $window.location.reload();
+                      });
 
-                    });
-
+                    }
+                  });
                 },
 
                 endUserSession: function () {
@@ -214,13 +236,12 @@ angular.module('userServiceModule',[])
                 },
 
                 invalidInfo: function(){
-                  $mdDialog.show(
-                      $mdDialog.alert()
-                          .clickOutsideToClose(true)
-                          .title('Informacion incorrecta')
-                          .ok('Cerrar')
-                          .openFrom('#left')
-                          .closeTo(angular.element(document.querySelector('#right'))));
+                  swal({
+                    type:'error',
+                    title:'Informacion Incorrecta',
+                    text:'Verifique email o password',
+                    confirmButtonColor:'green'
+                  })
                 },
 
             }

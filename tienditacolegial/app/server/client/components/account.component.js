@@ -32,7 +32,7 @@ angular
 
                   userService.connectFB(inputEmail,inputPassword);
 
-                  if(firebase.auth().currentUser != null){
+                  if(userService.userLogged()){
                     userService.attemptSession(inputEmail, inputPassword);
                     $location.path('/home-page');
                     $window.location.reload();
@@ -59,15 +59,11 @@ angular
               }else if(newPassword == newRetypePassword){
 
                 firebase.auth().createUserWithEmailAndPassword(newEmail, newPassword).catch(function(error) {
-                  // Handle Errors here.
-                  var errorCode = error.code;
-                  var errorMessage = error.message;
-                  // ...
+
                 });
 
                 if(firebase.auth().currentUser !=null){
 
-                  userService.sendVerifyEmail();
                   userService.createAccount(newName, newLastname, newPassword,newEmail,newPhone);
                   $location.path('/home-page');
                   $window.location.reload();
