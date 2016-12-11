@@ -7,6 +7,7 @@ angular.module('tienditaColegial', ['ngMaterial', 'ngCart','ngMessages',
     'itemDetailServiceModule',
     'itemSearchServiceModule',
     'addItemServiceModule',
+    'transactionsServiceModule',
     'itemDetailModule',
     'ngRoute',
     'account',
@@ -28,7 +29,7 @@ angular.module('tienditaColegial', ['ngMaterial', 'ngCart','ngMessages',
     'gorras',
     'pantalones',
     'search',
-    'update-inventory'
+    'update-inventory',
 
 ]).controller('mainCtrl',[
       '$scope',

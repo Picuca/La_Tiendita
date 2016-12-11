@@ -7,6 +7,7 @@ angular.
 
   $routeProvider
       .when("/account",{
+
         template: '<account></account>'
 
       }).when("/articles",{
@@ -38,7 +39,6 @@ angular.
         if(firebase.auth().currentUser == null){
 
             swal('FAVOR DE INICIAR SESION');
-            $location.path('/');
         }else{
           $location.path('/cart');
         }
