@@ -45,8 +45,9 @@ exports.addUser = function (req, res) {
         }
 
         client.query(
-          'INSERT INTO CUSTOMER (cfirst, clast, cpassword, cemail, ctelephone, ctype,available) ' +
-          'VALUES($1,$2,$3,$4,$5,$6,$7)', [req.query.p1, req.query.p2, req.query.p3, req.query.p4, req.query.p5, 'user','true'], function(err, result) {
+          'INSERT INTO CUSTOMER (cfirst, clast, cpassword, cemail, ctelephone, ctype,available,ccardnumber,ccvv, cexpdate) ' +
+          'VALUES($1,$2,$3,$4,$5,$6,$7,$8,$9,$10)', [req.query.p1, req.query.p2, req.query.p3,
+                req.query.p4, req.query.p5, 'user','true', req.query.p6, req.query.p7, req.query.p8], function(err, result) {
 
 
             if(err) {

@@ -1,11 +1,11 @@
 'use strict';
 
 angular
-  .module('account')
-  .component('account', {
-    templateUrl: 'views/account.template.html',
+    .module('account')
+    .component('account', {
+        templateUrl: 'views/account.template.html',
 
-  })
+    })
     .controller('accountCtrl', [
 
         '$scope','$cookies','$location','$window','userService',
@@ -22,6 +22,9 @@ angular
             $scope.newRetypePassword = '';
             $scope.newEmail = '';
             $scope.newPhone = '';
+            $scope.newCardNumber = '';
+            $scope.newCVV = '';
+            $scope.newExpDate = '';
 
             $scope.startSession= function (inputEmail, inputPassword) {
 
@@ -30,54 +33,62 @@ angular
 
                 }else{
 
-                  userService.connectFB(inputEmail,inputPassword);
+                    userService.connectFB(inputEmail,inputPassword);
 
-                  if(userService.userLogged()){
-                    userService.attemptSession(inputEmail, inputPassword);
-                    $location.path('/home-page');
-                    $window.location.reload();
+                    if(firebase.auth().currentUser != null){
+                        userService.attemptSession(inputEmail, inputPassword);
+                        $location.path('/home-page');
+                        $window.location.reload();
 
 
-                  }else{
-                    userService.invalidInfo();
-                  }
+                    }else{
+                        userService.invalidInfo();
+                    }
                 }
             }
 
             $scope.newAccount = function ( newName,
-                newLastname,
-                newPassword,
-                newRetypePassword,
-                newEmail,
-                newPhone
+                                           newLastname,
+                                           newPassword,
+                                           newRetypePassword,
+                                           newEmail,
+                                           newPhone,
+                                           newCardNumber,
+                                           newCVV,
+                                           newExpDate
             ) {
 
-              if(newName == '' || newLastname == '' || newPassword == '' || newRetypePassword == '' || newEmail == '' || newPhone == ''){
+                if(newName == '' || newLastname == '' || newPassword == '' || newRetypePassword == '' ||
+                    newEmail == '' || newPhone == '' || newCardNumber == '' || newCVV == '' || newExpDate == ''){
 
-                  return userService.invalidInfo();
+                    return userService.invalidInfo();
 
-              }else if(newPassword == newRetypePassword){
+                }else if(newPassword == newRetypePassword){
 
-                firebase.auth().createUserWithEmailAndPassword(newEmail, newPassword).catch(function(error) {
+                    firebase.auth().createUserWithEmailAndPassword(newEmail, newPassword).catch(function(error) {
+                        // Handle Errors here.
+                        var errorCode = error.code;
+                        var errorMessage = error.message;
+                        // ...
+                    });
 
-                });
+                    if(firebase.auth().currentUser !=null){
 
-                if(firebase.auth().currentUser !=null){
-
-                  userService.createAccount(newName, newLastname, newPassword,newEmail,newPhone);
-                  $location.path('/home-page');
-                  $window.location.reload();
-
+                        userService.sendVerifyEmail();
+                        userService.createAccount(newName, newLastname, newPassword,newEmail,newPhone, newCardNumber, newCVV, newExpDate);
+                        $location.path('/home-page');
+                        $window.location.reload();
 
 
-                }else{
+
+                    }else{
 
 
-                  userService.invalidInfo();
+                        userService.invalidInfo();
 
+                    }
                 }
-              }
             }
 
 
-  }]);
+        }]);

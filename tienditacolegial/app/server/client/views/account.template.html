@@ -1,27 +1,25 @@
-
-
-<div ng-controller="accountCtrl">
+ ⁠⁠⁠<div ng-controller="accountCtrl">
   <md-content layout-gt-sm="row" layout-padding="">
 
     <div flex="10"></div>
 
     <div flex="40">
-    <form action="/" id="Login">
-    <div layout="column">
-      <h2>INICIAR SESION<span></span></h2>
+      <form action="/" id="Login">
+        <div layout="column">
+          <h2>INICIAR SESION<span></span></h2>
 
-      <md-input-container>
-        <label>Email</label>
-        <input type="text" ng-model="inputEmail">
-      </md-input-container>
+          <md-input-container>
+            <label>Email</label>
+            <input type="text" ng-model="inputEmail">
+          </md-input-container>
 
-      <md-input-container>
-        <label>Contrasena</label>
-        <input type="password" ng-model="inputPassword">
-      </md-input-container>
-    <md-button class="md-raised md-primary" ng-click="startSession(inputEmail,inputPassword)">Iniciar Sesion</md-button>
-    </div>
-    </form>
+          <md-input-container>
+            <label>Contrasena</label>
+            <input type="password" ng-model="inputPassword">
+          </md-input-container>
+          <md-button class="md-raised md-primary" ng-click="startSession(inputEmail,inputPassword)">Iniciar Sesion</md-button>
+        </div>
+      </form>
     </div>
 
 
@@ -37,49 +35,65 @@
     <div flex="40">
 
       <form action="/" id="Register">
-      <div layout="column" layout-sm="column" layout-margin="300px">
+        <div layout="column" layout-sm="column" layout-margin="300px">
 
 
-        <h2>CREA TU CUENTA</h2>
+          <h2>CREA TU CUENTA</h2>
 
-        <md-input-container >
-          <label>Nombre</label>
-          <input type="text" ng-model="newName">
-        </md-input-container>
+          <md-input-container >
+            <label>Nombre</label>
+            <input type="text" ng-model="newName">
+          </md-input-container>
 
-        <md-input-container>
-          <label>Apellidos</label>
-          <input type="text" ng-model="newLastname">
-        </md-input-container>
+          <md-input-container>
+            <label>Apellidos</label>
+            <input type="text" ng-model="newLastname">
+          </md-input-container>
 
-        <md-input-container >
-          <label>Contrasena (6 caracteres o mas.)</label>
-          <input type="password" ng-model="newPassword">
-        </md-input-container>
+          <md-input-container >
+            <label>Contrasena (6 caracteres o mas.)</label>
+            <input type="password" ng-model="newPassword">
+          </md-input-container>
 
-        <md-input-container >
-          <label>Reescribir Contrasena</label>
-          <input type="password" ng-model="newRetypePassword">
+          <md-input-container >
+            <label>Reescribir Contrasena</label>
+            <input type="password" ng-model="newRetypePassword">
 
-        </md-input-container>
+          </md-input-container>
 
-        <md-input-container>
-          <label>Email</label>
-          <input type="text" ng-model="newEmail">
-        </md-input-container>
+          <md-input-container>
+            <label>Email</label>
+            <input type="text" ng-model="newEmail">
+          </md-input-container>
 
-        <md-input-container>
-          <label>Telefono</label>
-          <input type="text" ng-model="newPhone">
-        </md-input-container>
+          <md-input-container>
+            <label>Telefono</label>
+            <input type="text" ng-model="newPhone">
+          </md-input-container>
+
+          <md-input-container>
+            <label>Numero de Tarjeta</label>
+            <input type="text" ng-model="newCardNumber">
+          </md-input-container>
+
+          <md-input-container>
+            <label>CVV</label>
+            <input type="text" ng-model="newCVV">
+          </md-input-container>
+
+          <md-input-container>
+            <label>Fecha de Expiracion</label>
+            <input type="text" ng-model="newExpDate">
+          </md-input-container>
 
 
-        <md-button class="md-raised md-primary" ng-click="newAccount(newName, newLastname, newPassword,
-                                                                      newRetypePassword, newEmail, newPhone)"> Crear Cuenta</md-button>
-      </div>
+          <md-button class="md-raised md-primary" ng-click="newAccount(newName, newLastname, newPassword,
+                                                                      newRetypePassword, newEmail, newPhone, newCardNumber,newCVV, newExpDate)"> Crear Cuenta</md-button>
+        </div>
       </form>
-      </div>
+    </div>
 
-  <div flex="10"></div>
+    <div flex="10"></div>
   </md-content>
 </div>
+⁠⁠⁠⁠
