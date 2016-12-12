@@ -8,7 +8,22 @@ angular
 })
     .controller('transactionsCtrl', [
 
-        '$scope','userService',
-        function ($scope,userService) {
+        '$scope','transactionsService',
+        function ($scope,transactionsService) {
+
+          $scope.noTransactions = 'You have not done any transactions';
+          $scope.noTransactions = true;
+          transactionsService.getUserTransactions();
+
+          if(transactionsService.getNumberOfTransacions == 0){
+            $scope.noTransactions = true;
+          }else{
+
+            $scope.noTransactions = false;
+
+
+          }
+
+
 
 }]);
