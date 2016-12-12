@@ -8,8 +8,8 @@ angular
   })
     .controller('accountInfoCtrl',[
 
-        '$scope','$window','userService','transactionsService',
-        function ($scope,$window,userService,transactionsService) {
+        '$scope','$window','userService',
+        function ($scope,$window,userService) {
 
             var user = userService.getUserSession();
 
@@ -54,10 +54,7 @@ angular
             }
 
 
-            $scope.seeTransactions = function(ev){
-              transactionsService.showTransactions(ev);
 
-            }
 
 
             $scope.deleteAccount = function(){
