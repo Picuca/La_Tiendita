@@ -8,7 +8,7 @@
 
         <div layout="row" layout-wrap ng-controller="gorrasController">
             <div flex="30" ng-repeat="gorra in gorras">
-                <img class ="itemImage" src="{{gorra.imageurl}}" height="262"  ng-click="getHatDetails($event,gorra)"/>
+                <img class ="itemImage" src="{{gorra.imageurl}}" height="262"  width= "250" ng-click="getHatDetails($event,gorra)"/>
                 <p>{{gorra.itemname}}</p>
                 <p>${{gorra.price}}</p>
 

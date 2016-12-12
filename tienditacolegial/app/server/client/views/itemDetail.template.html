@@ -16,6 +16,7 @@
     <md-dialog-content>
       <div layout layout="row" ng-controller="itemDetailCtrl" flex-offset="5">
           <div flex="50" >
+              <br><br>
             <img ng-src="{{currentItem.imageurl}}" height="300" length = "300">
           </div>
           <div layout="column" flex-offset="5" flex="40">
@@ -27,7 +28,12 @@
 
               <ng-hide ng-hide = "currentItem.author == 'NA'">
                   <h3> Autor: {{currentItem.author}} </h3>
+                  <h3> Publicador: {{currentItem.publisher}} </h3>
               </ng-hide>
+
+              <ng-hide ng-hide = "currentItem.brand == 'NA'">
+              <h3> Marca: {{currentItem.brand}} </h3>
+          </ng-hide>
 
               <h3>Precio: ${{currentItem.price}}</h3>
 
