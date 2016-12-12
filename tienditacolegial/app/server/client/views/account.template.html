@@ -73,9 +73,24 @@
           <input type="text" ng-model="newPhone">
         </md-input-container>
 
+        <md-input-container>
+          <label>Numero de Tarjeta</label>
+          <input type="text" ng-model="newCardNumber">
+        </md-input-container>
+
+        <md-input-container>
+          <label>CVV</label>
+          <input type="text" ng-model="newCVV">
+        </md-input-container>
+
+        <md-input-container>
+          <label>Fecha de Expiracion</label>
+          <input type="text" ng-model="newExpDate">
+        </md-input-container>
+
 
         <md-button class="md-raised md-primary" ng-click="newAccount(newName, newLastname, newPassword,
-                                                                      newRetypePassword, newEmail, newPhone)"> Crear Cuenta</md-button>
+                                                                      newRetypePassword, newEmail, newPhone, newCardNumber,newCVV, newExpDate)"> Crear Cuenta</md-button>
       </div>
       </form>
       </div>

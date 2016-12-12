@@ -120,7 +120,7 @@ angular.module('userServiceModule',[])
                   });
                 },
 
-                createAccount: function(newName,newLastname,newPassword, newEmail,newPhone){
+                createAccount: function(newName,newLastname,newPassword, newEmail,newPhone, newCardNumber, newCVV, newExpDate){
 
 
                     $http({
@@ -129,7 +129,8 @@ angular.module('userServiceModule',[])
                         headers: {
                           'Content-Type': undefined
                         },
-                        params:{ p1: newName, p2: newLastname, p3: newPassword, p4: newEmail, p5: newPhone },
+                        params:{ p1: newName, p2: newLastname, p3: newPassword,
+                            p4: newEmail, p5: newPhone, p6: newCardNumber, p7: newCVV , p8: newExpDate },
                         data:{}
                     }).then(function(response){
 

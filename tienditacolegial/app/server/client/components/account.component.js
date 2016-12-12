@@ -22,6 +22,9 @@ angular
             $scope.newRetypePassword = '';
             $scope.newEmail = '';
             $scope.newPhone = '';
+            $scope.newCardNumber = '';
+            $scope.newCVV = '';
+            $scope.newExpDate = '';
 
             $scope.startSession= function (inputEmail, inputPassword) {
 
@@ -49,10 +52,14 @@ angular
                 newPassword,
                 newRetypePassword,
                 newEmail,
-                newPhone
+                newPhone,
+                newCardNumber,
+                newCVV,
+                newExpDate
             ) {
 
-              if(newName == '' || newLastname == '' || newPassword == '' || newRetypePassword == '' || newEmail == '' || newPhone == ''){
+              if(newName == '' || newLastname == '' || newPassword == '' || newRetypePassword == '' ||
+                  newEmail == '' || newPhone == '' || newCardNumber == '' || newCVV == '' || newExpDate == ''){
 
                   return userService.invalidInfo();
 
@@ -68,7 +75,7 @@ angular
                 if(firebase.auth().currentUser !=null){
 
                   userService.sendVerifyEmail();
-                  userService.createAccount(newName, newLastname, newPassword,newEmail,newPhone);
+                  userService.createAccount(newName, newLastname, newPassword,newEmail,newPhone, newCardNumber, newCVV, newExpDate);
                   $location.path('/home-page');
                   $window.location.reload();
 
