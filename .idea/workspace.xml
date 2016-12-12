@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="16473d63-e51b-49a8-b77e-dd2f1d7fe1c3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/client/components/account-info.component.js" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/client/components/account-info.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/client/components/account.component.js" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/client/components/account.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/client/services/user.service.js" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/client/services/user.service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/client/views/account-info.template.html" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/client/views/account-info.template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/client/views/account.template.html" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/client/views/account.template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tienditacolegial/app/server/routes/account.js" afterPath="$PROJECT_DIR$/tienditacolegial/app/server/routes/account.js" />
     </list>
     <ignored path="La_Tiendita.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/views/account-info.template.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="384">
-              <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -42,8 +36,8 @@
       <file leaf-file-name="account-info.component.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/components/account-info.component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-67">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="41">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -54,7 +48,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
               <caret line="152" column="0" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1481518324003" expanded="true" signature="7933:7951" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,6 +66,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
@@ -924,7 +921,7 @@
       <workItem from="1479370169182" duration="626000" />
       <workItem from="1480812828154" duration="4793000" />
       <workItem from="1481168448018" duration="1889000" />
-      <workItem from="1481515778138" duration="2226000" />
+      <workItem from="1481515778138" duration="2549000" />
     </task>
     <task id="LOCAL-00001" summary="Adding online pages's directories">
       <created>1475366200964</created>
@@ -1234,11 +1231,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481482271483</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="tarjeta de usuario">
+      <created>1481518223760</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1481518223760</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103425000" />
+    <option name="totallyTimeSpent" value="103748000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1535" height="876" extended-state="6" />
@@ -1310,7 +1314,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixing header issue" />
     <MESSAGE value="Se termino EL Routing" />
     <MESSAGE value="Se le anadio el footer" />
     <MESSAGE value="Se arreglo los colores de los links" />
@@ -1335,7 +1338,8 @@
     <MESSAGE value="Se puso como default los items a default" />
     <MESSAGE value="Se arreglo el Update inventory" />
     <MESSAGE value="El update inventory ya hace post a la base de datos" />
-    <option name="LAST_COMMIT_MESSAGE" value="El update inventory ya hace post a la base de datos" />
+    <MESSAGE value="tarjeta de usuario" />
+    <option name="LAST_COMMIT_MESSAGE" value="tarjeta de usuario" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1687,14 +1691,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="152" column="0" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1481518324003" expanded="true" signature="7933:7951" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/components/account-info.component.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-67">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="41">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1710,7 +1716,7 @@
     <entry file="file://$PROJECT_DIR$/tienditacolegial/app/server/client/views/account-info.template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
-          <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding />
         </state>
       </provider>
