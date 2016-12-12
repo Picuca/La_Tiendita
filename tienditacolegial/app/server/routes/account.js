@@ -19,13 +19,13 @@ exports.getUser = function (req,res) {
             }else {
                 //QUERY RESULT
                 if(result.rows[0].available == true){
-                done();
-                return res.send(result.rows[0]);
+                  done();
+                  return res.send(result.rows[0]);
 
-              }else{
-                done();
-                return console.console.error('error on query',err);
-              }
+                }else{
+                  done();
+                  return console.console.error('error on query',err);
+                }
 
             }
         });

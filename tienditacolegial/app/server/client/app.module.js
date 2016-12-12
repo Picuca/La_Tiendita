@@ -29,6 +29,7 @@ angular.module('tienditaColegial', ['ngMaterial', 'ngCart','ngMessages',
     'gorras',
     'pantalones',
     'search',
+    'transactionsModule',
     'update-inventory',
 
 ]).controller('mainCtrl',[

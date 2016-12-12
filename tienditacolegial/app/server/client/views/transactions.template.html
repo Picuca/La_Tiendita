@@ -1,24 +1,32 @@
-<md-dialog>
+<md-dialog ng-controller="transactionsCtrl">
+  <form ng-cloak>
+    <md-toolbar>
+      <div class="md-toolbar-tools" layout-align="center center">
+        <h1>Transacciones</h1>
+      </div>
+    </md-toolbar>
 
-  <form ng-cloak style = "max-height: 700px; overflow-y: hidden;
-        overflow-x:hidden;">
-
-        <md-toolbar>
-            <div  layout="row"  layout-align="center center"  style = "max-height: 200px;">
-                <h1>Transacciones</h1> </div>
-        </md-toolbar>
-
-        <md-list>
-          <md-list-item>
-            <h1>SOME transaction</h1>
-            <md-divider ng-if="!$last"></md-divider>
-
-          </md-list-item>
-        </md-list>
+    <div ng-hide="noTransactions">
+      <md-subheader class="md-no-sticky"></md-subheader>
+      <h1>Usted no tiene transacciones hechas.</h1>
+      <md-subheader class="md-no-sticky"></md-subheader>
+    </div>
 
 
-
+    <md-dialog-content layout-align="center center" ng-hide="!noTransactions">
+      <md-list flex>
+        <md-subheader class="md-no-sticky"></md-subheader>
+        <md-list-item class="md-3-line" ng-click="null">
+          <div class="md-list-item-text" layout="column">
+            <h3>Fecha</h3>
+            <h4>Nombre de articulos</h4>
+            <p>NOmbre</p>
+          </div>
+        </md-list-item>
+        <md-divider ></md-divider>
+        <md-button class="md-primary md-raised" ng-click="verQuery()">Ver transactions</md-button>
+      </md-list>
+    </md-dialog-content>
 
   </form>
-
 </md-dialog>
