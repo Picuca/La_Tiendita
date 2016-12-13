@@ -10,7 +10,6 @@ exports.updateInventory = function (req,res) {
         }
 
 
-
         if(req.query.p2 =='pant' || req.query.p2 == 'shirt' || req.query.p2 == 'hat'){
 
                      db.connect(function(err, client, done) {
@@ -146,8 +145,7 @@ exports.updateInventory = function (req,res) {
                   function(err, result) {
                   done();
                   itemId = result.rows[0].itemid;
-                  console.log("Results :");
-                  console.log(itemId);
+
                   var tableName = req.query.p2;
 
                   client.query(

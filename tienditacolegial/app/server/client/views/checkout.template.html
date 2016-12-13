@@ -27,7 +27,7 @@
                     <label>Expiration Date</label>
                     <input type="text" id="ExpDate" ng-model="ExpDate">
                 </md-input-container>
-                <md-button class="md-raised md-primary"  ng-click="checkCard()" > Pagar Ahora</md-button>
+                <md-button class="md-raised md-primary"  ng-click="checkCard(cardnumber,CVV,ExpDate)" > Pagar Ahora</md-button>
             </div>
         </form>
     </div>
@@ -53,5 +53,3 @@
         </div>
     </div>
 </script>
-
-

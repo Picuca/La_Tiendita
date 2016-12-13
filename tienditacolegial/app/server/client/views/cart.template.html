@@ -15,8 +15,8 @@
 
 
         <div layout="row" layout-align="space-around center" ng-controller="cartController">
-            <md-button class="md-primary md-raised" ng-disabled=checkCart() href = "#!/checkout">Checkout</md-button>
-            <h4> PayPal<span><ngcart-checkout service="paypal" settings="payPalSettings"></ngcart-checkout></span></h4>
+            <md-button class="md-primary md-raised" ng-disable = "ngCart.getTotalItems() == 0" ng-click = "pay()">Checkout</md-button>
+
 
         </div>
     </div>
