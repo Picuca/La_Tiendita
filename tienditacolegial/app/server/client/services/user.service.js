@@ -217,6 +217,7 @@ angular.module('userServiceModule',[])
                 },
 
                 editCard: function(){
+
                   swal.setDefaults({
                     input: 'text',
                     confirmButtonText: 'Next &rarr;',
@@ -270,6 +271,7 @@ angular.module('userServiceModule',[])
                       });
                     }
                   }, function () {
+                    swal.resetDefaults()
 
                   });
                 },
