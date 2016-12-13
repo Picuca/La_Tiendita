@@ -3,7 +3,14 @@ angular
   .component('updateInventory', {
     templateUrl: 'views/update-inventory.template.html',
 
-}).controller('inventoryCtrl', function ($scope, $http) {
+}).controller('inventoryCtrl',
+
+         function ($scope, $http,addItemService) {
+
+
+             event.preventDefault();
+             event.stopPropagation();
+
 
             $scope.itemTypes = ['Articulo escolar','Camisa','Gorra','Libro','Pantalon'];
             $scope.selectedType = '';
@@ -16,58 +23,68 @@ angular
             $scope.fabricante = '';
             $scope.casaPublicadora = '';
             $scope.cantidadArticulo = 0;
-
-            var parameters = {
-
-
-            }
-
-
-
-
-            $scope.selection = [];
+            $scope.sizeSelection;
 
               $scope.itemSizes = [
-                 { name: '10 - 12',  selected: false , cantidad: 0},
-                 { name: '14 - 16',  selected: false , cantidad: 0},
-                 { name: 'Pequeña',  selected: false , cantidad: 0},
-                 { name: 'Mediana',  selected: false , cantidad: 0},
-                 { name: 'Grande',   selected: false , cantidad: 0},
-                 { name: 'Extra Grande', selected: false, cantidad: 0},
-                 { name: 'Extra Extra Grande', selected: false, cantidad: 0}
+                 { name: '10 - 12',  selected: false },
+                 { name: '14 - 16',  selected: false },
+                 { name: 'Pequeña',  selected: false },
+                 { name: 'Mediana',  selected: false },
+                 { name: 'Grande',   selected: false },
+                 { name: 'Extra Grande', selected: false},
+                 { name: 'Extra Extra Grande', selected: false}
                ];
 
+               $scope.updateSelection = function(position, itemSizes) {
 
-            $scope.selectedSize = function selectedSize() {
-                return filterFilter($scope.itemSizes, { selected: true });
-              };
-
-             $scope.$watch('itemSizes|filter:{selected:true}', function (nv) {
-                $scope.selection = nv.map(function (selectedSize) {
-                  return itemSizes.name;
-                });
-              }, true);
-
-
+                 angular.forEach(itemSizes, function(itemSize, index) {
+                   if (position != index)
+                     itemSize.selected = false;
+                    $scope.sizeSelection = itemSizes[position].name;
+                    console.log("Size selection is: " + $scope.sizeSelection);
+                 });
+               }
 
 
              $scope.addItem = function(articleName, selectedType, descripcion, articlePrice, imageurl, autor, fabricante, casaPublicadora, cantidadArticulo) {
 
 
-                        console.log(articleName);
-                         console.log(selectedType);
-                          console.log(descripcion);
-                           console.log(articlePrice);
-                            console.log(imageurl);
-                             console.log(autor);
-                              console.log(fabricante);
-                               console.log(casaPublicadora);
-                               console.log(cantidadArticulo);
-                                console.log($scope.selectedSize);
+
+             for(var i =0 ;i < $scope.itemSizes.length ;i++){
+                if($scope.itemSizes[i].selected == true){
+
+                sizeSelection = $scope.itemSizes[i].name;
+
+                }
+                }
+
+           console.log($scope.sizeSelection);
+
+             if(selectedType == 'Camisa' || selectedType == 'Pantalon' || selectedType == 'Gorra'){
+
+                    if(selectedType == 'Camisa'){
+                        addItemService.addClothes(articleName,'shirt',descripcion,articlePrice,imageurl,                               sizeSelection,cantidadArticulo);
+
+                    }else if(selectedType == 'Pantalon'){
+                       addItemService.addClothes(articleName,'pant',descripcion,articlePrice, imageurl, sizeSelection, cantidadArticulo);
+
+                    }else{
+                      addItemService.addClothes(articleName,'hat',descripcion,articlePrice,                                        imageurl,sizeSelection, cantidadArticulo);
+
+                    }
+             }else if(selectedType == 'Libro'){
+
+             addItemService.addBook(articleName,'book',descripcion,articlePrice,imageurl,                                   autor, casaPublicadora, cantidadArticulo);
+
+
+             }else if(selectedType == 'Articulo escolar'){
+              addItemService.addArticle(articleName,'schoolsupplies',descripcion,articlePrice,imageurl,                               fabricante, cantidadArticulo);
+
+             }
 
 
 
-                             }
+            }
 
 
 }

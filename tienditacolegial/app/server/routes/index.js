@@ -38,6 +38,6 @@ module.exports = function (app) {
     var transactions = require('./transactions');
     app.get('/account-info',transactions.getTransactions)
 
-    // var inventory = require('./update-inventory');
-    // app.post('/update-inventory',inventory.updateInventory);
+    var inventory = require('./update-inventory');
+     app.post('/update-inventory',inventory.updateInventory);
 };
