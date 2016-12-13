@@ -7,6 +7,7 @@ module.exports = function (app) {
     var accountInfo = require('./account-info');
     app.post('/account-info',accountInfo.editInfo);
     app.post('/account-info',accountInfo.deleteUser)
+    app.post('/account-info',accountInfo.editCard);
 
     var homePage = require('./home-page');
     app.get('/home-page', homePage.welcome);

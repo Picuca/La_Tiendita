@@ -136,7 +136,7 @@ angular.module('userServiceModule',[])
 
                 },
 
-                editUserInfo: function(ev,someInfo,someDisplay){
+                editUserInfo: function(someInfo,someDisplay){
 
                   swal({
                     title: 'Cambiar ' + someDisplay,
@@ -213,6 +213,64 @@ angular.module('userServiceModule',[])
                       });
 
                     }
+                  });
+                },
+
+                editCard: function(){
+                  swal.setDefaults({
+                    input: 'text',
+                    confirmButtonText: 'Next &rarr;',
+                    confirmButtonColor:'green',
+                    showCancelButton: true,
+                    animation: false,
+                    progressSteps: ['1', '2', '3']
+                  });
+
+                  var steps = [
+                    {
+                      title: 'Editar Tarjeta de Credito',
+                      text: 'Numero de tarjeta'
+                    },
+
+                    {
+                      title: 'Editar Tarjeta de Credito',
+                      text: 'CVV'
+                    },
+                    {
+                      title: 'Editar Tarjeta de Credito',
+                      text: 'Fecha de expiracion'
+                    },
+
+                  ];
+
+                  swal.queue(steps).then(function (result) {
+                    if(result[0]=="" || result[1]=="" || result[2]==""){
+                      swal({
+                        type:'warning',
+                        title:'Favor de llenar toda la informacion',
+                        confirmButtonColor:'green'
+                      });
+                    }else{
+                      swal({
+                        title:'Informacion sera actualizada',
+                        confirmButtonColor:'green'
+                      }).then(function(){
+
+                      var userId = $cookies.get('cid');
+
+                        $http({
+                          method:'POST',
+                          url:'http://localhost:3000/account-info',
+                          params:{p1:input[0],p2:input[1],p3:input[2],p4:userId}
+                        }).then(function(){
+
+                        },function(err){
+                          console.log('ERROR QUERY',err);
+                        });
+                      });
+                    }
+                  }, function () {
+
                   });
                 },
 
