@@ -17,30 +17,16 @@ exports.postDBUpdate = function (req, res) {
 
         });
 
-
-
+        var transactionID = [];
 
         client.query('SELECT orderid FROM transactions ORDER BY orderid DESC LIMIT 1',
         function(err, result) {
                     done();
 
-                    transactionID = result.rows[0].orderid;
+                    transactionID = result.rows[0];
 
 
-                    for( var i = 0; i < req.query.p2.length; i++){
 
-                      var itemid = req.query.p2[i];
-
-                        client.query('insert into itemordered (orderid, itemid) values($1,$2)'                                 ,[transactionID, itemid], function(err,  result) {
-                                        done();
-
-                                        if(err) {
-                                            return console.error('error running query', err);
-                                        }
-
-                                    });
-
-                    }
 
 
 
