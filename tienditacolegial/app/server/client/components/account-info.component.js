@@ -47,10 +47,14 @@ angular
             // // EMAIL VERIFICATION STEP
 
 
-            $scope.editUserInfo = function(ev,infoToChange,dialogDisplay){
+            $scope.editUserInfo = function(infoToChange,dialogDisplay){
 
-              userService.editUserInfo(ev,infoToChange,dialogDisplay);
+              userService.editUserInfo(infoToChange,dialogDisplay);
 
+            }
+
+            $scope.editCardInfo = function(){
+              userService.editCard();
             }
 
 

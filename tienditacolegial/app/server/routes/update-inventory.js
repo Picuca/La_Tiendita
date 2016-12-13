@@ -9,12 +9,6 @@ exports.updateInventory = function (req,res) {
             console.error('error fetching client from pool', err);
         }
 
- console.log("Aqui estamos en el Add item service");
-                                     console.log(req.query.p1);
-                                      console.log(req.query.p3);
-                                      console.log(req.query.p7);
-                                      console.log(req.query.p5);
-
 
         if(req.query.p2 =='pant' || req.query.p2 == 'shirt' || req.query.p2 == 'hat'){
 
