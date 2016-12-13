@@ -145,8 +145,7 @@ exports.updateInventory = function (req,res) {
                   function(err, result) {
                   done();
                   itemId = result.rows[0].itemid;
-                  console.log("Results :");
-                  console.log(itemId);
+
                   var tableName = req.query.p2;
 
                   client.query(

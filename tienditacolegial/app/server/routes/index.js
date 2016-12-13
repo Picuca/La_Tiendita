@@ -36,9 +36,12 @@ module.exports = function (app) {
     var search = require('./search');
     app.get('/search', search.getSearch);
 
-    var transactions = require('./transactions');
-    app.get('/account-info',transactions.getTransactions)
 
     var inventory = require('./update-inventory');
      app.post('/update-inventory',inventory.updateInventory);
+
+     var checkout = require('./checkout');
+         app.post('/cart',checkout.postDBUpdate)
+
+
 };
