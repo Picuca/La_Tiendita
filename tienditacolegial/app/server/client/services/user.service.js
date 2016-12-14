@@ -6,79 +6,67 @@ angular.module('userServiceModule',[])
         '$http','$location','$cookies','$mdDialog','$window',
         function ($http,$location,$cookies,$mdDialog,$window) {
 
-
-            var infoToChange = '';
-            var inputInsert = '';
-
             return {
 
-                getUserLogged: function(){
-                    return userLogged;
+                userLogged: function(){
+                  if(firebase.auth().currentUser == null){
+                    return false;
+                  }else{
+                    return true;
+                  }
                 },
 
                 getInfoToChange: function(){
-                    return infoToChange;
+                  return infoToChange;
 
                 },
 
                 getUserSession: function () {
 
                     var currentUser = {
-                        cid: $cookies.get('cid'),
-                        cfirst: $cookies.get('cfirst'),
-                        clast: $cookies.get('clast'),
-                        cemail: $cookies.get('cemail'),
-                        ctelephone: $cookies.get('ctelephone'),
-                        ctype: $cookies.get('ctype')
+                      cid: $cookies.get('cid'),
+                      cfirst: $cookies.get('cfirst'),
+                      clast: $cookies.get('clast'),
+                      cemail: $cookies.get('cemail'),
+                      ctelephone: $cookies.get('ctelephone'),
+                      ctype: $cookies.get('ctype')
 
                     }
-
-
-
                     return currentUser;
                 },
 
                 connectFB: function(inputEmail,inputPassword){
-                    firebase.auth().signInWithEmailAndPassword(inputEmail, inputPassword).catch(function(error) {
-                        // Handle Errors here.
-                        var errorCode = error.code;
-                        var errorMessage = error.message;
-
-                        console.log('CODE ERROR ' + errorCode);
-                        console.log(errorMessage);
-                        // ...
-                    });
+                  firebase.auth().signInWithEmailAndPassword(inputEmail, inputPassword).then(function(response){
+                    console.log(response);
+                  });
                 },
 
-                sendVerifyEmail: function(){
-                    var user = firebase.auth().currentUser;
+                  sendVerifyEmail: function(){
+                  var user = firebase.auth().currentUser;
 
-                    user.sendEmailVerification().then(function() {
-                        // Email sent.
-                    }, function(error) {
-                        // An error happened.
-                    });
+                  user.sendEmailVerification().then(function() {
+                    console.log('EMAIL SENT');
+                  }, function(error) {
+                    console.log('EMAIL NOT SENT');
+                  });
                 },
 
                 attemptSession: function (inputEmail, inputPassword) {
 
                     $http({
                         method: 'GET',
-                        url: 'http://localhost:3000/account',
+                        url: 'http://tienditatest.herokuapp.com/account',
                         params: {userEmail: inputEmail, userPassword: inputPassword}
                     }).then(function (response) {
 
                         if (response.data != '') {
 
-                            $cookies.put('cid', response.data.cid);
-                            $cookies.put('cfirst', response.data.cfirst);
-                            $cookies.put('clast', response.data.clast);
-                            $cookies.put('cemail', response.data.cemail);
-                            $cookies.put('ctelephone', response.data.ctelephone);
-                            $cookies.put('ctype', response.data.ctype);
-
-                            $location.path('/home-page');
-
+                          $cookies.put('cid', response.data.cid);
+                          $cookies.put('cfirst', response.data.cfirst);
+                          $cookies.put('clast', response.data.clast);
+                          $cookies.put('cemail', response.data.cemail);
+                          $cookies.put('ctelephone', response.data.ctelephone);
+                          $cookies.put('ctype', response.data.ctype);
                         }
 
                     }, function (err) {
@@ -89,17 +77,17 @@ angular.module('userServiceModule',[])
 
                 deleteUser: function(userEmail){
 
-                    swal({
-                        title: 'Su cuenta sera borrada permanentemente.',
-                        type: 'warning',
-                        confirmButtonColor: 'red',
-                        confirmButtonText: 'Borrar Cuenta'
-                    }).then(function() {
+                  swal({
+                    title: 'Su cuenta sera borrada permanentemente.',
+                    type: 'warning',
+                    confirmButtonColor: 'red',
+                    confirmButtonText: 'Borrar Cuenta'
+                  }).then(function() {
 
-                        swal({
-                            title:'Su cuenta ha sido cancelada',
-                            allowOutsideClick:false
-                        }).then(function(){
+                      swal({
+                        title:'Su cuenta ha sido cancelada',
+                        allowOutsideClick:false
+                          }).then(function(){
 
                             var user = firebase.auth().currentUser;
                             user.delete().then(function(){
@@ -107,40 +95,40 @@ angular.module('userServiceModule',[])
                             });
 
                             $http({
-                                method: 'POST',
-                                url:'http://localhost:3000/account-info',
-                                params:{p1:userEmail}
+                              method: 'POST',
+                              url:'http://tienditatest.herokuapp.com/account-info',
+                              params:{p1:userEmail}
                             }).then(function(response){
 
                             }, function(err){
-                                console.log('ERROR RUNNING QUERY',err);
+                              console.log('ERROR RUNNING QUERY',err);
                             })
 
-                        });
-                    });
+                          });
+                  });
                 },
 
-                createAccount: function(newName,newLastname,newPassword, newEmail,newPhone, newCardNumber, newCVV, newExpDate){
+                createAccount: function(newName,newLastname,newPassword, newEmail,newPhone){
 
 
                     $http({
                         method:'POST',
                         url:'http://localhost:3000/account',
                         headers: {
-                            'Content-Type': undefined
+                          'Content-Type': undefined
                         },
-                        params:{ p1: newName, p2: newLastname, p3: newPassword,
-                            p4: newEmail, p5: newPhone, p6: newCardNumber, p7: newCVV , p8: newExpDate },
+                        params:{ p1: newName, p2: newLastname, p3: newPassword, p4: newEmail, p5: newPhone },
                         data:{}
                     }).then(function(response){
 
 
-                        $cookies.put('cid', response.data.cid);
-                        $cookies.put('cfirst', response.data.cfirst);
-                        $cookies.put('clast', response.data.clast);
-                        $cookies.put('cemail', response.data.cemail);
-                        $cookies.put('ctelephone', response.data.ctelephone);
-                        $cookies.put('ctype', response.data.ctype);
+                      $cookies.put('cid', response.data.cid);
+                      $cookies.put('cfirst', response.data.cfirst);
+                      $cookies.put('clast', response.data.clast);
+                      $cookies.put('cemail', response.data.cemail);
+                      $cookies.put('ctelephone', response.data.ctelephone);
+                      $cookies.put('ctype', response.data.ctype);
+
 
                     }, function(err){
                         console.log('QUERY ERROR', err);
@@ -151,51 +139,86 @@ angular.module('userServiceModule',[])
 
                 editUserInfo: function(someInfo,someDisplay){
 
-                    var confirm = $mdDialog.prompt()
-                        .title('Editar   ' + someDisplay)
-                        .clickOutsideToClose(true)
-                        .textContent('Escriba su informacion')
-                        .placeholder(someDisplay)
-                        .initialValue('')
-                        .targetEvent(ev)
-                        .ok('Guardar Cambios')
-                        .cancel('Cancelar');
+                  swal({
+                    title: 'Cambiar ' + someDisplay,
+                    input: 'text',
+                    showCancelButton:true,
+                    confirmButtonColor:'green'
+                  }).then(function (input) {
+                    if(input == ''){
+                      swal({
+                        type:'warning',
+                        title:'Favor de escribir informacion'
+                      });
 
-                    $mdDialog.show(confirm).then(function(result) {
-                        inputInsert = result;
-                        infoToChange = someInfo
+                    }else{
 
-                        if(typeof(result) != 'undefined'){
+                      var userId = JSON.parse($cookies.get('cid'));
 
-                            var userId = JSON.parse($cookies.get('cid'));
+                      if(someInfo=='cpassword'){
+                        $http({
+                          method:'POST',
+                          url:'http://localhost:3000/account-info',
+                          params:{p1:input, p2:userId, p3:someInfo},
+                          data:{}
+                        }).then(function(response){
+                          $cookies.remove(someInfo);
+                          $cookies.put(someInfo,input);
+                          firebase.auth().currentUser.updatePassword(input).then(function(){
+                            console.log('Password Updated');
+                          });
 
-                            $http({
-                                method: 'POST',
-                                url:'http://localhost:3000/account-info',
-                                params:{p1: result , p2: userId, p3: someInfo},
-                                data:{}
+                        }, function(err){
+                          console.log('ERROR IN QUERY',err);
+                        });
 
-                            }).then(function(response){
+                      }else if(someInfo == 'cemail'){
 
-                                $cookies.remove(someInfo);
-                                $cookies.put(someInfo,result);
+                        $http({
+                          method:'POST',
+                          url:'http://localhost:3000/account-info',
+                          params:{p1:input, p2:userId, p3:someInfo},
+                          data:{}
+                        }).then(function(response){
+                          $cookies.remove(someInfo);
+                          $cookies.put(someInfo,input);
+                          firebase.auth().currentUser.updateEmail(input).then(function(){
+                            console.log('email Updated');
+                          });
 
+                        }, function(err){
+                          console.log('ERROR IN QUERY',err);
+                        });
 
-                                $window.location.reload();
+                      }else{
+                        $http({
+                          method:'POST',
+                          url:'http://localhost:3000/account-info',
+                          params:{p1:input, p2:userId, p3:someInfo},
+                          data:{}
+                        }).then(function(response){
+                          $cookies.remove(someInfo);
+                          $cookies.put(someInfo,input);
 
-                            }, function(err){
-                                console.log('QUERY ERROR', err);
+                        }, function(err){
+                          console.log('ERROR IN QUERY',err);
+                        });
+                      }
 
-                            });
-                        }
+                      swal({
+                        title:'Informacion Actualizada',
+                        confirmButtonColor:'green',
+                        allowOutsideClick: false
+                      }).then(function(){
+                        $window.location.reload();
+                      });
 
-                    }, function() {
-
-                    });
-
+                    }
+                  });
                 },
 
                 editCard: function(){
+
                   swal.setDefaults({
                     input: 'text',
                     confirmButtonText: 'Next &rarr;',
@@ -230,35 +253,33 @@ angular.module('userServiceModule',[])
                         confirmButtonColor:'green'
                       });
                     }else{
-                      swal({
-                        title:'Informacion sera actualizada',
-                        confirmButtonColor:'green'
-                      }).then(function(){
+                    var userId = $cookies.get('cid');
 
-                      var userId = $cookies.get('cid');
+                                            $http({
+                                              method:'POST',
+                                              url:'http://localhost:3000/account-info',
+                                              params:{p1:result[0],p2:result[1],p3:result[2],p4:userId},
+                                              data:{}
 
-                        $http({
-                          method:'POST',
-                          url:'http://localhost:3000/account-info',
-                          params:{p1:input[0],p2:input[1],p3:input[2],p4:userId}
-                        }).then(function(){
+                                            }).then(function(){
+                                                $window.location.reload();
 
-                        },function(err){
-                          console.log('ERROR QUERY',err);
-                        });
-                      });
+                                            },function(err){
+                                              console.log('ERROR QUERY',err);
+                                            });
                     }
                   }, function () {
+                    swal.resetDefaults()
 
                   });
                 },
 
                 endUserSession: function () {
-                    firebase.auth().signOut().then(function() {
-                        // Sign-out successful.
-                    }, function(error) {
-                        // An error happened.
-                    });
+                  firebase.auth().signOut().then(function() {
+                    // Sign-out successful.
+                  }, function(error) {
+                    // An error happened.
+                  });
 
                     $cookies.remove('userId');
                     $cookies.remove('cid');
@@ -273,13 +294,12 @@ angular.module('userServiceModule',[])
                 },
 
                 invalidInfo: function(){
-                    $mdDialog.show(
-                        $mdDialog.alert()
-                            .clickOutsideToClose(true)
-                            .title('Informacion incorrecta')
-                            .ok('Cerrar')
-                            .openFrom('#left')
-                            .closeTo(angular.element(document.querySelector('#right'))));
+                  swal({
+                    type:'error',
+                    title:'Informacion Incorrecta',
+                    text:'Verifique email o password',
+                    confirmButtonColor:'green'
+                  })
                 },
 
             }

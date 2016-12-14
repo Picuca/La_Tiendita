@@ -7,8 +7,8 @@ angular.
 
 }).controller('cartController',[
 
-    '$scope','userService','ngCart','$http',
-    function ($scope,userService,ngCart,$http) {
+    '$scope','userService','ngCart','$http','$location',
+    function ($scope,userService,ngCart,$http, $location) {
 
         $scope.checkCart = function () {
 
@@ -42,9 +42,10 @@ angular.
 
 
 
-
+         $location.path("/home-page");
 
         };
+
 
 
 }]);

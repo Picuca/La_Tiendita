@@ -55,6 +55,7 @@ angular
 
             $scope.editCardInfo = function(){
               userService.editCard();
+
             }
 
 
